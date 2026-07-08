@@ -16,7 +16,12 @@ import Layout from '../layouts/Layout.astro';
         <!-- 联系表单 -->
         <div class="contact-form-wrap">
           <h2>Send a Message</h2>
-          <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="21013a30-bba1-4b41-8f68-7b9b36e06dc7" />
+            <input type="hidden" name="subject" value="New inquiry from zaulux.com" />
+            <input type="hidden" name="redirect" value="https://www.zaulux.com/contact?sent=1" />
+            <!-- 防垃圾蜜罐 -->
+            <input type="text" name="bot-field" style="display:none" tabindex="-1" autocomplete="off" />
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Name *</label>
@@ -94,11 +99,16 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <script>
-  function handleSubmit(e) {
-    e.preventDefault();
-    const msg = document.getElementById('formMsg');
-    msg.textContent = '✓ Thank you! Your message has been sent. We will reply within 24 hours.';
-    msg.style.color = 'var(--color-success)';
+  // 表单提交成功后显示提示
+  if (window.location.search.includes('sent=1')) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var el = document.getElementById('formMsg');
+      if (el) {
+        el.textContent = '✓ Thank you! Your message has been sent. We will reply within 24 hours.';
+        el.style.color = 'var(--color-success)';
+        el.style.display = 'block';
+      }
+    });
   }
 </script>
 
