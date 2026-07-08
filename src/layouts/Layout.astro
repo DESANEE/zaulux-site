@@ -26,7 +26,18 @@ const { title, description } = Astro.props;
           <a href="mailto:info@zaulux.com">✉ info@zaulux.com</a>
         </div>
         <div class="topbar-right">
-          <div id="google_translate_element" class="gt-wrapper"></div>
+          <select class="lang-select" onchange="if(this.value){ window.open('https://www-zaulux-com.translate.goog/?_x_tr_sl=en&_x_tr_tl='+this.value,'_self'); }">
+            <option value="">🌐 Language</option>
+            <option value="zh-CN">中文 (简体)</option>
+            <option value="es">Español</option>
+            <option value="ru">Русский</option>
+            <option value="ar">العربية</option>
+            <option value="pt">Português</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
           <div class="topbar-social">
             <a href="#" aria-label="Facebook">FB</a>
             <a href="#" aria-label="LinkedIn">LI</a>
@@ -201,19 +212,6 @@ const { title, description } = Astro.props;
         <p>© 2026 ZAULUX. All rights reserved.</p>
       </div>
     </footer>
-
-    <!-- Google Translate -->
-    <script>
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          includedLanguages: 'zh-CN,en,es,ru,ar,pt,fr,de,ja,ko',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-          autoDisplay: false
-        }, 'google_translate_element');
-      }
-    </script>
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
   </body>
 </html>
 
@@ -247,26 +245,19 @@ const { title, description } = Astro.props;
     align-items: center;
     gap: var(--space-lg);
   }
-  .gt-wrapper {
-    font-size: 0.6875rem;
-  }
-  .gt-wrapper .goog-te-gadget {
-    font-family: var(--font-family-base);
-    color: var(--text-on-dark-body);
-  }
-  .gt-wrapper .goog-te-gadget select {
-    background: var(--bg-nav);
+  .lang-select {
+    background: var(--bg-footer);
     color: var(--text-on-dark-body);
     border: 1px solid #1E5540;
     border-radius: var(--radius-sm);
-    padding: 2px 6px;
+    padding: 3px 8px;
     font-size: 0.6875rem;
     font-family: inherit;
+    cursor: pointer;
+    outline: none;
   }
-  /* 隐藏 GT 默认横幅 */
-  .goog-te-banner-frame { display: none !important; }
-  body { top: 0 !important; }
-  .skiptranslate iframe { display: none !important; }
+  .lang-select:hover { border-color: var(--color-soft-white); }
+  .lang-select:focus { border-color: var(--color-primary); }
   .topbar-social {
     display: flex;
     gap: var(--space-md);
