@@ -18,7 +18,6 @@ import Layout from '../layouts/Layout.astro';
   fetch('/gallery-data.json')
     .then(r => r.json())
     .then(data => {
-      // Build filter tabs
       let filterHtml = '<button class="tag tag-primary filter-btn active" data-idx="all">All</button>';
       data.forEach((cat, i) => {
         filterHtml += '<button class="tag tag-subtle filter-btn" data-idx="' + i + '">' + cat.category + '</button>';
@@ -27,31 +26,29 @@ import Layout from '../layouts/Layout.astro';
 
       function render(filterIdx) {
         let html = '';
-        data.forEach((cat, catIdx) => {
-          if (filterIdx !== 'all' && catIdx !== filterIdx) return;
+        data.forEach((cat, i) => {
+          if (filterIdx !== 'all' && i !== filterIdx) return;
           html += '<div class="gallery-category">';
           html += '<h2 class="cat-title">' + cat.category + ' <span class="cat-count">' + (cat.rows.length * 4) + ' photos</span></h2>';
           cat.rows.forEach(row => {
-            html += '<div class="gallery-row ' + row.type + '">';
-            row.images.forEach(img => {
+            html += '<div class="gallery-row">';
+            row.forEach(img => {
               html += '<div class="gallery-item"><img src="' + img + '" alt="" loading="lazy" /></div>';
             });
             html += '</div>';
           });
           html += '</div>';
         });
-        document.getElementById('galleryContainer').innerHTML = html || '<p>No images found.</p>';
+        document.getElementById('galleryContainer').innerHTML = html || '<p>No images.</p>';
       }
 
       render('all');
 
-      // Filter click handlers
       document.querySelectorAll('#filterBar .filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('#filterBar .filter-btn').forEach(b => { b.classList.remove('active'); b.classList.add('tag-subtle'); });
           btn.classList.add('active'); btn.classList.remove('tag-subtle');
-          const idx = btn.dataset.idx === 'all' ? 'all' : parseInt(btn.dataset.idx);
-          render(idx);
+          render(btn.dataset.idx === 'all' ? 'all' : parseInt(btn.dataset.idx));
         });
       });
     });
@@ -71,11 +68,9 @@ import Layout from '../layouts/Layout.astro';
   .cat-title { font-size: 1.25rem; color: var(--text-heading); margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 2px solid var(--border-default); }
   .cat-count { font-size: var(--font-size-small); color: var(--text-secondary); font-weight: 400; margin-left: 8px; }
 
-  .gallery-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); margin-bottom: var(--space-md); }
-  .gallery-item { border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); aspect-ratio: 4/3; }
-  .gallery-row.portrait .gallery-item { aspect-ratio: 3/4; }
-  .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-base); }
-  .gallery-item:hover img { transform: scale(1.05); }
+  .gallery-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 10px; }
+  .gallery-item { aspect-ratio: 4/3; border-radius: 6px; overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); }
+  .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
   @media (max-width: 768px) { .gallery-row { grid-template-columns: repeat(2, 1fr); } }
 </style>
