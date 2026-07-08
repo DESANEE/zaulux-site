@@ -1,30 +1,26 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Read MDX files
 const allProducts = await Astro.glob('../../content/products/*.mdx');
 
-// Build lookup map
-const productMap = new Map();
-allProducts.forEach(p => {
-  const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
-  productMap.set(slug, { frontmatter: p.frontmatter || {}, Content: p.Content });
-});
-
 export function getStaticPaths() {
-  return Array.from(productMap.keys()).map(slug => ({
-    params: { slug },
-  }));
+  return allProducts.map(p => {
+    const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
+    return {
+      params: { slug },
+      props: {
+        frontmatter: p.frontmatter || {},
+      },
+    };
+  });
 }
 
-const { slug } = Astro.params;
-const data = productMap.get(slug || '');
-const frontmatter = data?.frontmatter || {};
+const { frontmatter } = Astro.props;
 const images: Array<{url: string; alt: string}> = frontmatter.images || [];
 const description: string = frontmatter.description || '';
 const category: string = frontmatter.category || 'Uncategorised';
-const title: string = frontmatter.title || slug?.replace(/-/g, '') || '';
-const Content = data?.Content;
+const title: string = frontmatter.title || Astro.params.slug?.replace(/-/g, '') || '';
+const Content = null; // MDX Content not available via props
 ---
 
 <Layout title={title} description={description}>
@@ -51,11 +47,12 @@ const Content = data?.Content;
         </div>
       </div>
 
-      <!-- MDX 正文内容 -->
-      {Content && (
+      <!-- MDX 正文摘要 -->
+      {description && (
         <div class="section-inner">
-          <div class="mdx-content">
-            <Content />
+          <div class="mdx-summary">
+            <h2>Overview</h2>
+            <p>{description}</p>
           </div>
         </div>
       )}
