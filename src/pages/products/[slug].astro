@@ -39,6 +39,13 @@ const { title, category, description, images } = product;
         </div>
       )}
 
+      {product.body && (
+        <div class="section-inner article-body">
+          <h2>Product Details</h2>
+          <div class="article-content" set:html={product.body} />
+        </div>
+      )}
+
       {images.length > 1 && (
         <div class="section-inner">
           <h2>Product Gallery</h2>
@@ -79,6 +86,16 @@ const { title, category, description, images } = product;
   .section-inner { margin-top: var(--space-3xl); }
   .section-inner h2 { margin-bottom: var(--space-lg); }
   .overview-text { color: var(--text-body); line-height: 1.8; max-width: 800px; margin: 0 auto; }
+
+  .article-body { max-width: 800px; margin-left: auto; margin-right: auto; }
+  .article-content { color: var(--text-body); line-height: 1.85; }
+  .article-content p { margin-bottom: var(--space-md); }
+  .article-content strong { color: var(--text-heading); }
+  .article-content em { color: var(--text-secondary); }
+  .article-content a { color: var(--text-link); text-decoration: underline; }
+  .article-content a:hover { color: var(--text-link-hover); }
+  .article-content ul, .article-content ol { margin: var(--space-md) 0; padding-left: var(--space-xl); }
+  .article-content li { margin-bottom: 6px; }
 
   .image-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-md); }
   .image-gallery figure { margin: 0; border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); }

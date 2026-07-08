@@ -1,3358 +1,514 @@
 export const products = [
   {
     slug: "19-welding-positioner-wp1",
-    title: "Welding positioner WP1 for pipe and tank welding",
-    category: "positioner",
-    description: "Welding positioner is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its",
-    images: [
-      {
-        url: "/images/instead of/WP-1.png",
-        alt: "WP 1"
-      },
-      {
-        url: "/images/wp/wp-00.jpg",
-        alt: "wp 00"
-      },
-      {
-        url: "/images/wp/WP-001.jpg",
-        alt: "WP 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "19 Welding Positioner Wp1",
+    category: "Uncategorised",
+    description: "",
+    body: "<ul>\n<li><a href=\"welding-applications/perochemial\">Welding positioner</a> is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its series includes tilting, head and tail stocks ,elevating ,and double turning positioner, cradle type. The positioner can be supplied for interfacing with robot or welding manipulators ,to realize the welding automation. At the same time we can design and customize various type of special positioner according to the technological requirement and different work piece given by the customer.\u00a0</li>\n</ul>",
+    images: [],
   },
   {
     slug: "20-elvating-welding-positioner",
-    title: "Elvating welding positioner for engineering machinery",
-    category: "positioner",
-    description: "welding positioner is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its",
-    images: [
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/EWP-001.jpg",
-        alt: "EWP 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "20 Elvating Welding Positioner",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong>\u00a0welding positioner</strong></strong><strong><strong>\u00a0</strong></strong>is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its series includes tilting, head and tail stocks ,elevating ,and double turning positioner, cradle type. The positioner can be supplied for interfacing with robot or welding manipulators ,to realize the welding automation. At the same time we can design and customize various type of special welding positioner according to the technological requirement and different work piece given by the customer.</p>\n<h2><strong><strong>\u00a0welding positioner</strong></strong>\u00a0 and\u00a0<a href=\"welding-applications/perochemial\">double turning positioner\u00a0</a>\u00a0\u00a0is used in\u00a0<strong><strong><a href=\"welding-applications/perochemial\">petrochemical machinery</a></strong></strong>, engineering machinery,\u00a0<a href=\"products/positioner\">wind power equipment</a>, bridge construction, shipbuilding, food and pharmaceutical industries ,you can find other type welding positioner .</h2>\n<p><img alt=\"welding positioner\" class=\"float-none\" height=\"900\" src=\"/images/wp/wp-02.jpg\" title=\"welding positioner\" width=\"1200\"/><img alt=\"welding positiner\" class=\"float-none\" height=\"489\" src=\"/images/wp/EWP-001.jpg\" title=\"welding positiner\" width=\"1000\"/></p>\n<p>\u00a0<strong><strong>Notes:</strong></strong></p>\n<ol>\n<li>a) For more details of Positoner capacity see sheets ,</li>\n<li>b) For ordering an adjustable height positioner add the prefix AH. Available for models WP 5 and smaller</li>\n<li>c) Control cabinet includes: power indicator, speed indicator, speed adjustment, overturn (tilt) up and down, forward and reverse rotation, stop, fault &amp; reset</li>\n<li>d) Remote control box allows adjustment of table rotating speed (digital display in RPM/min), forward and reverse rotation, and stop\u00a0</li>\n<li>e) \u201cT\u201d shaped channels on work table surface</li>\n<li>f) Shot blasted frame at SA 2 \u00bd before being painted</li>\n<li>g) Custom built Welding Positioners available</li>\n<li>h) The information contained in this brochure is intended to beaccurate. However the manufacturer retain the rights to make changes in design which may not be include herein</li>\n</ol>\n<p><strong><strong>Optional:</strong></strong></p>\n<ol>\n<li>\n<h2>i) Foot control pedal for changing rotation direction and stop,</h2>\n</li>\n<li>\n<h2>ii) variable speed on tilt</h2>\n</li>\n</ol>",
+    images: [],
   },
   {
     slug: "21-head-tail-stock-positioner-ht3",
-    title: "Head Tail stock positioner HT3 for pipe welding",
-    category: "positioner",
-    description: "Head Tail stock positioner HT3 is one machine which main apply for engineering machinery; our Welding positioner is mainly used to placed the work piece in the ",
-    images: [
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-15.jpg",
-        alt: "wp 15"
-      },
-      {
-        url: "/images/wp/HT-001.jpg",
-        alt: "HT 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "21 Head Tail Stock Positioner Ht3",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong>Head Tail stock positioner HT3</strong></strong>\u00a0is one machine which main apply for engineering machinery; our\u00a0<strong><strong>Welding positioner\u00a0</strong></strong>is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its series includes tilting,\u00a0<a href=\"index.php/products/positioner-welding\">head\u00a0 tail stocks positioner</a>\u00a0,elevating ,and double turning positioner, cradle type. The positioner can be supplied for interfacing with robot or welding manipulators ,to realize the welding automation. At the same time we can design and customize various type of special positioner according to the technological requirement and different work piece given by the customer.</p>\n<p><strong>Head Tail stock positioner HT3</strong><strong>\u00a0</strong>is used in\u00a0\u00a0<a href=\"http://www.desanee.com\" rel=\"noopener\" target=\"_blank\">engineering machinery</a>, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<p><img alt=\"Head Tail stock positioner \" height=\"900\" src=\"/images/wp/wp-15.jpg\" title=\"Head Tail stock positioner \" width=\"1200\"/></p>\n<p>\u00a0<img alt=\"Head Tail stock positioner \" height=\"495\" src=\"/images/wp/HT-001.jpg\" title=\"Head Tail stock positioner \" width=\"1000\"/></p>",
+    images: [],
   },
   {
     slug: "22-floor-table-positioner",
-    title: "Floor table positioner FT3 for tank and part welding",
-    category: "positioner",
-    description: "Floor table positioner HT3 main for girth weld seam  or apply for robot welding ,Welding positioner is mainly used to placed the work piece in the best position",
-    images: [
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-08.jpg",
-        alt: "wp 08"
-      },
-      {
-        url: "/images/wp/FT-001.jpg",
-        alt: "FT 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "22 Floor Table Positioner",
+    category: "Uncategorised",
+    description: "",
+    body: "<h2><strong><strong><em>Floor table positioner HT3</em></strong></strong> main for girth weld seam\u00a0 or apply for robot welding ,Welding positioner is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its series includes tilting, head and tail stocks , elevating ,and double turning positioner, cradle type. The positioner can be supplied for interfacing with robot or welding manipulators ,to realize the welding automation. At the same time we can design and customize various type of special positioner according to the technological requirement and different work piece given by the customer.</h2>\n<h2><strong><strong><em>Floor table positioner\u00a0</em></strong></strong>\u00a0also call\u00a0<a href=\"https://desanee.en.made-in-china.com/product/xEKrCpBUqPkQ/China-Turntable-Positioner-and-Lift-Positioner-for-Floor-Turning-Table-and-Head-Tail-Positioner-and-Cradle-Posotioner-Double-Column-Elevating-Positioner.html\" rel=\"noopener\" target=\"_blank\">\u00a0</a><a href=\"index.php/products/positioner-welding\">turning table.</a></h2>\n<p><img alt=\"floor table positioner \" height=\"900\" src=\"/images/wp/wp-08.jpg\" title=\"floor table positioner \" width=\"1200\"/></p>\n<p><img alt=\"floor table positioner \" height=\"642\" src=\"/images/wp/FT-001.jpg\" title=\"floor table positioner \" width=\"1000\"/></p>",
+    images: [],
   },
   {
     slug: "23-cradle-welding-positioner-dwp3",
-    title: "Cradle Welding Positioner DWP3 for big tank weld",
-    category: "positioner",
+    title: "23 Cradle Welding Positioner Dwp3",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/instead of/CWP-1.png",
-        alt: "CWP 1"
-      },
-      {
-        url: "/images/instead of/DWP-1.png",
-        alt: "DWP 1"
-      },
-      {
-        url: "/images/wp/dEW-001.jpg",
-        alt: "dEW 001"
-      },
-      {
-        url: "/images/wp/CWP-001.jpg",
-        alt: "CWP 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "24-pipe-positioner-pp3",
-    title: "Pipe positioner PP3 for pipe prefabrication",
-    category: "positioner",
-    description: "1. pipe positioner PP3  welding machine including: manipulator, welding rotator, and electric system etc, mainly used to weld the butt welding seam which formed",
-    images: [
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-18.jpg",
-        alt: "wp 18"
-      },
-      {
-        url: "/images/instead of/PR-1.png",
-        alt: "PR 1"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "24 Pipe Positioner Pp3",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0 \u00a01. <strong><strong><em>p</em></strong></strong><strong><strong><em>ipe positioner PP3</em></strong></strong>\u00a0 welding machine including: manipulator, welding rotator, and electric system etc, mainly used to weld the butt welding seam which formed from the pipe\u00a0\u3001pipe elbow\u00a0\u3001<a href=\"http://www.desanee.cn\">pipe flange\u00a0</a>\u3001perpendicular tee pipe . The welding head will be relatively fixed, while the piping spool piece revolving at a specific rate, and the high efficient and low cost shielded welding or SAW process is adopted, so it has the features of easy-operation, reliable-performance and wide-application field\uff0cand which enhancing productivity, increasing the extent of automatic, reducing welder\u2019s working intensity and adapting to piping workshop prefabrication.</p>\n<ol start=\"2\">\n<li>Parameter:</li>\n</ol>\n<p>\u00a0 \u00a0 \u00a0 pipe positioner main parameter:\u00a0 \u00a0\u00a0</p>\n<p>\u00a0 \u00a0 \u00a0 Load capacity: 3ton</p>\n<p>\u00a0 \u00a0 \u00a0Applied work piece dia./mm:\u03a6100\uff5e\u03a6935\u00a0\u00a0</p>\n<p>\u00a0 \u00a0 \u00a0Rotation speed/mm/min100\uff5e1000</p>\n<p>\u00a0 \u00a0<img alt=\"pipe positioner\" height=\"1200\" src=\"/images/wp/wp-18.jpg\" title=\"pipe positioner \" width=\"900\"/><br/><img alt=\"pipe positioner \" height=\"480\" src=\"/images/instead%20of/PR-1.png\" title=\"pipe positioner \" width=\"1753\"/></p>\n<p><strong><strong>\u00a0\u00a0</strong></strong></p>\n<ol start=\"3\">\n<li><strong><strong>Structure characteristics\u00a0<br/></strong></strong></li>\n</ol>",
+    images: [],
   },
   {
     slug: "25-cradle-weld-positioner-cwp3",
-    title: "Cradle Weld Positioner CWP3 for oil tank and engineering machinery",
-    category: "positioner",
-    description: "Cradle Weld Positioner CWP3 is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilt",
-    images: [
-      {
-        url: "/images/instead of/CWP-1.png",
-        alt: "CWP 1"
-      },
-      {
-        url: "/images/wp/CWP-001.jpg",
-        alt: "CWP 001"
-      },
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "25 Cradle Weld Positioner Cwp3",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>Cradle Weld Positioner CWP3</em></strong></strong>\u00a0is mainly used to placed the work piece in the best position for welding and assembling with the work bench elevating, turning, tilting , its series includes tilting, head and tail stocks ,elevating ,and double turning positioner, cradle type.\u00a0<strong><em><a href=\"welding-machine/positioner-welding\">Cradle Weld Positioner CWP3</a></em></strong>\u00a0\u00a0can be supplied for interfacing with robot or welding manipulators ,to realize the welding automation. At the same time we can design and customize various type of special positioner according to the technological requirement and different work piece given by the customer.</p>\n<p><img alt=\"cradle weld positioner \" height=\"619\" src=\"/images/instead%20of/CWP-1.png\" title=\"cradle weld positioner \" width=\"2075\"/></p>\n<p><img alt=\"cradle weld positioner \" height=\"402\" src=\"/images/wp/CWP-001.jpg\" title=\"cradle weld positioner \" width=\"1000\"/></p>\n<p>Dwp type elevating welding <a href=\"http://www.desanee.cn\">positioner </a>is mainly used for solving problems of high position, also can weld seam provide low installation position, make the workpiece clamp and fix more easily or double , including single revolve and double revolve frame , can make the work piece on better welding position.</p>\n<p>+ Ball screw (or chain), with security nut, safe and reliable.</p>\n<p>+ High strength, cooperate, inverter, no impact on the smooth.</p>\n<p>+ Using electrical synchronous on elevating action , \u00a0easily fast installation, commissioning, maintenance convenience.</p>",
+    images: [],
   },
   {
     slug: "26-welding-rotator-sar",
-    title: "Welding rotator SAR for petrochemical machinery",
-    category: "turning rolls",
-    description: "Welding rotator SAR5 is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipme",
-    images: [
-      {
-        url: "/images/wr/SAR-001.jpg",
-        alt: "SAR 001"
-      },
-      {
-        url: "/images/wr/SAR-B-2.jpg",
-        alt: "SAR B 2"
-      },
-      {
-        url: "/images/wr/sar500-2.jpg",
-        alt: "sar500 2"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "26 Welding Rotator Sar",
+    category: "Uncategorised",
+    description: "",
+    body: "<h2><strong><strong><em>Welding rotator SAR5</em>\u00a0</strong></strong>is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .<strong><em><a href=\"index.php/products/turning-rolls\">Welding rotator SAR5</a></em></strong><a href=\"https://www.desanee.cn/s-Welding%20rotator%20SAR5?sort=6d\">\u00a0</a>is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b\u00a0Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</h2>\n<p>We can provide solutions to unique welding rotator according to the customer\u2019s requirement</p>\n<p><img alt=\"welding rotator\" class=\"float-none\" height=\"548\" src=\"/images/instead%20of/SAR-1.png\" title=\"welding rotator\" width=\"1399\"/></p>\n<p><strong>\u00a0<img alt=\"welding rotator\" class=\"float-none\" height=\"768\" src=\"/images/wr/SAR-001.jpg\" title=\"welding rotator\" width=\"1000\"/>\u00a0</strong></p>\n<h2><strong>\u00a0 \u00a0W</strong><strong><strong>elding rotator SAR5</strong></strong><strong>\u00a0</strong>\uff08<a href=\"index.php/products/turning-rolls\" rel=\"noopener\" target=\"_blank\">welding rorator</a>\uff09is used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries\u00a0</h2>\n<p>Notes:</p>\n<ol>\n<li>a) Variable rotation speed from 100 to 1000 mm/min: included</li>\n<li>b) Wheels padded with heavy duty rubber: Included on models SAR 100 and smaller</li>\n<li>c) Remote control box with 6-12 m span: included, and allows adjustment of rotating speed \u2013digital display in mm/min-,forward and reverse rotation, and stop</li>\n<li>d) Auto adjusted tilt angle of roller bed as per diameter of work piece</li>\n<li>e) Shot blasted frame at SA 2 \u00bd: included</li>\n<li>f) Variable Frequency Driver (VFD) made by Teco or other brand</li>\n<li>g) Custom built welding rotators: available</li>\n<li>h) CE mark only under customer request</li>\n<li>i) The information contained in this brochure is intended to be accurate. However the manufacturer retain the rights to make changes in design which may not be include</li>\n</ol>\n<h2>Standard package includes</h2>\n<h2>\u00a0 One power unit with control box</h2>\n<h2>\u00a0 One idler unit</h2>\n<h2>\u00a0 Operation manual</h2>\n<h2>\u00a0 One year warranty</h2>",
+    images: [],
   },
   {
     slug: "27-turning-rolls-wr",
-    title: "Turning rolls WR for food & pharmaceutical",
-    category: "turning rolls",
-    description: "Conventional Rotator WR5  also call turning rolls  is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and ",
-    images: [
-      {
-        url: "/images/wr/wr00-10.jpg",
-        alt: "wr00 10"
-      },
-      {
-        url: "/images/wr/WR-001.jpg",
-        alt: "WR 001"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "27 Turning Rolls Wr",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>\u00a0 \u00a0 Conventional Rotator WR5</em>\u00a0 also call turning rolls\u00a0 </strong></strong>is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .<strong><em><a href=\"index.php/products/turning-rolls\">Turning rolls\u00a0 rotator WR5</a></em></strong><a href=\"https://www.desanee.cn/s-Welding%20rotator%20SAR5?sort=6d\">\u00a0</a>is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b\u00a0Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</p>\n<p>We can provide solutions to unique welding rotator according to the customer\u2019s requirement</p>\n<p><img alt=\"turning rolls\" class=\"float-none\" height=\"900\" src=\"/images/wr/wr00-10.jpg\" title=\"turning rolls\" width=\"1200\"/><br/></p>\n<p><strong>\u00a0 <img alt=\"turning rolls\" class=\"float-none\" height=\"860\" src=\"/images/instead%20of/WR-1.png\" title=\"turning rolls\" width=\"1732\"/></strong></p>\n<p><strong>\u00a0<img alt=\"turning rolls\" class=\"float-none\" height=\"550\" src=\"/images/wr/WR-001.jpg\" title=\"turning rolls\" width=\"800\"/>\u00a0</strong></p>\n<p><strong>\u00a0 <a href=\"index.php/products/turning-rolls\">\u00a0Turning rolls\u00a0 </a>W</strong><strong><strong>elding rotator WR5</strong></strong><strong>\u00a0</strong>\uff08<a href=\"index.php/welding-applications/perochemial\" rel=\"noopener\" target=\"_blank\">welding rorator</a>\uff09is used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries\u00a0</p>\n<p>Notes:</p>\n<ol>\n<li>a) Variable rotation speed from 100 to 1000 mm/min: included</li>\n<li>b) Wheels padded with heavy duty rubber: Included on models SAR 100 and smaller</li>\n<li>c) Remote control box with 6-12 m span: included, and allows adjustment of rotating speed \u2013digital display in mm/min-,forward and reverse rotation, and stop</li>\n<li>d) Auto adjusted tilt angle of roller bed as per diameter of work piece</li>\n<li>e) Shot blasted frame at SA 2 \u00bd: included</li>\n<li>f) Variable Frequency Driver (VFD) made by Teco or other brand</li>\n<li>g) Custom built welding rotators: available</li>\n<li>h) CE mark only under customer request</li>\n<li>i) The information contained in this brochure is intended to be accurate. However the manufacturer retain the rights to make changes in design which may not be include</li>\n</ol>\n<p>Standard package includes</p>\n<p>\u00a0 One power unit with control box</p>\n<p>\u00a0 One idler unit</p>\n<p>\u00a0 Operation manual</p>\n<p>\u00a0 One year warranty</p>\n<h2>Optional:</h2>\n<h2>+Turning rolls mounted over manual or motorized bogies\u00a0</h2>\n<h2>+ Synchronized operation of multi number of power rotators</h2>\n<h2>+ Pu roller instead of rubber roller</h2>\n<h2>\u00a0</h2>",
+    images: [],
   },
   {
     slug: "28-pipe-weld-positioner-pp3",
-    title: "Pipe weld positioner PP3 for pipe prefabrication",
-    category: "turning rolls",
-    description: "Pipe weld positioner PP3 is specially designed and manufactured for the purpose of meeting the requirements of enhancing productivity, increasing the extent of ",
-    images: [
-      {
-        url: "/images/wr/wr00-21.jpg",
-        alt: "wr00 21"
-      },
-      {
-        url: "/images/wr/wr00-40.jpg",
-        alt: "wr00 40"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "28 Pipe Weld Positioner Pp3",
+    category: "Uncategorised",
+    description: "",
+    body: "<h2>\u00a0 \u00a0Pipe weld positioner PP3\u00a0is specially designed and manufactured for the purpose of meeting the requirements of enhancing productivity, increasing the extent of automatic, reducing welder\u2019s working intensity and adapting to piping workshop prefabrication. The welding head will be relatively fixed, while the piping spool piece revolving at a specific rate, and the high efficient and low cost shielded welding or SAW process is adopted, so it has the features of easy-operation, reliable-performance and wide-application field.</h2>",
+    images: [],
   },
   {
     slug: "29-explosion-proof-rotator-sar80",
-    title: "Explosion proof rotator SAR80 for painting workshop",
-    category: "turning rolls",
-    description: "Explosion proof rotator SAR80 is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advance",
-    images: [
-      {
-        url: "/images/wr/_spmedia_thumbs/b-wr-3.jpg",
-        alt: "b wr 3"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "29 Explosion Proof Rotator Sar80",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0<em>\u00a0<strong><strong>Explosion proof rotator SAR80</strong></strong></em>\u00a0is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .it is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b\u00a0Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</p>\n<p>We can provide solutions to unique Explosion proof rotator according to the customer\u2019s requirement</p>\n<p><img alt=\"Explosion proof rotator\" height=\"900\" src=\"/images/wr/b-wr-3.jpg\" title=\"Explosion proof rotator\" width=\"1200\"/></p>\n<p>Notes:</p>\n<ol>\n<li>a) \u00a0Explosion proof rotator Variable rotation speed from 100 to 1000 mm/min: included</li>\n<li>b) Wheels padded with heavy duty rubber: Included on models SAR 100 and smaller</li>\n<li>c) Remote control box with 6-12 m span: included, and allows adjustment of rotating speed \u2013digital display in mm/min-,forward and reverse rotation, and stop</li>\n<li>d) Auto adjusted tilt angle of roller bed as per diameter of work piece</li>\n<li>e) Shot blasted frame at SA 2 \u00bd: included</li>\n<li>f) Variable Frequency Driver (VFD) made by Teco or other brand</li>\n<li>g) Custom built welding rotators: available</li>\n<li>h) CE mark only under customer request</li>\n<li>i) The information contained in this brochure is intended to be accurate. However the manufacturer retain the rights to make changes in design which may not be include</li>\n</ol>\n<p><img alt=\"Explosion proof rotator\" height=\"392\" src=\"/images/instead%20of/SAR-1.png\" title=\"Explosion proof rotator\" width=\"1000\"/></p>\n<p>Standard package includes</p>\n<p>\u00a0 One power unit with control box</p>\n<p>\u00a0 One idler unit</p>\n<p>\u00a0 Operation manual</p>\n<p>\u00a0 One year warranty</p>",
+    images: [],
   },
   {
     slug: "30-chain-rotator-cwr20",
-    title: "Chain Rotator CWR20 for wind power equipment",
-    category: "turning rolls",
-    description: "Chain Rotator CWR20 is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipmen",
-    images: [
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/CWR.png",
-        alt: "CWR"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "30 Chain Rotator Cwr20",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>Chain Rotator CWR20</em></strong></strong>\u00a0is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .<strong><em><a href=\"welding-applications/construction\" rel=\"noopener\" target=\"_blank\" title=\"Chain Rotator CWR20\">Chain Rotator CWR20</a></em></strong>\u00a0is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b\u00a0Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</p>\n<p>We can provide solutions to unique welding rotator according to the customer\u2019s requirement.E.G chian type\u00a0 also call Chain rotator CWR20\u00a0 for thin wall tank.</p>\n<p><img alt=\"chain rotator\" height=\"900\" src=\"/images/wr/12wr00-37.jpg\" title=\"chain rotator\" width=\"1200\"/></p>\n<p><strong><strong>\u00a0 \u00a0 \u00a0 Chain Rotator CWR20</strong></strong><strong>\u00a0</strong>(welding rorator) is used in petrochemical machinery, engineering machinery, wind power equipment,\u00a0<a href=\"welding-applications/construction\" rel=\"noopener\" target=\"_blank\" title=\"WELDING ROTATOR\">construction &amp; bridge</a>, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<p>Notes:</p>\n<ol>\n<li>a) Variable rotation speed from 100 to 1000 mm/min: included</li>\n<li>b) Wheels padded with black PU roller : Included on models WR- 100 and smaller</li>\n<li>c) Remote control box with 6-12 m span: included, and allows adjustment of rotating speed \u2013digital display in mm/min-,forward and reverse rotation, and stop</li>\n<li>d) Custom built --LD stands for large diameter vessels</li>\n<li>e) Shot blasted frame at SA 2 \u00bd: included</li>\n<li>f) Variable Frequency Driver (VFD) made by Teco other brand</li>\n<li>g) Custom built welding rotators available</li>\n<li>h) CE mark only under customer request</li>\n<li>i) The information contained in this brochure is intended to be accurate. However the manufacturer retain the rights to make changes in design which may not be include</li>\n</ol>\n<p>Optional:</p>\n<p>+Turning rolls mounted over manual or motorized bogies</p>\n<p>+Synchronized operation of multi number of power rotators</p>\n<p>+anti drifting function including\u00a0 one side uplift and double uplift.</p>\n<p>+ Pu roller instead of rubber roller( from 2020yr ,start USE PU)</p>\n<p><strong><strong>\u00a0</strong></strong>TECHNICAL PARAMETERS</p>",
+    images: [],
   },
   {
     slug: "31-fitup-rotator-wr600f",
-    title: "Fitup Rotator WR600F for wind tower build line",
-    category: "turning rolls",
-    description: "Wind Fitup Rotator WR600F is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced eq",
-    images: [
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "31 Fitup Rotator Wr600F",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>Wind Fitup Rotator WR600F</em>\u00a0</strong></strong>is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .<strong><em><a href=\"welding-machine/turning-rolls\" rel=\"noopener\" target=\"_blank\">Wind Fitup Rotator WR600F</a></em></strong>\u00a0is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b\u00a0Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</p>\n<p>We can provide solutions to unique welding rotator according to the customer\u2019s requirement</p>\n<p><img alt=\"Fitup Rotator\" height=\"900\" src=\"/images/wr/12wr00-18.jpg\" title=\"Fitup Rotator\" width=\"1200\"/></p>\n<p><strong><strong>Wind Fitup Rotator WR600F</strong></strong><strong>\u00a0</strong>(<a href=\"welding-machine/welding-turning-rolls\" rel=\"noopener\" target=\"_blank\">welding rorator</a>) is used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<p>Notes:</p>\n<ol>\n<li>a) Variable rotation speed from 100 to 1000 mm/min: included</li>\n<li>b) Wheels padded with black PU roller : Included on models WR- 100 and smaller</li>\n<li>c) Remote control box with 6-12 m span: included, and allows adjustment of rotating speed \u2013digital display in mm/min-,forward and reverse rotation, and stop</li>\n<li>d) Custom built --LD stands for large diameter vessels</li>\n<li>e) Shot blasted frame at SA 2 \u00bd: included</li>\n<li>f) Variable Frequency Driver (VFD) made by Teco other brand</li>\n<li>g) Custom built welding rotators available</li>\n<li>h) CE mark only under customer request</li>\n<li>i) The information contained in this brochure is intended to be accurate. However the manufacturer retain the rights to make changes in design which may not be include</li>\n</ol>",
+    images: [],
   },
   {
     slug: "32-small-pipe-rotator-pr1a",
-    title: "Small PIPE  Rotator PR1A for  engineering machinery",
-    category: "turning rolls",
-    description: "Small PIPE Rotator PR1A is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equi",
-    images: [
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "32 Small Pipe Rotator Pr1A",
+    category: "Uncategorised",
+    description: "",
+    body: "<p align=\"left\" class=\"MsoNormal\"><strong><em>Small PIPE Rotator PR1A</em></strong> is a kind of our advanced welding equipment , which is be researched and manufactured absorbing domestic and international advanced equipment .<em><a href=\"welding-applications/perochemial\">Small PIPE Rotator PR1A</a></em>\u00a0is mainly used for pipe, containers, boilers, pressure vessels, oil tank and other cylinder\u2019s assembling, burnishing and welding, can use together with column and boom and SAW system to realize inside and outside girth and longitudinal welding. Its series includes self aligning rotators (SAR), and conventional rotators (WR). Other customize have trolley tilting anti drift rotator\uff1b Accordingly this device has advantages of compact structure, small cubage, beautiful shape, lightweight, convenient operating and so on. The machine can assort all kinds of auto welding or manual welding, improving welding quality, lessening welding labor and improve productivity.</p>\n<p align=\"left\" class=\"MsoNormal\">We can provide solutions to unique welding rotator according to the customer\u2019s requirement</p>",
+    images: [],
   },
   {
     slug: "33-wind-tower-butt-welding-and-fit-up-rotator",
-    title: "Wind tower butt welding and Fit up rotator",
-    category: "turning rolls",
-    description: "Wind tower butt welding and Fit up rotator is one special custombuild product, if you provide your workshop some parameter and wind pipe parameter , so we can m",
-    images: [
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "33 Wind Tower Butt Welding And Fit Up Rotator",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"https://www.desanee.cn/s-Wind%20tower%20butt%20welding%20and%20Fit%20up%20rotator?sort=6d\">Wind tower butt welding and Fit up rotator is one special custombuild product, if you provide your workshop some parameter and wind pipe parameter , so we can make some projiect diea .these product line mainly including Fit up rotator and boom &amp;column machine , at same time we also advise you some other Shot and sand blasting and spray painting equipment</a></em></strong></strong></p>\n<p>Wind power is publicly acknowledged as clean and recycling resource around the world, popularizing among countries. DESAN\u00a0 is one of the earliest famous suppliers specialized in tower butt welding for wind tower ,all part are fitup rotator ,internationally, and now DESAN\u00a0 has become the main supplier in complete wind tower line field</p>\n<p>Our company:</p>\n<p>---- Based on the integration of domestic and foreign wind tower welding production line successful experience and mature technology of the whole plant production process;</p>\n<p>---- Based on the deep understanding and cognition of each process link of wind tower manufacturing plant;</p>\n<p>---- Based on the successful cases of providing various production lines and equipment for many domestic and foreign wind tower manufacturers;</p>\n<p>We can provide you with:</p>\n<p>1, wind power tower welding production line of the whole plant process design and planning services;</p>\n<p>2, wind power tower welding production line of the whole plant equipment manufacturing, installation and commissioning training services;</p>\n<p>3, wind power tower welding production line of the whole plant equipment long-term perfect after-sales service;</p>",
+    images: [],
   },
   {
     slug: "34-boom-and-column-welding-cobo-wm12",
-    title: "Boom and Column welding WM12 for petrochemical machinery",
-    category: "boom&column",
+    title: "34 Boom And Column Welding Cobo Wm12",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/wm/WM-001.jpg",
-        alt: "WM 001"
-      },
-      {
-        url: "/images/wm/52B22521-1452-4962-BE8B-5569E5D27EB420161123-150.jpg",
-        alt: "52B22521 1452 4962 BE8B 5569E5D27EB420161123 150"
-      },
-      {
-        url: "/images/wm/from wm-1.jpg",
-        alt: "from wm 1"
-      },
-      {
-        url: "/images/wm/from wm-2.jpg",
-        alt: "from wm 2"
-      },
-      {
-        url: "/images/wm/tu pian1.jpg",
-        alt: "tu pian1"
-      },
-      {
-        url: "/images/wm/tu pian2.jpg",
-        alt: "tu pian2"
-      },
-      {
-        url: "/images/wm/wm-00.jpg",
-        alt: "wm 00"
-      },
-      {
-        url: "/images/wm/wm-01.jpg",
-        alt: "wm 01"
-      },
-      {
-        url: "/images/wm/wm-02.jpg",
-        alt: "wm 02"
-      },
-      {
-        url: "/images/wm/wm-03.jpg",
-        alt: "wm 03"
-      },
-      {
-        url: "/images/wm/wm-04.jpg",
-        alt: "wm 04"
-      },
-      {
-        url: "/images/wm/wm-05.jpg",
-        alt: "wm 05"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "35-boom-and-column-welding-wm",
-    title: "Boom and Column welding WM for wind power equipment",
-    category: "boom&column",
+    title: "35 Boom And Column Welding Wm",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/wm/WM-001.jpg",
-        alt: "WM 001"
-      },
-      {
-        url: "/images/wm/52B22521-1452-4962-BE8B-5569E5D27EB420161123-150.jpg",
-        alt: "52B22521 1452 4962 BE8B 5569E5D27EB420161123 150"
-      },
-      {
-        url: "/images/wm/from wm-1.jpg",
-        alt: "from wm 1"
-      },
-      {
-        url: "/images/wm/from wm-2.jpg",
-        alt: "from wm 2"
-      },
-      {
-        url: "/images/wm/tu pian1.jpg",
-        alt: "tu pian1"
-      },
-      {
-        url: "/images/wm/tu pian2.jpg",
-        alt: "tu pian2"
-      },
-      {
-        url: "/images/wm/wm-00.jpg",
-        alt: "wm 00"
-      },
-      {
-        url: "/images/wm/wm-01.jpg",
-        alt: "wm 01"
-      },
-      {
-        url: "/images/wm/wm-02.jpg",
-        alt: "wm 02"
-      },
-      {
-        url: "/images/wm/wm-03.jpg",
-        alt: "wm 03"
-      },
-      {
-        url: "/images/wm/wm-04.jpg",
-        alt: "wm 04"
-      },
-      {
-        url: "/images/wm/wm-05.jpg",
-        alt: "wm 05"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "36-weld-manipulator-wm4040",
-    title: "WELD MANIPULATOR WM4040  for  engineering machinery",
-    category: "boom&column",
-    description: "WELD MANIPULATOR WM4040  main parameter :",
-    images: [
-      {
-        url: "/images/wm/wm-00.jpg",
-        alt: "wm 00"
-      },
-      {
-        url: "/images/wm/wm-09.jpg",
-        alt: "wm 09"
-      },
-      {
-        url: "/images/wm/52B22521-1452-4962-BE8B-5569E5D27EB420161123-150.jpg",
-        alt: "52B22521 1452 4962 BE8B 5569E5D27EB420161123 150"
-      },
-      {
-        url: "/images/wm/from wm-1.jpg",
-        alt: "from wm 1"
-      },
-      {
-        url: "/images/wm/from wm-2.jpg",
-        alt: "from wm 2"
-      },
-      {
-        url: "/images/wm/tu pian1.jpg",
-        alt: "tu pian1"
-      },
-      {
-        url: "/images/wm/tu pian2.jpg",
-        alt: "tu pian2"
-      },
-      {
-        url: "/images/wm/WM-001.jpg",
-        alt: "WM 001"
-      },
-      {
-        url: "/images/wm/wm-01.jpg",
-        alt: "wm 01"
-      },
-      {
-        url: "/images/wm/wm-02.jpg",
-        alt: "wm 02"
-      },
-      {
-        url: "/images/wm/wm-03.jpg",
-        alt: "wm 03"
-      },
-      {
-        url: "/images/wm/wm-04.jpg",
-        alt: "wm 04"
-      },
-      {
-        url: "/images/wm/wm-05.jpg",
-        alt: "wm 05"
-      }
-    ]
+    title: "36 Weld Manipulator Wm4040",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/welding-manipulator\">\u00a0\u00a0WELD MANIPULATOR WM4040\u00a0 main parameter :\u00a0</a></em></strong></strong></p>\n<h1><strong><strong>1.Summarize:\u00a0</strong></strong></h1>\n<ul>\n<li>\n<h2>Column-boom WM4040 (movable and revolve) 1 set</h2>\n</li>\n<li>KB-10 Seam Tracker\uff08optional\uff09 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01 set</li>\n<li>DC-1000welding system\u00a0\u00a0\u00a0\uff08optional\uff09 \u00a0\u00a0\u00a0\u00a0\u00a01 set</li>\n<li>Flux send and recovery system\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01 set</li>\n<li>SAR20 welding rotator\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01\u00a0set (1P+1I)</li>\n</ul>\n<h1><strong><strong>2.Technical data</strong></strong></h1>\n<p><strong><strong>\u00a0</strong></strong></p>\n<p><strong><strong>Column-boom</strong></strong><strong><strong>\uff1a\u00a0WELD MANIPULATOR WM4040</strong></strong></p>\n<p>Structure\uff1a\u00a0movable and revolve</p>\n<p>Applicable\u00a0vessel\u00a0D\uff1a\u00a0\u03a6630\uff5e4000 mm</p>\n<p>Boom travel stroke\uff1a\u00a04000 mm</p>\n<p>Boom travel speed\uff1a\u00a0100-2000 mm/min (inverter)</p>\n<p>Boom elevation stroke\uff1a4000 mm</p>\n<p>Boom elevation speed\uff1a\u00a01050 mm/min</p>\n<p>Column motor-driven revolve angle\uff1a\u00a0\u00b1180\u00b0</p>\n<p>Column manual revolve speed\uff1a\u00a0manual</p>\n<p><strong><strong>Seam-tracker\uff1afor weld \u00a0<a href=\"http://www.desanee.cn\">MANIPULATOR</a>\u00a0</strong></strong></p>\n<p>Model\uff1a\u00a0KB-10</p>\n<p>Testing range\uff1a\u00a0100 mm</p>\n<p>Testing speed\uff1a\u00a0200 mm/min</p>\n<p>Testing precision\uff1a\u00a0\u00b10.3 mm</p>\n<p>Loading\uff1a\u00a0100 kg</p>\n<p>Power\uff1a\u00a0AC220V</p>\n<p><strong><strong>D</strong></strong><strong><strong>C1000</strong></strong><strong><strong>\u00a0SAW power</strong></strong><strong><strong>\u00a0with control box and wire feeder.</strong></strong></p>\n<p><strong><strong>\u00a0\u00a0\u00a0(</strong></strong><strong><strong>CHINA AOTAI)</strong></strong></p>\n<p>Rated welding current\uff1a\u00a01000A</p>\n<p>Idle voltage\uff1a\u00a075V</p>\n<p>Duty cycle\uff1a100%</p>\n<p>Current range\uff1a\u00a0200\uff5e1000A</p>\n<p>Wire D\uff1a\u00a03\uff5e6 mm</p>\n<p>Welding speed\uff1a\u00a015\uff5e75 m/h</p>",
+    images: [],
   },
   {
     slug: "37-roller-cladding",
-    title: "Roller Cladding for  petrochemical machinery, engineering machinery",
-    category: "omni manipulator",
-    description: "Reliability and user-friendliness for high performance, top-quality roller cladding",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "37 Roller Cladding",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Reliability and user-friendliness for high performance, top-quality roller cladding</p>\n<p>1.\u00a0 \u00a0 <a href=\"welding-machine/omni-manipulator\">Roller Cladding</a> machine is a heavy duty weld cladding and hardfacing machine. DESAN Welding offers a large range of Roller Cladding machines for welding rolls from 1 tonne, up to more than 50 tonnes.</p>\n<p><img alt=\"Roller Cladding \" height=\"470\" src=\"images/DSPIC/roll-cladder-large.jpg\" width=\"723\"/></p>\n<h2>Roller Cladding\u00a0can be equipped with one, two, or more heads for welding one or two rolls at a time. Robust design and advanced technology makes our machines reliable and easy to use.</h2>\n<p>Industries: Steel and General Maintenance Workshops\u00a0</p>\n<h2>\u00a0Roller Cladding\u00a0 Characteristics</h2>\n<ul>\n<li>HMI touch system;</li>\n<li>Multiple weld pattern: oscillating beads, stringer beads, square waves, chevron shape and spiral welding.</li>\n</ul>\n<p>\u00a0Roller Cladding machines Options:\u00a0data logger, flux recovery system, Auto Stick-out Adjustment, temperature &amp; dimension measurement, fume filtration, email error notifications.</p>\n<p>\u00a0Benefits</p>\n<ul>\n<li>Repeatable programming</li>\n<li>High quality weld deposits</li>\n<li>High productivity in manufacturing</li>\n<li>Minimal labour required</li>\n<li>Identification of operators</li>\n<li>Recording of welding parameters</li>\n</ul>\n<h2>\u00a0</h2>",
+    images: [],
   },
   {
     slug: "38-hardfacing-welding-machine-dh10",
-    title: "Hardfacing welding Machine DH10  for  petrochemical machinery",
-    category: "omni manipulator",
-    description: "Main advantage of Hardfacing welding Machine DH10 :",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "38 Hardfacing Welding Machine Dh10",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Main advantage of\u00a0<strong><strong><em><a href=\"welding-machine/omni-manipulator\" rel=\"noopener\" target=\"_blank\">Hardfacing welding Machine DH10</a></em></strong></strong><a href=\"https://www.desanee.cn/s-Hardfacing%20welding%20Machine%20DH10?sort=6d\">\u00a0</a>:</p>\n<p>1, can hardfaceing process and heat preservation process synchronously, the control of temperature of layer within hardfaceing process is numeral.</p>\n<p>2, carry out the automatic recovery of welding flux , avoiding the pollution of the dust, and improving work environment.</p>\n<p>3, feeding wire stably and its moment great ,can carry out high speed welding and, increasing the welding deep and the efficiency of deposition .</p>\n<p>4, swing welding strengthened the arc function to mix blend the welding seam , make the seam organization gradually in reasonable and even.</p>\n<p>5, \u00a0all craft parameters within the welding process can be controlled automatic, include the welding current, voltage, wire speed\u00a0\uff0ctraverse speed , traverse distance, welding width, swing width ,welding time etc.</p>",
+    images: [],
   },
   {
     slug: "39-girth-seam-mig-welding-for-hydraulic-cylinder-and-chemical-machinery",
-    title: "Girth Seam MIG Welding for Hydraulic Cylinder and Chemical Machinery",
-    category: "omni manipulator",
-    description: "Product Description of Girth Seam MIG Welding",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "39 Girth Seam Mig Welding For Hydraulic Cylinder And Chemical Machinery",
+    category: "Uncategorised",
+    description: "",
+    body: "<div class=\"sr-txt-title\">\n<h2 class=\"sr-txt-h2\">Product Description of Girth Seam MIG Welding</h2>\n</div>\n<div class=\"async-rich-info\">\n<div class=\"rich-text cf\">\u00a0 \u00a0\u00a0 <br/>\u00a0 \u00a0 \u00a0For all arc welding processes,Girth Seam MIG Welding\u00a0 is important that the welding head be rigidly mounted over the part to be welded to obtain the highest quality weld results. Any vibration or instability of the weld head mounting will have an effect upon the arc length and produce inferior results. Welding manipulator is used when the weld head has to be moved to a position relative to the work piece. Welding manipulator provide the perfect solution as the boom can be lifted and lowered on the column and can be extended or retracted as required, The ends of\u00a0 boom are machined to carry a welding head.</div>\n<h2 class=\"rich-text cf\"><strong>we can provide some :Girth Seam MIG Mag Welding for Hydraulic Cylinder and Chemical Machinery</strong><br/><br/>Girth Seam MIG Welding\u00a0 machine and welder composed of auto welding mechanical equipment. It can use with welding rotator, widely applied to industries such as boiler, pressure vessel, petroleum, chemical industry and mechanism.<br/>+ Structure : stationary, stationary and revolve , moving and revolve type.<br/>+ Cross section of boom and column are rectangular-section beams, with double-rail, welded into shape,stress-relieved and mechanical machined finely, ensuring higher precision;<br/>+ Drooping of boom along horizontal travel is 2mm/m.<br/>+ Boom lifting device including ratchet-type anti-dripping unit on the column, safe and reliable to prevent chains from incidental broken.<br/>+ Guide roller is eccentric structure, decrease clearance between roller and rail surface, ensuring smooth and no shivering boom travel.<br/>+ Column revolve unit has motor -driven and manual drive type. <br/>+ Control box includes control box and pendant , interface with positioner and rotator also prepared <br/><br/><strong>1.Vertical RingSeam Automatic Welding Machine\u00a0</strong><br/><br/><strong><a href=\"welding-applications/perochemial\">\u00a0Girth Seam MIG Welding</a> HF-400C </strong>is a productdesigned, manufactured and developed by our company. Used for circumferentialseam welding or 3D arc welding of water tank flange nuts, cylinder inlet andoutlet pipes, oil tank inlet and outlet, and hydraulic cylinder oil port.<br/>Themachine rotates the welding gun 360 \u00b0, and the workpiece is at a standstill.Welding of circular seams (including intersection lines) where the entrance andexit and water tanks, hydraulic cylinders and other vertical intersections arerealized.</h2>\n<div class=\"rich-text cf\"><img alt=\"Girth Seam MIG Welding\" height=\"553\" src=\"/images/cwm/2-11.jpg\" title=\"Girth Seam MIG Welding\" width=\"1590\"/><br/><br/><br/><br/><strong>2. Introduction to Verticalring seam automatic welding machine</strong><br/>++ Weldable materials include: 45#, 27SiMn, 35#,20#, stainless steel, etc.;<br/>++ Girth Seam MIG Welding is mainly driven by a stepper motor. The control system uses cnc controller and relay control as auxiliary to realize automatic control of welding. The weldingcurrent and voltage can be set directly on the operation panel. The machine hasreliable quality, beautiful appearance and high degree of automation.<br/><img alt=\"Girth Seam MIG Welding\" height=\"636\" src=\"/images/cwm/2-41.jpg\" title=\"Girth Seam MIG Welding\" width=\"1590\"/><br/><br/><br/>++\u00a0 The equipmenthas the functions of automatic lifting, automatic reset, automatic arcstriking,etc.\u00a0 \u00a0It has a high degree of automation, a key operation, and stable and reliable operation. V-type thimble positioning mechanism is used forclamping to facilitate loading and unloading of workpieces. <br/><br/>++\u00a0 For theintersecting line welds, Girth Seam MIG Welding\u00a0 is equipped with a mechanical copyingmechanism.When welding the inlet/outlet port on the cylinder body, it isnecessary to follow the contour height difference between the surface of the jointand the cylinder so as to weld the intersecting line curve. Welding cylinder\u00a0 interface, equipped with two lifting V-shaped frame for supporting the cylinderblock, under the V-frame roller, can be manually moved to facilitate the transposition.Under the fixture is equipped with an adjustable lifting platform. <br/><img alt=\"Girth Seam MIG Welding\" height=\"797\" src=\"/images/cwm/2-21.jpg\" title=\"Girth Seam MIG Welding\" width=\"1590\"/><br/><br/><strong>3. Machine\u00a0 Brief</strong><br/><br/><strong>++ base and bed:\u00a0<br/>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0</strong>\u00a0base for the weight of the whole machine.<br/><br/><strong>++ Welding Drive Mechanism:</strong><br/><br/>1) Automatic pneumatic lifting mechanism of the welding torch: Girth Seam MIG Welding is composed of a bottom plate, a guide rail and a lifting cylinder. It can be usedfor up and down movement of the welding torch and resetting of the weldingtorch; the gun speed can be adjusted by raising and lowering the cylinderadjusting valve; the rotating speed of the welding torch can be set by thespeed adjusting knob; the torch moves up and down, and the length of thewelding torch is adjusted by the manual screw positioning.<br/>2) Turning gun mechanism: It consists of a rotating gun shaft and a geardrive mechanism. DC Stepper motor drive, this machine uses the workpiece does not move, welding torch rotation welding. <br/><br/>3) Up and down the gunfine-tuning mechanism (imitation mechanism): from the spring, the roller track up and down gun movement, with the gun movement to complete the welding torch's intersecting line track welding.<br/><br/><strong>++ \u00a0Girth Seam MIG Welding Pneumatic system:</strong>\u00a0<br/>Girth Seam MIG Welding device has an organichead cylinder. Supporting pneumatic components and solenoid valves areinstalled behind the equipment. When the equipment is working, make sure theair pressure is above 0.5Mpa.<br/><br/><strong>++ Girth Seam MIG Welding\u00a0 electronic\u00a0</strong><br/><strong>1) Power Supply Part:</strong>\u00a0Control Power Supply: SinglePhase AC220V 50/60HZ; Welder Power Supply:AC 3\u00d7380V 50/60HZ;<br/><strong>2) Control Box:\u00a0</strong>The upper part of the controlbox is a button panel. All operations are performed on this panel. Electricalinstallation board: The electrical installation board is mainly composed of electrical components such as cnc welding controller , intermediate relay, and DC stepper motor driver. It connects and communicateswith the control buttonson the control panel through cables and wires to realize the control functionof the machine.<br/><br/><strong>++\u00a0 Welding Power Supply:</strong>\u00a0Configured according tocustomer requirements. For details, please refer to the manual of the <a href=\"welding-applications/perochemial\">welding power </a>source. <br/><br/><br/><strong>4. Technical parameter of Girth Seam MIG Welding</strong><br/><br/>\u00a0\n<div class=\"rich-text-table\">\n<table>\n<tbody>\n<tr>\n<td>Parameter</td>\n<td>HF400C</td>\n</tr>\n<tr>\n<td>Welding process</td>\n<td>CO2/MAG/MIG/TIG</td>\n</tr>\n<tr>\n<td>Input power</td>\n<td>AC 220V,50/60HZ</td>\n</tr>\n<tr>\n<td>specified load</td>\n<td>100% continuous</td>\n</tr>\n<tr>\n<td>rated power</td>\n<td>0.65 KW</td>\n</tr>\n<tr>\n<td>Product diameter range</td>\n<td>Max\u03a6200mm</td>\n</tr>\n<tr>\n<td>Pressure adjustment range</td>\n<td>0.1-0.6 M pa</td>\n</tr>\n<tr>\n<td>Welding speed</td>\n<td>2-8 mm/s</td>\n</tr>\n<tr>\n<td>Weld width</td>\n<td>5-10 mm</td>\n</tr>\n<tr>\n<td>Weld height</td>\n<td>2-5 mm</td>\n</tr>\n<tr>\n<td>Electrical component brand</td>\n<td>CHNT</td>\n</tr>\n<tr>\n<td>Controller</td>\n<td>CNC</td>\n</tr>\n<tr>\n<td>Dimensions</td>\n<td>1050mm\u00d71000mm\u00d72560mm</td>\n</tr>\n<tr>\n<td>Weight</td>\n<td>560Kg</td>\n</tr>\n</tbody>\n</table>\n</div>\n<br/><br/><img alt=\"Girth Seam MIG Welding\" height=\"318\" src=\"/images/cwm/2-31.jpg\" title=\"Girth Seam MIG Welding\" width=\"1590\"/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>\n</div>",
+    images: [],
   },
   {
     slug: "40-welding-boom",
-    title: "Welding boom   for petrochemical machinery",
-    category: "omni manipulator",
+    title: "40 Welding Boom",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "41-welding-boom-column-wm5050",
-    title: "Welding Boom Column  WM5050 for petrochemical machinery",
-    category: "omni manipulator",
-    description: "Welding boom column   main For all arc welding processes, it is important that the welding head be rigidly mounted over the part to be welded to obtain the high",
-    images: [
-      {
-        url: "/images/wm/wm-00.jpg",
-        alt: "wm 00"
-      },
-      {
-        url: "/images/wm/52B22521-1452-4962-BE8B-5569E5D27EB420161123-150.jpg",
-        alt: "52B22521 1452 4962 BE8B 5569E5D27EB420161123 150"
-      },
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "41 Welding Boom Column Wm5050",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0 Welding boom column\u00a0 \u00a0main For all arc welding processes, it is important that the welding head be rigidly mounted over the part to be welded to obtain the highest quality weld results. Any vibration or instability of the weld head mounting will have an effect upon the arc length and produce inferior results. Welding manipulator is used when the weld head has to be moved to a position relative to the work piece. Welding manipulator provide the perfect solution as the boom can be lifted and lowered on the column and can be extended or retracted as required, The ends of\u00a0 boom are machined to carry a welding head.</p>\n<p><img alt=\"welding boom column\" height=\"900\" src=\"/images/wm/wm-00.jpg\" title=\"welding boom column\" width=\"1200\"/></p>",
+    images: [],
   },
   {
     slug: "42-hardfacing-welding-machine-dh50",
-    title: "Hardfacing welding Machine DH50 for  engineering machinery",
-    category: "omni manipulator",
-    description: "Hardfacing welding Machine DH50",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "42 Hardfacing Welding Machine Dh50",
+    category: "Uncategorised",
+    description: "",
+    body: "<h2><strong><strong><em><a href=\"https://www.desanee.cn/s-Hardfacing%20welding%20Machine%20DH50?sort=6d\">Hardfacing welding Machine DH50\u00a0</a></em></strong></strong></h2>\n<h2><strong><strong>1.Summarize:\u00a0</strong></strong></h2>\n<p>This machine mainly useds for the\u00a0hot roller\u00a0or\u00a0other\u00a0cylinderses\u00a0the surface of repair welding after wear away, welding method\u00a0is\u00a0the automatic welding of\u00a0submerge arc (SAW or FCAW)\u00a0.The work piece\u00a0is tighted by \u00a0four claw\u00a0chuck ,\u00a0this machine contain operation convenience, the structure is simple and adjusts quick etc. advantage, is the essential equipments of the house of professional factory of\u00a0hardfacing welding.</p>\n<p><img alt=\"Hardfacing welding\" height=\"936\" src=\"/images/instead%20of/DH10-0.png\" title=\"Hardfacing welding\" width=\"1726\"/></p>\n<h2><strong><strong>2. Function characteristics:</strong></strong></h2>\n<p>\u00a0\u00a0\u00a0\u00a0\u00a0Dh50 type\u00a0machine is a main process equipment used to\u00a0hardfacing\u00a0welding\u00a0hot roller\u00a0,its framework is\u00a0cantilever\u00a0, on it fixed traverse rail and drag board ,and its travel speed adopted SPWM AC\u00a0or DC\u00a0control way, which is widespread adoption in automation realm currently. Its function stability credibility, the usage convenience, its speed as\u00a02-230\u00a0mm/ min, can carry on regulate according to the request of the welding within the allow range ;We can provide with single wire single arc arc welding head according to customers requirement ,\u00a0welding positioner is used to placed the work piece in the best position for welding.\u00a0at the same time we can design and customize various type of special positioner\u00a0according to the\u00a0technological requirement and different work piece given by\u00a0the customer.</p>\n<p>Welding equipments adoption of this machine compares\u00a0ZXG-1000\u00a0welding power supply, the machine head and the control box adoption\u00a0MA-1000\u00a0have the credibility high, weld stable etc. characteristic.</p>\n<p><img alt=\"Hardfacing welding\" height=\"750\" src=\"/images/WMomni/20100302001-0.jpg\" title=\"Hardfacing welding\" width=\"1000\"/></p>\n<p><img alt=\"Hardfacing welding\" height=\"750\" src=\"/images/WMomni/20100306017.jpg\" title=\"Hardfacing welding\" width=\"1000\"/></p>\n<p>\u00a0<strong><strong>Hardfacing welding Machine DH50\u00a0</strong></strong><strong><strong>\u00a0</strong></strong>(<a href=\"welding-machine/welding-manipulator\">plasma welding</a>) is used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<h2><strong><strong>3.Technique parameter:</strong></strong></h2>\n<p>Apply\u00a0max\u00a0diameter: \u00a0\u03a61000 mm \u00a0\u00a0\u00a0\u00a0</p>\n<p>Apply length: \u00a0\u00a0\u00a0\u00a0\u00a05000 mm \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</p>\n<p>Apply weight: \u00a0\u00a0\u00a0\u00a0\u00a06\u00a0T \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</p>\n<p>The turn-over center high:\u00a0\u00a0\u00a0\u00a0800mm</p>\n<p>Principal axis power:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a00.75 KW</p>\n<p>principal axis turning\u00a0speed: \u00a00.1-1rpm</p>\n<p>Horizontal\u00a0motor\u00a0power: \u00a0\u00a0\u00a0\u00a040W</p>\n<p>Horizontal speed: \u00a0\u00a0\u00a0\u00a0\u00a02--30 mm/ min</p>\n<p>Welding\u00a0current : \u00a0\u00a0\u00a0\u00a0\u00a0200-1000A</p>\n<p>Apply\u00a0wire\u00a0diameter : \u00a0\u03a62.4.0-4.0 mm</p>\n<h2><strong><strong>4</strong></strong><strong><strong>.</strong></strong><strong><strong>The key</strong></strong><strong><strong>\u00a0</strong></strong><strong><strong>install</strong></strong><strong><strong>ation</strong></strong></h2>\n<p>Welding\u00a0system:DC-1000\u00a0\u00a0made\u00a0in\u00a0USA</p>",
+    images: [],
   },
   {
     slug: "43-longitudinal-seam-welder",
-    title: "Longitudinal Seam Welder LSM for engineering machinery",
-    category: "omni manipulator",
-    description: "Longitudinal Seam Welders LSM10",
-    images: [
-      {
-        url: "/images/WMomni/LSW-1.png",
-        alt: "LSW 1"
-      },
-      {
-        url: "/images/WMomni/LSW-60-3.jpg",
-        alt: "LSW 60 3"
-      },
-      {
-        url: "/images/WMomni/LSW-1.png",
-        alt: "LSW 1"
-      },
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "43 Longitudinal Seam Welder",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/welding-manipulator\">Longitudinal Seam Welders LSM10\u00a0</a></em></strong></strong></p>",
+    images: [],
   },
   {
     slug: "44-corrugated-plate-welding-machine-for-construction-industry",
-    title: "Corrugated plate welding machine for construction industry",
-    category: "omni manipulator",
-    description: "Corrugated plate welding machine of MIG LASER including main machine ,welder ,feed plate frame ,control box .",
-    images: [
-      {
-        url: "/images/WMomni/20100302001-0.jpg",
-        alt: "20100302001 0"
-      },
-      {
-        url: "/images/WMomni/20100302002.jpg",
-        alt: "20100302002"
-      },
-      {
-        url: "/images/WMomni/20100306017.jpg",
-        alt: "20100306017"
-      },
-      {
-        url: "/images/WMomni/20110309897.jpg",
-        alt: "20110309897"
-      },
-      {
-        url: "/images/WMomni/20110406949.jpg",
-        alt: "20110406949"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141752.jpg",
-        alt: "2016 07 21 141752"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 141952.jpg",
-        alt: "2016 07 21 141952"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142018.jpg",
-        alt: "2016 07 21 142018"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142031.jpg",
-        alt: "2016 07 21 142031"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142152.jpg",
-        alt: "2016 07 21 142152"
-      },
-      {
-        url: "/images/WMomni/2016-07-21 142228.jpg",
-        alt: "2016 07 21 142228"
-      },
-      {
-        url: "/images/WMomni/63.jpg",
-        alt: "63"
-      }
-    ]
+    title: "44 Corrugated Plate Welding Machine For Construction Industry",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Corrugated plate welding machine of MIG LASER including main machine ,welder ,feed plate frame ,control box .</p>\n<p><img alt=\"corrugated plate welding \" class=\"float-none\" height=\"900\" src=\"/images/cwm/IMG_570320240722-223207.jpg\" width=\"1200\"/></p>",
+    images: [],
   },
   {
     slug: "45-plate-cutting-machine-cnc40",
-    title: "Plate cutting machine CNC40  for construction & bridge",
-    category: "h beam",
-    description: "Cutting machine is our special machine for H beam build line,  Plate cutting machine CNC40 is the perfect embodiment of the numerical control technology and pre",
-    images: [
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "45 Plate Cutting Machine Cnc40",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0 \u00a0Cutting machine is our special machine for H beam build line,\u00a0 <strong><em>Plate cutting machine CNC40</em></strong> is the perfect embodiment of the numerical control technology and precision machine,product types includes flame,plasma, single drive.double drive etc, \u00a0we will select the sort of types , the sort of plasma devices , and the function of automatic lifting ,automatic ignition ,powder marking ,initial location \uff0cautomatic piercing according to the customer's requirement.</p>\n<p class=\"MsoNormal\"><a>\u00a0Cutting Machine</a>\u00a0</p>",
+    images: [],
   },
   {
     slug: "46-h-beam-assembling-product-machine-z15",
-    title: "H beam assembling product machine Z15 for build line",
-    category: "h beam",
-    description: "Profiled steel machining product machine Z15    is  H beam assembling  machine",
-    images: [
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "46 H Beam Assembling Product Machine Z15",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/hbeam-machine\">Profiled steel machining product machine Z15\u00a0 \u00a0 is\u00a0 H beam assembling\u00a0 machine\u00a0</a></em></strong></strong></p>\n<p><strong><strong><em><img alt=\"H beam assembling\" height=\"1200\" src=\"/images/hbeam/hbeam-00.jpg\" title=\"H beam assembling\" width=\"900\"/></em></strong></strong></p>\n<p><strong><strong>1\u00a0</strong></strong><strong><strong>\u00a0Specification\u00a0\uff1a</strong></strong></p>\n<p>The applicable size of the H-beam produced by\u00a0the welding production line:</p>\n<p>Height range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0200-1500 mm</p>\n<p>Thickness range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a06-32\u00a0mm</p>\n<p>Width range of flange:\u00a0\u00a0\u00a0\u00a0150\u2014800 mm</p>\n<p>Thickness range of flange:\u00a0\u00a0\u00a0\u00a06\u201440mm</p>\n<p>Length range of beam:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a015000 mm</p>\n<ol start=\"2\">\n<li><strong><strong>Main equipments and technical parameters</strong></strong></li>\n</ol>\n<p><strong><strong>\u00a0</strong></strong></p>",
+    images: [],
   },
   {
     slug: "47-h-beam-welding-machine",
-    title: "H beam welding  machine LHA for construction & bridge, shipbuilding",
-    category: "h beam",
-    description: "H beam welding  machine LHA",
-    images: [
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "47 H Beam Welding Machine",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><em><a href=\"welding-machine/hbeam-machine\">H beam welding\u00a0</a></em><strong><strong><em><a href=\"welding-machine/hbeam-machine\"> machine LHA\u00a0</a></em></strong></strong></p>\n<p><strong><strong>1\u00a0</strong></strong><strong><strong>\u00a0Specification\u00a0\uff1a</strong></strong></p>\n<p>Applicable size of H-beam produced by the welding production line:</p>\n<p>Height range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0200-1500 mm</p>\n<p>Thickness range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a06-32\u00a0mm</p>\n<p>Width range of flange:\u00a0\u00a0\u00a0\u00a0150\u2014800 mm</p>\n<p>Thickness range of flange:\u00a0\u00a0\u00a0\u00a06\u201440mm</p>\n<p>Length range of beam:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a015000 mm</p>\n<p><img alt=\" H beam welding\" class=\"float-none\" height=\"1080\" src=\"/images/instead%20of/HBEAM-1.png\" title=\" H beam welding\" width=\"1642\"/></p>\n<ol start=\"2\">\n<li><strong><strong>\u00a0H BEAM WELDING equipments and technical parameters</strong></strong></li>\n</ol>\n<p><strong><strong>\u00a0</strong></strong></p>\n<p>2.1.\u00a0Structure principle</p>\n<p>\u00a0 \u00a0 \u00a0 H beam welding machine is mainly composed of gantry frame, weld arm and tool carriage, welding gun tracing device, welding flux handling system, electric controlling system and power source for submerged arc welding (Also deployed with two sets of auto submerged welder MZ-1000). The function of gantry frame is to support every part and drive every part move when welding. \u00a0There are two moving beams at the bottom, which was moved on steel track drive by two sets of AC motor through decelerator. The moving speed of gantry frame can be adjusted by frequency converter according to your request. This machine has the function of quick return. There are two pairs of guide wheels which are close to side of steel track to insure the machine move steady. The operation platform set up between two bearer carriers. Welding arm and tool carriage are installed on gantry frame, on tool carriage there are a few groups of wheel which abut against tracks. Tool carriage can be moved left and right manually through gear worm decelerator\u2014rack-and-pinion. Welding arm can be moved up and down through motor---gear worm decelerator---rack-and-pinion driving. Welding gun tracing device is installed at the bottom of welding arm, wire feeder is installed on welding gun tracing device, welding head always aim at welding seam and keep a certain clearance. A pair of guide wheels abuts against two sides of welding seam, when welding seam curve to the left or right, the cross slide plate above guide wheel will be adjusted to left or right accordingly through the function of spring; when welding seam curve to up or down, the cross slide plate will be adjusted to up or down by guide wheel driving by the elasticity of cylinder; the whole welding gun tracing device can be adjusted by turning slightly; also welding gun manual fine adjustment for right and left are also set. Welding flux handling system is composed of welding flux bucket, welding flux recovery machine, they are installed on two welding arms respectively, and two sets of welding flux recovery machine are put on platform of gantry frame. Welding flux are flowed to welding seam through gate of welding flux bucket, welding head follows to weld. Welding flux recovery pipe regain remainder from back of welding head to tube, through screen mesh to screen, then into welding flux bucket through gate, at the same time, dust is imbibed into welding flux bucket, chunk of welding flux are left in recovery tube. Electric controlling system is composed of one electric controlling system and two operating box, controlling box is installed on moving beam of gantry frame and two operating boxes are set in the middle of gantry frame.</p>",
+    images: [],
   },
   {
     slug: "48-straightening-machine-for-h-beam-welding-hyj800",
-    title: "Straightening machine for H beam welding  HYJ800",
-    category: "h beam",
-    description: "H beam welding  machine HYJ800 also call straightening machine",
-    images: [
-      {
-        url: "/images/hbeam/hbeam-09.jpg",
-        alt: "hbeam 09"
-      },
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "48 Straightening Machine For H Beam Welding Hyj800",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/hbeam-machine\">\u00a0H beam welding\u00a0 machine HYJ800 also call straightening machine</a></em></strong></strong></p>\n<p><strong><strong>1\u00a0</strong></strong><strong><strong>\u00a0Specification\u00a0\uff1a</strong></strong></p>\n<p>The applicable size of the H-beam produced by\u00a0the welding production line:</p>\n<p>Height range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0200-1500 mm</p>\n<p>Thickness range of web:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a06-32\u00a0mm</p>\n<p>Width range of flange:\u00a0\u00a0\u00a0\u00a0150\u2014800 mm</p>\n<p>Thickness range of flange:\u00a0\u00a0\u00a0\u00a06\u201440mm</p>\n<p>Length range of beam:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a015000 mm</p>\n<p><img alt=\"straightening machine\" height=\"294\" src=\"/images/instead%20of/HYJ800-1.png\" title=\"straightening machine\" width=\"1753\"/></p>\n<ol start=\"2\">\n<li><strong><strong>\u00a0Straightening machine\u00a0 and technical parameters</strong></strong></li>\n</ol>\n<p>2.1.Performance and characteristic</p>",
+    images: [],
   },
   {
     slug: "49-box-beam-build-up-line-gzj12",
-    title: "Box beam build up line GZJ12 for construction & bridge",
-    category: "h beam",
-    description: "Box beam build up line GZJ12 is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting machine ,groove milling ,",
-    images: [
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "49 Box Beam Build Up Line Gzj12",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>Box beam build up line GZJ12</em></strong></strong>\u00a0is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting machine ,groove milling , assembling baffle , assembling U-beam or box beam ,welding box beam ,chain manipulator, electro-slag welding, face milling etc.\u00a0\u00a0</p>",
+    images: [],
   },
   {
     slug: "50-box-welding-beam-build-up-line-ubz12",
-    title: "Box welding beam build up line UBZ12  for  construction & bridge",
-    category: "h beam",
-    description: "Box welding beam build up line is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting machine ,groove milling",
-    images: [
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "50 Box Welding Beam Build Up Line Ubz12",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"https://www.desanee.cn/s-Box%20beam%20build%20up%20line%20UBZ12?sort=6d\">Box welding beam build up line</a></em></strong></strong><a href=\"https://www.desanee.cn/s-Box%20beam%20build%20up%20line%20UBZ12?sort=6d\">\u00a0</a>is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting machine ,groove milling , assembling baffle , assembling U-beam or box beam ,welding box beam ,chain manipulator, electro-slag welding, face milling etc.\u00a0\u00a0</p>",
+    images: [],
   },
   {
     slug: "51-electro-slag-welding-machine-xd12",
-    title: "Electro-slag Welding machine XD12   for construction & bridge",
-    category: "h beam",
-    description: "Electro-slag Welding main for Box beam build up line is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting m",
-    images: [
-      {
-        url: "/images/hbeam/CNC-00.jpg",
-        alt: "CNC 00"
-      },
-      {
-        url: "/images/hbeam/cnc-01-1.jpg",
-        alt: "cnc 01 1"
-      },
-      {
-        url: "/images/hbeam/CNC-01.jpg",
-        alt: "CNC 01"
-      },
-      {
-        url: "/images/hbeam/CNC-02.jpg",
-        alt: "CNC 02"
-      },
-      {
-        url: "/images/hbeam/CNC-03.jpg",
-        alt: "CNC 03"
-      },
-      {
-        url: "/images/hbeam/CNC-04.jpg",
-        alt: "CNC 04"
-      },
-      {
-        url: "/images/hbeam/CNC-05.jpg",
-        alt: "CNC 05"
-      },
-      {
-        url: "/images/hbeam/h-1.png",
-        alt: "h 1"
-      },
-      {
-        url: "/images/hbeam/h-2.png",
-        alt: "h 2"
-      },
-      {
-        url: "/images/hbeam/hbeam-00.jpg",
-        alt: "hbeam 00"
-      },
-      {
-        url: "/images/hbeam/hbeam-01.jpg",
-        alt: "hbeam 01"
-      },
-      {
-        url: "/images/hbeam/hbeam-02.jpg",
-        alt: "hbeam 02"
-      }
-    ]
+    title: "51 Electro Slag Welding Machine Xd12",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em>Electro-slag Welding main for Box beam build up line</em></strong></strong><a href=\"https://www.desanee.cn/s-Box%20beam%20build%20up%20line%20UBZ12?sort=6d\">\u00a0</a>is widely used in bridge construction ,power station ,boiler making ,building,etc. providing with cutting machine ,groove milling , assembling baffle , assembling U-beam or box beam ,welding box beam ,chain manipulator, electro-slag welding, face milling etc.\u00a0\u00a0</p>",
+    images: [],
   },
   {
     slug: "52-solar-track-controller",
-    title: "Solar track controller for petrochemical machinery",
-    category: "automation",
+    title: "52 Solar Track Controller",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/automation/tcu-6.png",
-        alt: "tcu 6"
-      },
-      {
-        url: "/images/automation/tcu-5.png",
-        alt: "tcu 5"
-      },
-      {
-        url: "/images/automation/para.jpeg.jpg",
-        alt: "para.jpeg"
-      },
-      {
-        url: "/images/automation/tcu-1.png",
-        alt: "tcu 1"
-      },
-      {
-        url: "/images/automation/tcu-6.png",
-        alt: "tcu 6"
-      },
-      {
-        url: "/images/automation/tcu-5.png",
-        alt: "tcu 5"
-      },
-      {
-        url: "/images/automation/para.jpeg.jpg",
-        alt: "para.jpeg"
-      },
-      {
-        url: "/images/automation/tcu-1.png",
-        alt: "tcu 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "53-solar-contorller-system-and-solar-controller",
-    title: "Solar contorller system  and solar controller",
-    category: "automation",
-    description: "Solar controller also Photovoltaic power generation is based on the principle of photovoltaic effect, using solar cells to directly convert solar energy into el",
-    images: [
-      {
-        url: "/images/automation/图片1.png",
-        alt: "图片1"
-      },
-      {
-        url: "/images/automation/图片2.png",
-        alt: "图片2"
-      },
-      {
-        url: "/images/automation/图片1.png",
-        alt: "图片1"
-      },
-      {
-        url: "/images/automation/图片2.png",
-        alt: "图片2"
-      },
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "53 Solar Contorller System And Solar Controller",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0Solar controller also Photovoltaic power generation is based on the principle of photovoltaic effect, using solar cells to directly convert solar energy into electrical energy. Regardless of whether it is used independently or connected to the grid for power generation, photovoltaic power generation systems are mainly composed of solar panels (components), controllers and inverters. They are mainly composed of electronic components, but do not involve mechanical components.<br/>\u00a0 \u00a0 \u00a0Therefore, photovoltaic power generation equipment is extremely refined, reliable, stable, long-lived, and easy to install and maintain. In theory, photovoltaic power generation technology can be used in any occasion where power is needed, from spacecraft to household power sources, as large as megawatt power stations, as small as toys, and photovoltaic power sources can be ubiquitous.</p>\n<p><strong>1.\u00a0 <a href=\"welding-machine/automation\">Solar controller\u00a0</a></strong><br/><strong>Feature:</strong><br/>1. High cell efficiency with quality silicon materials for long term output stability and reliability.<br/>2. Strictly quality control ensure the stability and reliability, totally 23 testing procedure to do quality control<br/>3. High transmittance low iron tempered glass with enhanced stiffness and impact resistance<br/>4. \u00a0Solar controller Connector leads for easy plug and play use!</p>\n<p><strong>Solar controllerSpecification:</strong><br/>Type: 300W Solar Panel\u00a0 of solar controller<br/>Tolerance: +/-5%<br/>SLA Battery Voltage: 18V<br/>Type of Solar Cell: Monocrystalline\u00a0<br/>Open Circuit Voltage(Voc): 18V<br/>Maximum Ystem Voltage: 18V<br/>Temperate Coefficient of Isc: (010+/- 0.01 ) %/C<br/>Temperate Coefficient of Voc: - (0.38 +/-0.01 ) %/C<br/>Temperate Coefficient of Power Voc: -0.47%/C<br/>Temperature Range: -40 \u2103to +80 \u2103</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p>NO</p>\n</td>\n<td>\n<p>SIZE</p>\n</td>\n<td>\n<p>V/W</p>\n</td>\n<td>\n<p>VOLTAGE</p>\n</td>\n<td>\n<p>OP-V</p>\n</td>\n<td>\n<p>CURRENT</p>\n</td>\n<td>\n<p>SHORT CU.</p>\n</td>\n<td>\n<p>RE.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>335*175*2.5</p>\n</td>\n<td>\n<p>6V/10W</p>\n</td>\n<td>\n<p>6.0V</p>\n</td>\n<td>\n<p>7.2V</p>\n</td>\n<td>\n<p>1.67A</p>\n</td>\n<td>\n<p>1.83A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>380*190*2.5</p>\n</td>\n<td>\n<p>18V/10W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>0.56A</p>\n</td>\n<td>\n<p>0.62A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>380*335*2.5mm</p>\n</td>\n<td>\n<p>18V/18W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>1.0A</p>\n</td>\n<td>\n<p>1.1A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>350*340*2.5mm</p>\n</td>\n<td>\n<p>18V/20W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>1.11A</p>\n</td>\n<td>\n<p>1.22A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>620*270*2.5mm</p>\n</td>\n<td>\n<p>18V/25W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>1.11A</p>\n</td>\n<td>\n<p>1.22A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>540*340*2.5mm</p>\n</td>\n<td>\n<p>18V/30W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>1.67A</p>\n</td>\n<td>\n<p>1.83A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>545*535*2.5mm</p>\n</td>\n<td>\n<p>16V/45W</p>\n</td>\n<td>\n<p>16.0V</p>\n</td>\n<td>\n<p>19.5V</p>\n</td>\n<td>\n<p>2.81A</p>\n</td>\n<td>\n<p>3.1A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>1060*270*2.5mm</p>\n</td>\n<td>\n<p>16V/45W</p>\n</td>\n<td>\n<p>16.0V</p>\n</td>\n<td>\n<p>19.5V</p>\n</td>\n<td>\n<p>2.81A</p>\n</td>\n<td>\n<p>3.1A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>615*530*2.5mm</p>\n</td>\n<td>\n<p>18V/50W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>2.77A</p>\n</td>\n<td>\n<p>3.05A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>10</p>\n</td>\n<td>\n<p>695*500*2.5mm</p>\n</td>\n<td>\n<p>18V/60W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>3.34A</p>\n</td>\n<td>\n<p>3.67A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>11</p>\n</td>\n<td>\n<p>800*540*2.5mm</p>\n</td>\n<td>\n<p>18V/70W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>3.89A</p>\n</td>\n<td>\n<p>4.28A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>12</p>\n</td>\n<td>\n<p>1050*535*2.5mm</p>\n</td>\n<td>\n<p>16V/90W</p>\n</td>\n<td>\n<p>16.0V</p>\n</td>\n<td>\n<p>19.5V</p>\n</td>\n<td>\n<p>5.62A</p>\n</td>\n<td>\n<p>6.18A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>13</p>\n</td>\n<td>\n<p>995*500*2.5mm</p>\n</td>\n<td>\n<p>18V/100W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>5.55A</p>\n</td>\n<td>\n<p>6.11A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>14</p>\n</td>\n<td>\n<p>1175*535*2.5mm</p>\n</td>\n<td>\n<p>18V/100W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>5.56A</p>\n</td>\n<td>\n<p>6.11A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>15</p>\n</td>\n<td>\n<p>1330*500*2.5mm</p>\n</td>\n<td>\n<p>18V/125W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>6.94A</p>\n</td>\n<td>\n<p>7.63A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\n<p>16</p>\n</td>\n<td>\n<p>1480*670*2.5mm</p>\n</td>\n<td>\n<p>18V/190W</p>\n</td>\n<td>\n<p>18.0V</p>\n</td>\n<td>\n<p>21.6V</p>\n</td>\n<td>\n<p>10.55A</p>\n</td>\n<td>\n<p>11.6A</p>\n</td>\n<td>\u00a0</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n<tr>\n<td><img alt=\"solar controller\" class=\"float-none\" height=\"369\" src=\"images/DSPIC/solar/\u56fe\u72471.png\" width=\"309\"/></td>\n<td><img alt=\"solar controller\" class=\"float-none\" height=\"332\" src=\"images/DSPIC/solar/\u56fe\u72472.png\" width=\"310\"/></td>\n<td><img alt=\"solar controller\" class=\"float-none\" height=\"336\" src=\"images/DSPIC/solar/\u56fe\u72473.png\" width=\"298\"/></td>\n</tr>\n</tbody>\n</table>\n<p>2.\u00a0\u00a0</p>\n<p><strong>Solar Controller </strong><strong>\uff1a</strong></p>\n<p>Solar controller is a intelligent, multi-purpose solar charge and discharge controller. Fixed LCD display with a very friendly interface is used in this product; various control parameters can be flexibly set, fully meet your various application requirements.</p>\n<h2>Solar controlleris NEW<a href=\"http://www.desanee.cn\"> Solar Controller</a>, it can fully meet your home Photovoltaic system(including home lighting system)requirements.It can recongize 12V and 24V Lead acid,Gel battery automatically</h2>\n<p>Solar controller are optional 10A 20A 30A 40A 50A 60A model:</p>\n<p>\u00a0solar controller 10A:</p>\n<p>if your battery is 12V ,the max solar panel input is 25V\u00a0\u00a0120W</p>\n<p>if your battery is 24V ,the max solar panel input is 50V\u00a0\u00a0240W</p>\n<p>solar controller 20A:</p>\n<p>If your battery is 12V, the max solar panel input is 25V\u00a0\u00a0\u00a0240W</p>\n<p>if your battery is 24V, the max solar panel input is 50V\u00a0\u00a0\u00a0480W</p>\n<p>solar controller 30A</p>\n<p>if your battery is 12V ,the max solar panel input is 25V\u00a0\u00a0\u00a0360W</p>\n<p>if your battery is 24V ,the max solar panel input is 50V\u00a0\u00a0\u00a0720W</p>\n<p>solar controller 40A:</p>\n<p>if your battery is 12V ,the max solar panel input is 25V\u00a0\u00a0520W</p>\n<p>if your battery is 24V ,the max solar panel input is 50V\u00a0\u00a01040W</p>\n<p>50A:</p>\n<p>If your battery is 12V, the max solar panel input is 25V\u00a0\u00a0\u00a0650W</p>\n<p>if your battery is 24V, the max solar panel input is 50V\u00a0\u00a0\u00a01300W</p>\n<p>solar controller 60A</p>\n<p>if your battery is 12V ,the max solar panel input is 25V\u00a0\u00a0\u00a0780W</p>\n<p>if your battery is 24V ,the max solar panel input is 50V\u00a0\u00a0\u00a01560W</p>\n<p>Solar controllerPRODUCT FEATURES\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</p>\n<p>1.Build-in industrial micro controller.</p>\n<p>2.Big LCD display,all adjustable parameter.</p>\n<p>3.Fully 4-stage PWM charge management.</p>\n<p>4.Build-in short-circuit protection,open-circuit protection,reverse protection,over-load protection.</p>\n<p>5.Dual mosfet reverse current protection,low heat production.</p>\n<p>SYSTEM CONNECTION</p>\n<p>1.Connect the battery to the charge regulator - plus and minus.</p>\n<p>2.Connect the photovoltaic module to the regulator - plus and minus.</p>\n<p>3. Connect the consumer to the charge regulator - plus and minus.</p>\n<p>The reverse order applies when deinstalling!</p>\n<p>An improper sequence order can damage the controller!</p>\n<p>SPECIFICATON:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<p>MODEL</p>\n</td>\n<td>\n<p>10A</p>\n</td>\n<td>\n<p>20A</p>\n</td>\n<td>\n<p>30A</p>\n</td>\n<td>\n<p>40A</p>\n</td>\n<td>\n<p>50A</p>\n</td>\n<td>\n<p>60A</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Battery Voltage</p>\n</td>\n<td colspan=\"6\">\n<p>12V 24V Auto</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Charging Current</p>\n</td>\n<td>\n<p>10A</p>\n</td>\n<td>\n<p>20A</p>\n</td>\n<td>\n<p>30A</p>\n</td>\n<td>\n<p>40A</p>\n</td>\n<td>\n<p>50A</p>\n</td>\n<td>\n<p>60A</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Discharging Current</p>\n</td>\n<td>\n<p>10A</p>\n</td>\n<td>\n<p>10A</p>\n</td>\n<td>\n<p>10A</p>\n</td>\n<td>\n<p>20A</p>\n</td>\n<td>\n<p>30A</p>\n</td>\n<td>\n<p>30A</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Max Solar input</p>\n</td>\n<td colspan=\"6\">\n<p>48V(for 24V battery) 24V(for 12V battery)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Equalization</p>\n</td>\n<td colspan=\"6\">\n<p>14.4V(Sealed) 14.2V(Gel) 14.6V(Flood)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Float\u00a0charge</p>\n</td>\n<td colspan=\"6\">\n<p>13.7V(defaul,adjustable)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Discharge stop</p>\n</td>\n<td colspan=\"6\">\n<p>10.7V(defaul,adjustable)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Discharge reconnect</p>\n</td>\n<td colspan=\"6\">\n<p>12.6V(defaul,adjustable)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Charge reconnect</p>\n</td>\n<td colspan=\"6\">\n<p>13V</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Voltage of open light</p>\n</td>\n<td colspan=\"6\">\n<p>\u00a0 \u00a0 Solar Panel\u00a08V(Light lights delay)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Voltage of close light</p>\n</td>\n<td colspan=\"6\">\n<p>Solar Panel\u00a08V(Light off delay)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>USB output</p>\n</td>\n<td colspan=\"6\">\n<p>5V/3A</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Self-consume</p>\n</td>\n<td colspan=\"6\">\n<p>&lt;10mA</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Operating temperature</p>\n</td>\n<td colspan=\"6\">\n<p>-35\u00b0C~+60\u00b0C</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Size</p>\n</td>\n<td colspan=\"3\">\n<p>133.5*70*35mm</p>\n</td>\n<td colspan=\"3\">\n<p>188*90*47mm</p>\n</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n<tr>\n<td><img alt=\"solar controller\" class=\"float-none\" height=\"800\" src=\"images/DSPIC/solar/solar%20controller%20-1.jpg\" width=\"930\"/></td>\n<td><img alt=\"solar controller\" class=\"float-none\" height=\"1200\" src=\"images/DSPIC/solar/111.jpg\" width=\"1200\"/></td>\n</tr>\n<tr>\n<td><img alt=\"Solar controller\" class=\"float-none\" height=\"1000\" src=\"images/DSPIC/solar/solar%20panel%20flexible-1.jpg\" width=\"1000\"/></td>\n<td><img alt=\"Solar controller\" height=\"1000\" src=\"images/DSPIC/solar/solar%20panel%20flexible-4.jpg\" width=\"1000\"/></td>\n</tr>\n</tbody>\n</table>",
+    images: [],
   },
   {
     slug: "54-solar-contorl-system",
-    title: "Solar contorl system for petrochemical machinery engineering machinery",
-    category: "automation",
-    description: "Solar contorl system --- Photovoltaic power generation is based on the principle of photovoltaic effect, using solar cells to directly convert solar energy into",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "54 Solar Contorl System",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0 Solar contorl system --- Photovoltaic power generation is based on the principle of photovoltaic effect, using solar cells to directly convert solar energy into electrical energy. Regardless of whether it is used independently or connected to the grid for power generation, photovoltaic power generation systems are mainly composed of solar panels (components), controllers and inverters. They are mainly composed of electronic components, but do not involve mechanical components.<br/>Therefore, photovoltaic power generation equipment is extremely refined, reliable, stable, long-lived, and easy to install and maintain. In theory, photovoltaic power generation technology can be used in any occasion where power is needed, from spacecraft to household power sources, as large as megawatt power stations, as small as toys, and photovoltaic power sources can be ubiquitous.</p>\n<p><img alt=\"solar contorl system\" height=\"1348\" src=\"images/DSPIC/solar/inverter-1.jpg\" width=\"950\"/></p>\n<p>Delivery method<br/>\u00a0 \u00a0 Solar photovoltaic power generation is divided into independent photovoltaic power generation, grid-connected photovoltaic power generation, and distributed photovoltaic power generation\u00a0 ,\u00a0 solar contorl system\u00a0 has all kinds of type.<br/>\u00a0 \u00a0 Independent photovoltaic power generation<br/>\u00a0 \u00a0Independent photovoltaic power generation system is also called off-grid photovoltaic power generation system. It is mainly composed of solar cell components, controllers, and storage batteries. If you want to supply power to AC loads, you also need to configure an AC inverter.<br/>\u00a0 \u00a0 Grid-connected photovoltaic power generation<br/>\u00a0 \u00a0 Grid-connected photovoltaic power generation system means that the direct current generated by solar modules is converted into alternating current that meets the requirements of the mains power grid by a grid-connected inverter and then directly connected to the public grid. Grid-connected photovoltaic power generation systems have centralized large-scale grid-connected photovoltaic power stations, which are generally national-level power stations. The main feature is that the generated energy is directly transmitted to the grid, and the grid is uniformly deployed to supply power to users. However, this kind of power station has a large investment, a long construction period, and a large area, and its development is relatively difficult. However, distributed small grid-connected photovoltaic systems, especially photovoltaic building integrated power generation systems, are the mainstream of grid-connected photovoltaic power generation due to the advantages of small investment, fast construction, small footprint, and large policy support.<br/>\u00a0 \u00a0 Distributed photovoltaic power generation\u00a0<br/>\u00a0 \u00a0 Distributed photovoltaic power generation system, also known as distributed power generation or distributed energy supply, refers to the configuration of a smaller photovoltaic power supply system at the user site or close to the power site to meet the needs of specific users and support the economics of the existing power distribution network Run, or meet the requirements of these two aspects at the same time.\u00a0</p>",
+    images: [],
   },
   {
     slug: "55-diesel-engines-hydraulic-starter",
-    title: "Diesel engines hydraulic starter FOR engineering machinery",
-    category: "automation",
-    description: "Diesel engines hydraulic starter FOR engineering machinery,",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "55 Diesel Engines Hydraulic Starter",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0Diesel engines hydraulic starter FOR engineering machinery,</p>\n<p>\u00a0 \u00a0<img alt=\"engines hydraulic starter \" height=\"506\" src=\"images/DSPIC/cranking_motor/crank-moto-1-1000.JPG\" width=\"899\"/></p>\n<p>\u00a0 \u00a0 \u00a0 \u00a0HPHEN hydraulic starters produce higher torque and acceleration, resulting in faster and more reliable engine starts. HYPHEN hydraulic starting systems can overcome \"black start\" conditions using our hand pump to maintain critical operations during emergency situations. Contact us to request data or specifications for any model and prepare yourself to go further, longer, and faster with hydraulic starters <em>.\u00a0 \u00a0</em></p>",
+    images: [],
   },
   {
     slug: "56-hardfacing-machine",
-    title: "H frame M/C",
-    category: "automation",
-    description: "Hardfacing machine for Steel and General Maintenance Workshops",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "56 Hardfacing Machine",
+    category: "Uncategorised",
+    description: "",
+    body: "<h3>Hardfacing machine for Steel and General Maintenance Workshops</h3>\n<p>\u00a0H-Frame hardfacing machine machine is a flexible, cost-effective weld surfacing machine with a quick return on investment. It can be used in many applications: flat welding, roller welding, spiral welding and welding with several welding heads at the same time. It is available in various sizes, allowing it to be customised to the needs of the workshop.</p>\n<p>\u00a0 \u00a0<img alt=\"hardfacing machine\" height=\"349\" src=\"images/DSPIC/hframe-large.jpg\" width=\"466\"/></p>\n<p>\u00a0 \u00a0Desan AUTO control system is installed for all of the H-Frame machines, either in the Touch or Pendant configuration. The control system is designed for fast and easy weld set-up of different components, while maintaining precise control of the whole welding process.</p>\n<h2><a href=\"welding-machine/automation\">H ardfacing machine </a>Characteristics</h2>\n<ul>\n<li>D3 touch system</li>\n<li>Five easily adaptable options</li>\n<li>Multiple weld pattern: oscillating beads, stringer beads, square waves, chevron shape and spiral welding</li>\n</ul>\n<h3><a href=\"http://www.desanee.cn\">\u00a0hardfacing machine</a> Benefits</h3>\n<ul>\n<li>Repeatable programming</li>\n<li>High quality weld deposits</li>\n<li>High productivity in manufacturing</li>\n<li>Adaptable to any workshop size</li>\n</ul>",
+    images: [],
   },
   {
     slug: "57-3d-laser-weld-tracking-sensors-for-tig-plasma-mig-welding",
-    title: "3D Laser Weld Tracking Sensors for TIG Plasma MIG Welding",
-    category: "automation",
+    title: "57 3D Laser Weld Tracking Sensors For Tig Plasma Mig Welding",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/automation/LASER-00-06.jpg",
-        alt: "LASER 00 06"
-      },
-      {
-        url: "/images/automation/LASER-00-00.jpg",
-        alt: "LASER 00 00"
-      },
-      {
-        url: "/images/automation/LASER-00-03.jpg",
-        alt: "LASER 00 03"
-      },
-      {
-        url: "/images/automation/LASER-00-01.jpg",
-        alt: "LASER 00 01"
-      },
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "58-electrode-submerged-arc-surfacing-and-electrode-electroslag-surfacing",
-    title: "Electrode submerged arc surfacing and electrode electroslag surfacing",
-    category: "automation",
-    description: "1. Preface of electrode electroslag surfacing:",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "58 Electrode Submerged Arc Surfacing And Electrode Electroslag Surfacing",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>1. Preface of electrode electroslag surfacing:</p>\n<p>The inner surfaces of reactors, reactors and thick-wall pressure vessels of nuclear power plants in the\u00a0<a href=\"welding-applications/construction\" rel=\"noopener\" target=\"_blank\">petrochemical industry</a>\u00a0require large area surfacing welding of stainless steel linings that are resistant to high temperature, oxygen and hydrogen sulfide corrosion. In the 1970s, in this field, a large number of domestic and foreign use of electrode submerged arc surfacing (SAW) technology. The width of the band pole is also developed from narrow band to 60mm, 90mom, 120mm, 150mm broadband direction. This technology has made great progress in dilution rate and deposition speed compared with submerged wire arc welding.</p>\n<p>However, with the increasing size and high parameterization of pressure vessels, surfacing welding technology has been developed in a higher quality and more efficient direction. electrode electroslag surfacing ,Electroslag surfacing technology with electrode has been developed rapidly and widely in recent years because of its advantages of higher production efficiency, lower dilution rate and good weld formation than that of submerged arc with electrode.</p>",
+    images: [],
   },
   {
     slug: "59-welding-camera-apply-in-tig-plasma-welding-and-lcd-camera-monitor-for-welding",
-    title: "Welding Camera Apply in TIG Plasma Welding and Monitor for Welding",
-    category: "automation",
+    title: "59 Welding Camera Apply In Tig Plasma Welding And Lcd Camera Monitor For Welding",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/automation/图片1.png",
-        alt: "图片1"
-      },
-      {
-        url: "/images/automation/图片2.png",
-        alt: "图片2"
-      },
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "60-oem-waterproof-electric-control-box-metal-enclosures-cabinets-outdoor",
-    title: "OEM Waterproof Electric Control Box Metal Enclosures Cabinets Outdoor",
-    category: "automation",
-    description: "OEM Waterproof Electric Control Box Metal Enclosures Cabinets Outdoor  In order to ensure that electrical equipment supplied to USER conforms to DESAN's standar",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    title: "60 Oem Waterproof Electric Control Box Metal Enclosures Cabinets Outdoor",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><em>OEM Waterproof Electric Control Box Metal Enclosures Cabinets Outdoor \u00a0</em></strong>In order to ensure that electrical equipment supplied to USER conforms to DESAN's standards,\u00a0 required to meet the following requirements.<br/><br/>1.</p>\n<h2>2\u00a0\u00a0\u00a0\u00a0\u00a0 STANDARD SPECIFICATION AND LOCAL REGULATIONS</h2>\n<h2><br/>2.1\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Equipment Standards</u><br/><br/>All materials and work shall comply with, and all equipment shall be designed, manufactured and tested, in accordance with the relevant Australian Standard Specifications or Codes of Practice, together with any amendments or other Regulations required by the Federal, State\u00a0 or Local Authorities. Electric Control Box :Applicable standards include but are not limited to<br/>\u00a0</h2>\n<div class=\"cke_widget_wrapper cke_widget_block cke_widget_selected\" contenteditable=\"false\" data-cke-display-name=\"mictable\" data-cke-filter=\"off\" data-cke-widget-id=\"1\" data-cke-widget-wrapper=\"1\" tabindex=\"-1\">\n<table class=\"cke_widget_element\" data-cke-widget-data=\"%7B%22classes%22%3Anull%7D\" data-cke-widget-keep-attr=\"0\" data-cke-widget-upcasted=\"1\" data-widget=\"micTable\">\n<tbody class=\"cke_widget_editable\" contenteditable=\"true\" data-cke-enter-mode=\"2\" data-cke-widget-editable=\"tbody\">\n<tr>\n<td>AS1359</td>\n<td>Rotating Electrical Machines </td>\n</tr>\n<tr>\n<td>AS/NZS 2344</td>\n<td>Limits of electromagnetic interference</td>\n</tr>\n<tr>\n<td>AS2374</td>\n<td>Power Transformers</td>\n</tr>\n<tr>\n<td>AS 2381</td>\n<td>Electrical equipment for explosive atmospheres</td>\n</tr>\n<tr>\n<td>AS/NZS 3000</td>\n<td>SAA Wiring Rules</td>\n</tr>\n<tr>\n<td>AS/NZS 3008</td>\n<td>Electrical installations - Selection of cables</td>\n</tr>\n<tr>\n<td>AS 4024</td>\n<td>Safe Guarding of Machinery </td>\n</tr>\n<tr>\n<td>AS 60038</td>\n<td>Standard voltages</td>\n</tr>\n<tr>\n<td>AS/NZS 60079</td>\n<td>Electrical apparatus for explosive gas atmospheres</td>\n</tr>\n<tr>\n<td>AS 60204.1</td>\n<td>Safety of machinery - Electrical equipment of machines - General requirements\u00a0 </td>\n</tr>\n<tr>\n<td>AS 60204.11</td>\n<td>Safety of machinery - Electrical equipment of machines - Requirements for HV equipment for voltages above 1000 V a.c. or 1500 V d.c and not exceeding 36 kV\u00a0 </td>\n</tr>\n<tr>\n<td>AS/NZS 61000.3.6</td>\n<td>Electromagnetic compatibility (EMC) Limits - Assessment of emission limits for distorting loads in MV and HV power systems</td>\n</tr>\n<tr>\n<td>AS/NZS 61000.3.7</td>\n<td>Electromagnetic compatibility (EMC) Limits - Assessment of emission limits for fluctuation loads in MV and HV power systems</td>\n</tr>\n<tr>\n<td>AS 61508</td>\n<td>Functional safety of electrical/electronic/programmable electronic safety-related systems</td>\n</tr>\n<tr>\n<td>AS 61800</td>\n<td>Adjustable speed electrical power drive systems</td>\n</tr>\n<tr>\n<td>AS 62061</td>\n<td>Safety of machinery - Functional safety of safety-related electrical, electronic and programmable electronic control systems\u00a0 </td>\n</tr>\n<tr>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>\u00a0</td>\n<td>Western Power Corporation Technical Rules</td>\n</tr>\n</tbody>\n</table>\n<img class=\"cke_reset cke_widget_close_handler\" data-cke-widget-drag-handler=\"1\" height=\"25\" src=\"blob:https://desanee.com/5e36d1b1-b1eb-4047-abf2-3552c681d514\" title=\"\u5220\u9664\" width=\"25\"/><img class=\"cke_reset cke_widget_focus_handler\" data-cke-widget-focus-handler=\"1\" height=\"25\" src=\"blob:https://desanee.com/5e36d1b1-b1eb-4047-abf2-3552c681d514\" title=\"\u5168\u9009\" width=\"25\"/></div>\n<p><img alt=\"Electric Control Box\" height=\"495\" src=\"//images.51microshop.com/16116/product/detail/20240405/1712298015740_0.jpg\" title=\"Electric Control Box\" width=\"959\"/><br/></p>\n<p>\u00a0<br/><img alt=\"\" class=\"cke_widget_element\" data-cke-saved-src=\"image?tid=25&amp;id=wEgkeYtlYAbT&amp;cache=0&amp;lan_code=0\" data-cke-widget-data=\"%7B%22hasCaption%22%3Afalse%2C%22src%22%3A%22image%3Ftid%3D25%26id%3DwEgkeYtlYAbT%26cache%3D0%26lan_code%3D0%22%2C%22alt%22%3A%22%22%2C%22width%22%3A%22%22%2C%22height%22%3A%22%22%2C%22lock%22%3Atrue%2C%22align%22%3A%22none%22%2C%22classes%22%3Anull%7D\" data-cke-widget-keep-attr=\"0\" data-cke-widget-upcasted=\"1\" data-widget=\"image\" src=\"image?tid=25&amp;id=wEgkeYtlYAbT&amp;cache=0&amp;lan_code=0\"/>\u200b<br/><br/>2.2\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Supply System</u><br/><br/><strong><em><a href=\"welding-machine/automation\">Electric Control Box </a></em></strong>\u00a0,its Standard Power Supply System shall be 400V, 3 phase and neutral plus earth, 50 hertz and 230 volts, single phase and neutral plus earth, 50 hertz as per AS60038-2000.\u00a0 Unless otherwise specified in project documentation all LV equipment supplied will be suitable for connection to this voltage. High voltage supply levels shall be approved in writing by Bradken prior to Supplier committing equipment.<br/><br/>2.3\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Enclosures</u><br/><br/>All enclosures shall be industrial dustproof, fully protected indoor/outdoor, weatherproof, tropicproof, flameproof, or increased safety etc. as required by the particular hazardous area classification into which the equipment is to be installed.<br/><br/>Indoor enclosures situated in Control Rooms shall have a minimum degree of protection IP54.\u00a0 Enclosures located outdoor or in plant areas shall have a minimum degree of protection IP56.<br/><br/>2.4\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <a href=\"welding-machine/automation\"><u>Control Voltages</u></a><br/>The preferred Control Voltage shall be 24V DC.</p>\n<ol>\n<li>\n<ol>\n<li>\n<ol>\n<li>Circuits shall be fail safe i.e. de-energised to trip.</li>\n<li>Alarm initiating contacts shall be normally closed and energised open under 'non' alarm conditions.</li>\n<li>Indication lamps shall be\u00a0 extra low voltage\u00a0 High intensity LED</li>\n<li>Preferred Current Transformer secondary rated current shall be 1 amp except for specialised applications requiring other values.</li>\n</ol>\n</li>\n</ol>\n</li>\n</ol>\n<h2>3\u00a0\u00a0\u00a0\u00a0\u00a0 SWITCHBOARDS AND DISTRIBUTION BOARDS</h2>\n<h2><br/>In general, Electric Control Box\u00a0 switchboards and distribution boards are to be provided in accordance with relevant sections of AS 60204- Safety of machinery - Electrical equipment of machines, except where the following requirements are more stringent.<br/>\u00a0<br/>3.1\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Switchboards</u><br/><br/>All switchboards shall be free standing, metal clad, dust proof enclosures with front access only. LV switchboards to be of Form 3b condtuction - segregation of busbars, incomer unit and functional units.<br/><br/>Main switchboards shall be fitted with a suitably rated incoming circuit breaker fitted with electronic overload and earth leakage protection. Undervoltage trip shall also be included if warranted by load types.<br/><br/>A single voltmeter switched between phases and phase to neutral together with three ammeters fitted with maximum demand indicators plus a power factor and kilowatt hour meter shall be fitted to all main switchboards. Alternatively a single digital meter providing these functions such as an Allen Bradley Powermonitor is acceptable.\u00a0 A lockable hinged panel shall be provided for the mounting of the above instruments.\u00a0 Where applicable a C/T chamber to comply with the local supply authorities requirements shall be provided.<br/><br/>Nilsen or GEC combined fuse switch units shall be used for all subcircuit supplies as a minimum. Suitably fault-rated moulded case circuit breakers are acceptable where more procise protection is required. <br/><br/>A spacious outgoing cable compartment fitted with a neutral bar with adequate take offs and earth bar shall be provided.<br/><br/>3.2\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Distribution Boards</u><br/><br/>3.2.1\u00a0\u00a0\u00a0\u00a0 All distribution boards shall be metal clad and suitable either for wall mounting or floor mounting depending on size. Wall mounted panels shall be positioned such that the top of the panel is 2 metres above floor level.\u00a0 Boards shall have a lockable handle. Boards shall be fitted with hinged internal escutcheon with fixing tool access.<br/>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 3.2.2\u00a0\u00a0\u00a0\u00a0 Top entries shall not be made to outdoor distribution boards, and where possible, all entries shall be from below.<br/>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 3.2.3\u00a0\u00a0\u00a0\u00a0 Each board shall be labelled with the appropriate board designation as per single line diagram.<br/>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 3.2.4\u00a0\u00a0\u00a0\u00a0 Distribution boards shall be fitted with circuit breakers of relevant fault level. Where miniature circuit breakers are installed they shall be equal to SAFE-T or better. Individual circuit breakers are to be lockable in the off position.</h2>\n<ol>\n<li>\n<ol>\n<li>\n<ol>\n<li>Each board shall be complete with a suitably rated isolating switch, together with the required number of ways plus 20% spare spaces.\u00a0 Isolating switches to be interlocked to the escutcheon so as to allow the escutcheon to be opened only in the \"Off\" position or by use of a tool. Isolating switch to be lockable in the off position.</li>\n<li>Opening of door shall not expose live parts.</li>\n<li>All busbars shall be P.V.C. coated in appropriate phase colours, black for neutral. The neutral bar shall be insulated from earth.</li>\n<li>All single phase GPO circuits shall be protected by means of a core-balance earth leakage circuit breaker.</li>\n<li>All distribution boards shall be fitted with a maximum demand indication ammeter fitted to B Phase.</li>\n<li>Each board shall be provided with a fully documented, non-deteriorating legend, mounted inside the door.</li>\n<li>No earth - neutral connections shall be made at distribution boards.</li>\n<li>Doors and escutcheons, fitted with instruments and electrical devices, shall be connected to the main case or cubicle with a 4mm<sup>2 </sup>minimum sized flexible earthing bond conductor.</li>\n</ol>\n</li>\n</ol>\n</li>\n</ol>\n<p><br/>3.3\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 <u>Motor Starter Panels</u><br/><br/>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Where a group of motors are part of a single machine or plant the motor starters shall be enclosed in a single motor control centre. The MCC is to be of Form 3b segregation. <br/><br/>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 if\u00a0<strong><em><a href=\"welding-machine/automation\">Electric Control Box </a>,</em></strong>\u00a0Motors rated below 30KW shall in general be started DOL. 30KW and above the motor starters will be selected to suit the particular application.<br/><br/></p>",
+    images: [],
   },
   {
     slug: "61-sheet-metal-fabrication-and-sheet-metal-box",
-    title: "Sheet Metal Fabrication and Sheet Metal Box of  Box Fabrication",
-    category: "automation",
+    title: "61 Sheet Metal Fabrication And Sheet Metal Box",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/automation/arc/AVC-1.jpg",
-        alt: "AVC 1"
-      },
-      {
-        url: "/images/automation/arc/AVC-10.1.jpg",
-        alt: "AVC 10.1"
-      },
-      {
-        url: "/images/automation/arc/AVC-2.jpg",
-        alt: "AVC 2"
-      },
-      {
-        url: "/images/automation/arc/AVC-3.jpg",
-        alt: "AVC 3"
-      },
-      {
-        url: "/images/automation/arc/AVC-4.jpg",
-        alt: "AVC 4"
-      },
-      {
-        url: "/images/automation/arc/AVC-5.jpg",
-        alt: "AVC 5"
-      },
-      {
-        url: "/images/automation/arc/AVC-6.jpg",
-        alt: "AVC 6"
-      },
-      {
-        url: "/images/automation/arc/AVC-7.jpg",
-        alt: "AVC 7"
-      },
-      {
-        url: "/images/automation/arc/AVC-8.jpg",
-        alt: "AVC 8"
-      },
-      {
-        url: "/images/automation/arc/AVC-9.jpg",
-        alt: "AVC 9"
-      },
-      {
-        url: "/images/automation/arc/IMG_9238(20230211-091237).JPG",
-        alt: "IMG 9238(20230211 091237)"
-      },
-      {
-        url: "/images/automation/arc/IMG_9239(20230211-091239).JPG",
-        alt: "IMG 9239(20230211 091239)"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "62-truck-tailgate-lift-scissor-lift-power-pack",
-    title: "Truck tailgate lift, scissor lift POWER PACK",
-    category: "hydraulic",
-    description: "POWER PACK Features &amp; Details",
-    images: ""
+    title: "62 Truck Tailgate Lift Scissor Lift Power Pack",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>POWER PACK Features &amp; Details</p>\n<ul>\n<li>\u3010HYDRULIC PUMP DOUBLE ACTING \u3011- This electric hydraulic pump is the perfect replacement pump for 12V DC remotely controlled hydraulic systems. Adopted durable materials, the hydraulic pump can resist corrosion and weariness, with high strength and hardness, to ensure its longer lifespans.</li>\n<li>\u3010POWER UNIT SPECIFICATIONS\u3011- The pump power unit kit features double-acting actions, 6/10/12-quart metal cylinder reservoir; standard duty 12V DC motor; SAE # 6 Port Connector; 3200 PSI Max relief setting on A port and 1500 PS Max on B port; 15ft remote pendant for long-distance control.</li>\n<li>\u3010QUICK LIFTING &amp; LOWERING\u3011- The hydraulic dump kits are built to start quickly and reliably. The positive and negative ports need to connect with the battery correctly to delivers quick oil output. With double actions to lifting-up and lowering-down, it tackles massive works with high efficiency.</li>\n<li>\u301015FT CONTROLLER EASY TO USE\u3011- This dump trailer hydraulic pump is equipped with a 6/10/12qt metal tank, solid enough to use in different hydraulic sites, mounted both in vertical/ horizontal. We offer two additional SAE#6 connectors for your replacement. The 15ft up-down control pendant can be used for a long distance.</li>\n<li>\u3010WIDE RANGE APPLICATION\u3011- These reliable hydraulic powerlifting kits are used in applications where extending a hydraulic cylinder is needed. It suits truck tailgate lift, scissor lift, dump trailer, lifts truck, snowplow, aerial platform, road signs, material handling, wheelchair lifts, etc.</li>\n</ul>",
+    images: [],
   },
   {
     slug: "63-hydraulic-power-pack",
-    title: "Hydraulic power pack for   petrochemical machinery, engineering",
-    category: "hydraulic",
-    description: "Hydraulic power pack  units are produced in close cooperation with customers. Technical and commercial very well educated personal in marketing process continua",
-    images: ""
+    title: "63 Hydraulic Power Pack",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong>\u00a0 \u00a0 \u00a0 Hydraulic power pack\u00a0</strong> units are produced in close cooperation with customers. Technical and commercial very well educated personal in marketing process continually search for needs and wishes of our customers and their problems from the field of hydraulics. Hyphen Hydraulics offers to our customers<br/>knowledge, abilities and experiences for solving such problems.Hyphen Hydraulics\u2019 engineering knowledge is core competence of projecting processes. In this process our engineers design <strong>Hydraulic power pack\u00a0</strong> according to customer demand, all necessary documentation is\u00a0prepared and risks and production capabilities are assessed and the whole\u00a0project is prepared for execution.<br/>\u00a0 \u00a0In sales process the customer gets a complete offer.\u00a0The whole process\u00a0of following the execution of customer\u2019s order is followed by business\u00a0information power unit.<br/>\u00a0 \u00a0In order to delivery process the hydraulic power unit is produced, tested,\u00a0adjusted and prepared for transport on the basis of technical documentation.\u00a0Hyphen Hydraulics pays a great attention to quality, design, safety and\u00a0environmental influences.<br/>\u00a0 \u00a0Hyphen Hydraulics also respect the guidelines of functionality in design and production, which enable simple operation and maintenance of hydraulic power Pack unit.</p>",
+    images: [],
   },
   {
     slug: "64-hydraulic-cylinder",
-    title: "Hydraulic cylinder for  petrochemical machinery, engineering machinery",
-    category: "hydraulic",
-    description: "Hydraulic Cylinders are an essential part in hydraulic systems. A hydraulic cylinder is a hydro-mechanical component that extends and retracts, providing a line",
-    images: ""
+    title: "64 Hydraulic Cylinder",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong>Hydraulic Cylinders </strong>are an essential part in hydraulic systems. A hydraulic cylinder is a hydro-mechanical component that extends and retracts, providing a linear force (thrust) on the rod. They are what power arms in most machines and mobile equipment in a unidirectional stroke to move or lift something that requires a great deal of force. They are used in a wide range of industrial and mobile applications.</p>",
+    images: [],
   },
   {
     slug: "65-beam-face-milling-machine",
-    title: "Beam Face Milling Machine  for in petrochemical machinery",
-    category: "beveling",
+    title: "65 Beam Face Milling Machine",
+    category: "Uncategorised",
     description: "",
-    images: [
-      {
-        url: "/images/xbj/dx-00.jpg",
-        alt: "dx 00"
-      },
-      {
-        url: "/images/xbj/dx-01.jpg",
-        alt: "dx 01"
-      },
-      {
-        url: "/images/xbj/dx-02.jpg",
-        alt: "dx 02"
-      },
-      {
-        url: "/images/xbj/dx-03.jpg",
-        alt: "dx 03"
-      },
-      {
-        url: "/images/xbj/dx-04.jpg",
-        alt: "dx 04"
-      },
-      {
-        url: "/images/xbj/dx-05.jpg",
-        alt: "dx 05"
-      },
-      {
-        url: "/images/xbj/dx-06.jpg",
-        alt: "dx 06"
-      },
-      {
-        url: "/images/xbj/GD20-2.jpg",
-        alt: "GD20 2"
-      },
-      {
-        url: "/images/xbj/GD20.jpg",
-        alt: "GD20"
-      },
-      {
-        url: "/images/xbj/IMG_0291.jpg",
-        alt: "IMG 0291"
-      },
-      {
-        url: "/images/xbj/IMG_1573.jpg",
-        alt: "IMG 1573"
-      },
-      {
-        url: "/images/xbj/IMG_2041.jpg",
-        alt: "IMG 2041"
-      }
-    ]
+    body: "",
+    images: [],
   },
   {
     slug: "66-beveling-machine-groove",
-    title: "Beveling machine groove Pipe groove processing PBM4 for plate welding",
-    category: "beveling",
-    description: "Beveling machine groove  &amp; Pipe groove processing PBM4 is suitable for such making , pipeline installation unit's use of pipe fittings in the trade as the h",
-    images: [
-      {
-        url: "/images/xbj/xbj-03.jpg",
-        alt: "xbj 03"
-      },
-      {
-        url: "/images/xbj/dx-00.jpg",
-        alt: "dx 00"
-      },
-      {
-        url: "/images/xbj/dx-01.jpg",
-        alt: "dx 01"
-      },
-      {
-        url: "/images/xbj/dx-02.jpg",
-        alt: "dx 02"
-      },
-      {
-        url: "/images/xbj/dx-03.jpg",
-        alt: "dx 03"
-      },
-      {
-        url: "/images/xbj/dx-04.jpg",
-        alt: "dx 04"
-      },
-      {
-        url: "/images/xbj/dx-05.jpg",
-        alt: "dx 05"
-      },
-      {
-        url: "/images/xbj/dx-06.jpg",
-        alt: "dx 06"
-      },
-      {
-        url: "/images/xbj/GD20-2.jpg",
-        alt: "GD20 2"
-      },
-      {
-        url: "/images/xbj/GD20.jpg",
-        alt: "GD20"
-      },
-      {
-        url: "/images/xbj/IMG_0291.jpg",
-        alt: "IMG 0291"
-      },
-      {
-        url: "/images/xbj/IMG_1573.jpg",
-        alt: "IMG 1573"
-      },
-      {
-        url: "/images/xbj/IMG_2041.jpg",
-        alt: "IMG 2041"
-      }
-    ]
+    title: "66 Beveling Machine Groove",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/beveling-m-c\">Beveling machine groove\u00a0 &amp; Pipe groove processing PBM4</a></em></strong></strong><strong><strong><em><a href=\"https://www.desanee.cn/s-Pipe%20groove%20processing%20PBM4?sort=6d\">\u00a0</a></em></strong></strong>is suitable for such making , pipeline installation unit's use of pipe fittings in the trade as the hydropower station , petroleum , chemical industry , shipbuilding ,etc.; It is pipe fittings making and pipeline that is it weld head tube end slope key equipment that bevelling processed to construct.\u00a0</p>\n<p><img alt=\"beveling machine groove\" height=\"625\" src=\"/images/instead%20of/PBM-1.png\" title=\"beveling machine groove\" width=\"1382\"/><br/>\u3000\u3000This grade of bed can compound different jigs , \u00a0Beveling machine groove can process \u03c6 400 - straight tubes and \u03c6 400 - the curved and first class tube end slope bevelling of \u03c6 820 to \u03c61020 ; On cutter fix one angle tool holder can process the middle higher press pipe which thick to greater than 14 mm. floating tool holder can bevel the pipe which thickness is less 16mm and has 5mm out of shape, Angle knife rest regulate after the position cutting processing according to different pipe diameter by differential organization transmission; Clamping the device adopts the structure of the platform and flexibility to clamp and can expand the range of processing and reduce the pipe fittings out of shape ; Pipe fittings is it adopt power head about move and jig platform electronic method to go up and down up and down by hand to let; Electric to adopt at operating case is it operate lathe every movement to concentrate onning, convenient and reliable.<br/>\u3000\u3000Beveling machine groove --Lathe this make up by power head , tool holder , machine tool body, clamping device , electric control system ,etc. five major parts ,</p>",
+    images: [],
   },
   {
     slug: "67-plate-milling-machine-xbj12",
-    title: "Plate milling machine for petrochemical and engineering machinery",
-    category: "beveling",
-    description: "Plate milling machine  is advanced milling equipment that use milling instead of planning, processing beveling before welding. The machine is made according to ",
-    images: [
-      {
-        url: "/images/xbj/IMG_2041.jpg",
-        alt: "IMG 2041"
-      },
-      {
-        url: "/images/xbj/dx-00.jpg",
-        alt: "dx 00"
-      },
-      {
-        url: "/images/xbj/dx-01.jpg",
-        alt: "dx 01"
-      },
-      {
-        url: "/images/xbj/dx-02.jpg",
-        alt: "dx 02"
-      },
-      {
-        url: "/images/xbj/dx-03.jpg",
-        alt: "dx 03"
-      },
-      {
-        url: "/images/xbj/dx-04.jpg",
-        alt: "dx 04"
-      },
-      {
-        url: "/images/xbj/dx-05.jpg",
-        alt: "dx 05"
-      },
-      {
-        url: "/images/xbj/dx-06.jpg",
-        alt: "dx 06"
-      },
-      {
-        url: "/images/xbj/GD20-2.jpg",
-        alt: "GD20 2"
-      },
-      {
-        url: "/images/xbj/GD20.jpg",
-        alt: "GD20"
-      },
-      {
-        url: "/images/xbj/IMG_0291.jpg",
-        alt: "IMG 0291"
-      },
-      {
-        url: "/images/xbj/IMG_1573.jpg",
-        alt: "IMG 1573"
-      }
-    ]
+    title: "67 Plate Milling Machine Xbj12",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>\u00a0 \u00a0 \u00a0Plate milling machine\u00a0 is advanced milling equipment that use milling instead of planning, processing beveling before welding. The machine is made according to similar product domestic and abroad. For planning machine, milling machine can save sources, low invest, high surface roughness. It is necessary for pressure cylinder, shipbuilding, power, chemical and steel structure that realize automatic welding.</p>\n<p>\u00a0 \u00a0 \u00a0Compared with the traditional edge milling machines,<strong><strong>\u00a0<em><a href=\"https://www.desanee.cn/s-Plate%20milling%20machine%20XBJ12?sort=6d\">Plate milling machine XBJ12</a></em></strong></strong>\u00a0series is mountable in their tracks, more rational in structure by heat-treatment of the bench, more reliable and stable in the milling &amp; turning head\u2019s running. The feed and feed-back systems are fully independent respectively. The feed-back is quick and is highly efficient. The angle of the milling tool\u2019s tray is convenient in adjustment, and the custom-built tool rest and the normal tool rest can be inter-converted. They are the updated products of the traditional edge milling machine.</p>\n<ul>\n<li>Milling travel unit of Machine can lift automatically and travel by hand, and adjust milling head angle by hand. So the work piece edge and bevel can be setted freely. Mill speed control adopts frequency conversion speed control, which satisfied with any speed milling and fast return.</li>\n</ul>\n<ul>\n<li>The machine adopts famous brand milling head and facer\uff0cgear reducer bring along main shaft rotating, the rotating speed can be adjusted by exchange gear, the range of rotating speed is 75-420rpm. Milling head angle can be adjusted stepless by hand.</li>\n</ul>",
+    images: [],
   },
   {
     slug: "68-gd20-rolling-cutting-beveling-machine",
-    title: "GD20 rolling cutting beveling machine for plate weld",
-    category: "beveling",
-    description: "1) Overview of beveling machine",
-    images: [
-      {
-        url: "/images/xbj/GD20-2.jpg",
-        alt: "GD20 2"
-      },
-      {
-        url: "/images/xbj/table-1.jpg",
-        alt: "table 1"
-      },
-      {
-        url: "/images/xbj/dx-00.jpg",
-        alt: "dx 00"
-      },
-      {
-        url: "/images/xbj/dx-01.jpg",
-        alt: "dx 01"
-      },
-      {
-        url: "/images/xbj/dx-02.jpg",
-        alt: "dx 02"
-      },
-      {
-        url: "/images/xbj/dx-03.jpg",
-        alt: "dx 03"
-      },
-      {
-        url: "/images/xbj/dx-04.jpg",
-        alt: "dx 04"
-      },
-      {
-        url: "/images/xbj/dx-05.jpg",
-        alt: "dx 05"
-      },
-      {
-        url: "/images/xbj/dx-06.jpg",
-        alt: "dx 06"
-      },
-      {
-        url: "/images/xbj/GD20.jpg",
-        alt: "GD20"
-      },
-      {
-        url: "/images/xbj/IMG_0291.jpg",
-        alt: "IMG 0291"
-      },
-      {
-        url: "/images/xbj/IMG_1573.jpg",
-        alt: "IMG 1573"
-      },
-      {
-        url: "/images/xbj/IMG_2041.jpg",
-        alt: "IMG 2041"
-      }
-    ]
+    title: "68 Gd20 Rolling Cutting Beveling Machine",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>1) Overview of beveling machine</p>\n<p><strong>GD20 rolling cutting beveling machine for plate weld</strong></p>",
+    images: [],
   },
   {
     slug: "69-keyhole-tig-welding-and-p-t-welding",
-    title: "Keyhole TIG welding  and P+T welding for petrochemical machinery",
-    category: "Blog",
-    description: "Keyhole TIG welding not only has advantages in speed over double gun composite P+T welding!",
-    images: ""
+    title: "69 Keyhole Tig Welding And P T Welding",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Keyhole TIG welding not only has advantages in speed over double gun composite P+T welding!</p>\n<p><img alt=\"Keyhole TIG welding\" height=\"904\" src=\"/images/ktig/ktig-4.png\" title=\"Keyhole TIG welding\" width=\"1000\"/></p>\n<p>1 Concept;</p>\n<p>1.1 K-TIG \"Keyhole\"TIG (keyhole or small hole)\u00a0 also Keyhold TIG welding, not only has the beautiful cover effect of ordinary TIG welding, but also has the characteristics of super-penetrating power of plasma welding</p>\n<p>1.2 P+T double gun composite welding: Plasma plasma welding gun and TIG welding gun are fixed into a welding gun, to realize plasma-TIG composite welding to make full use of the advantages of plasma arc welding and TIG welding methods;</p>\n<p>2.1 P+T composite welding</p>\n<p>In recent years, composite welding technology has been a research hotspot in the field of welding. Compared with the common single arc welding, the composite welding technology can effectively improve the welding quality and efficiency</p>\n<p>+ High efficiency and high quality plasma and TIG simultaneous welding process method, the use of plasma good hole penetration ability, to ensure the single-side welding two-sided forming at the same time, as far as possible to improve the welding speed, the free arc through TIG welding has a good cap capacity, and then with the appropriate amount of filling metal, to achieve the positive forming effect;</p>\n<p>+ Double gun welding is about 1.3 times the efficiency of single gun welding;</p>\n<p>+ Suitable for long weld welding and high quality welding, mainly used in stainless steel, titanium alloy 3~10mm welding</p>\n<p><img alt=\"Keyhole TIG welding\" class=\"float-none\" height=\"928\" src=\"/images/ktig/ktig-2.png\" title=\"Keyhole TIG welding\" width=\"1079\"/></p>\n<p>P+T welding main process advantages:</p>\n<p>The plasma arc penetration ability is strong, the plate thickness below 8mm does not need to be bevelled, greatly reducing the preparation time before welding and reducing the amount of filler wire.</p>\n<p>\u2461\u00a0Welding speed can be significantly improved, double gun welding at the same time, high production efficiency.</p>\n<p>\u2462\u00a0Can be single-sided welding double-sided forming, stable to obtain a complete regular full welding rust weld, the appearance of good forming.\u00a0\u2463\u00a0Meet 100% X-ray inspection requirements.</p>\n<p>\u2464\u00a0arc energy concentration, welding heat affected zone is small, welding deformation is small.</p>\n<p>The welding heat input is small, the welding heat input is small, the weld metal grain size is small compared with submerged arc welding, and the joint performance is excellent.</p>\n<p>\u2466\u00a0Welding arc has good controllability and adjustability.</p>\n<p>\u2467\u00a0can be widely used in the welding of strain strengthened vessels, and the joint performance is excellent.</p>\n<p>\u2468\u00a0The welding environment is clean, and the labor intensity is greatly reduced</p>\n<p><img alt=\"Keyhole TIG welding\" height=\"388\" src=\"/images/ktig/tig-pla-3.jpg\" title=\"Keyhole TIG welding\" width=\"530\"/></p>\n<p>\u00a0 \u00a0 \u00a0 \u00a0<img alt=\"Keyhole TIG welding\" height=\"262\" src=\"/images/ktig/tig-pla-2.jpg\" title=\"Keyhole TIG welding\" width=\"532\"/></p>",
+    images: [],
   },
   {
     slug: "70-plasma-transfer-arc-system-pta",
-    title: "Plasma transfer arc system (PTA) for petrochemical machinery",
-    category: "Blog",
-    description: "1. Plasma transfer arc system (PTA) is a high energy, inert gas welding process. It is mainly used for arc plasma, powder conveying and shielding of molten mate",
-    images: ""
+    title: "70 Plasma Transfer Arc System Pta",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>1.\u00a0<strong>Plasma transfer arc system (PTA)</strong> is a high energy, inert gas welding process. It is mainly used for arc plasma, powder conveying and shielding of molten materials. The product provides a very high quality deposit that offers optimal protection with minimal dilution and deformation of the basic material.\u00a0plasma transfer arc\u00a0is a process of very precise deposit of very precise alloy coatings on mechanical parts, which are subject to intense wear and tear, greatly extending their service life. PTA technology is particularly effective in preventing corrosion, thermal shock and wear.</p>\n<p><img alt=\"plasma transfer arc\" height=\"900\" src=\"/images/cwm/cbm-04.jpg\" title=\"plasma transfer arc\" width=\"1200\"/></p>\n<p><strong>Powder plasma\u00a0</strong>spray welding technology is a kind of surface strengthening technology, which uses the high temperature melting metal powder produced by compressed plasma arc to form a metallurgical bonded layer with specific properties on the surface of the workpiece.</p>",
+    images: [],
   },
   {
     slug: "71-robot-welding-positioner-double-axis-p-type-sets",
-    title: "Robot Welding Positioner Double axis P type (SETS)",
-    category: "robot",
-    description: "Robot Welding Positioner Double axis P type (SETS)",
-    images: [
-      {
-        url: "/images/robot/rb.png",
-        alt: "rb"
-      },
-      {
-        url: "/images/robot/IMG_077920230711-113842.jpg",
-        alt: "IMG 077920230711 113842"
-      },
-      {
-        url: "/images/robot/IMG_078220230711-113903.jpg",
-        alt: "IMG 078220230711 113903"
-      },
-      {
-        url: "/images/robot/IMG_078320230711-113909.jpg",
-        alt: "IMG 078320230711 113909"
-      },
-      {
-        url: "/images/robot/IMG_078520230711-113920.jpg",
-        alt: "IMG 078520230711 113920"
-      },
-      {
-        url: "/images/robot/IMG_078620230711-113925.jpg",
-        alt: "IMG 078620230711 113925"
-      },
-      {
-        url: "/images/robot/IMG_078720230711-113934.jpg",
-        alt: "IMG 078720230711 113934"
-      },
-      {
-        url: "/images/robot/IMG_079120230711-114019.jpg",
-        alt: "IMG 079120230711 114019"
-      },
-      {
-        url: "/images/robot/IMG_079320230711-114030.jpg",
-        alt: "IMG 079320230711 114030"
-      },
-      {
-        url: "/images/robot/IMG_079620230711-114045.jpg",
-        alt: "IMG 079620230711 114045"
-      },
-      {
-        url: "/images/robot/IMG_079720230711-114050.jpg",
-        alt: "IMG 079720230711 114050"
-      },
-      {
-        url: "/images/robot/IMG_080320230711-114122.jpg",
-        alt: "IMG 080320230711 114122"
-      },
-      {
-        url: "/images/robot/IMG_081520230711-114254.jpg",
-        alt: "IMG 081520230711 114254"
-      }
-    ]
+    title: "71 Robot Welding Positioner Double Axis P Type Sets",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><strong><em><a href=\"welding-machine/robot\" rel=\"noopener\" target=\"_blank\">Robot Welding Positioner Double axis P type (SETS)</a></em></strong></strong></p>\n<p>The welding positioner has novel exterior design, compact structure, stable operation, convenient operation, low noise and low energy consumption.\u00a0The flip box is equipped with a spring-loaded conductive device with a maximum conductivity of 500A. The negative wire of the welding machine is connected to the equipment, effectively avoiding the entanglement of the welding cable.</p>\n<p><strong><strong>\u00a0 Robot <a href=\"http://www.desanee.cn\">Welding Positioner </a>Double axis P type (SETS)</strong></strong><strong><strong>\u00a0</strong></strong>\u00a0(<a href=\"welding-machine/robot\" rel=\"noopener\" target=\"_blank\">robot welding</a>) is used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<p><img alt=\"robot welding\" height=\"1080\" src=\"/images/robot/IRP-PPT%2001_10.png\" title=\"robot welding\" width=\"1920\"/></p>\n<p><br/>\u00a0</p>",
+    images: [],
   },
   {
     slug: "72-gantry-robot-welding-gr40",
-    title: "Gantry robot welding  GR40 for engineering machinery",
-    category: "robot",
-    description: "Gantry robot welding  GR40  for   used in petrochemical machinery, engineering machinery, wind power equipment, construction &amp; bridge, shipbuilding, food &a",
-    images: [
-      {
-        url: "/images/robot/IMG_077920230711-113842.jpg",
-        alt: "IMG 077920230711 113842"
-      },
-      {
-        url: "/images/robot/IMG_078220230711-113903.jpg",
-        alt: "IMG 078220230711 113903"
-      },
-      {
-        url: "/images/robot/IMG_078320230711-113909.jpg",
-        alt: "IMG 078320230711 113909"
-      },
-      {
-        url: "/images/robot/IMG_078520230711-113920.jpg",
-        alt: "IMG 078520230711 113920"
-      },
-      {
-        url: "/images/robot/IMG_078620230711-113925.jpg",
-        alt: "IMG 078620230711 113925"
-      },
-      {
-        url: "/images/robot/IMG_078720230711-113934.jpg",
-        alt: "IMG 078720230711 113934"
-      },
-      {
-        url: "/images/robot/IMG_079120230711-114019.jpg",
-        alt: "IMG 079120230711 114019"
-      },
-      {
-        url: "/images/robot/IMG_079320230711-114030.jpg",
-        alt: "IMG 079320230711 114030"
-      },
-      {
-        url: "/images/robot/IMG_079620230711-114045.jpg",
-        alt: "IMG 079620230711 114045"
-      },
-      {
-        url: "/images/robot/IMG_079720230711-114050.jpg",
-        alt: "IMG 079720230711 114050"
-      },
-      {
-        url: "/images/robot/IMG_080320230711-114122.jpg",
-        alt: "IMG 080320230711 114122"
-      },
-      {
-        url: "/images/robot/IMG_081520230711-114254.jpg",
-        alt: "IMG 081520230711 114254"
-      }
-    ]
+    title: "72 Gantry Robot Welding Gr40",
+    category: "Uncategorised",
+    description: "",
+    body: "<p><strong><em><a href=\"welding-machine/robot\" rel=\"noopener\" target=\"_blank\" title=\"Gantry robot welding\u00a0 GR40(SETS)\">\u00a0 \u00a0 \u00a0 Gantry robot welding\u00a0 GR40\u00a0 for\u00a0 </a></em></strong>\u00a0used in petrochemical machinery,\u00a0<a href=\"welding-machine/robot\">engineering machinery</a>, wind power equipment, construction &amp; bridge, shipbuilding, food &amp; pharmaceutical and other industries</p>\n<p><strong><strong>\u00a0</strong></strong></p>\n<p>Product Description</p>",
+    images: [],
   },
   {
     slug: "73-welding-robot-sold-by-manufacturers",
-    title: "Welding Robot Sold by Manufacturers for petrochemical machinery",
-    category: "robot",
-    description: "Product Description of welding robot positioner",
-    images: [
-      {
-        url: "/images/robot/IMG_077920230711-113842.jpg",
-        alt: "IMG 077920230711 113842"
-      },
-      {
-        url: "/images/robot/IMG_078220230711-113903.jpg",
-        alt: "IMG 078220230711 113903"
-      },
-      {
-        url: "/images/robot/IMG_078320230711-113909.jpg",
-        alt: "IMG 078320230711 113909"
-      },
-      {
-        url: "/images/robot/IMG_078520230711-113920.jpg",
-        alt: "IMG 078520230711 113920"
-      },
-      {
-        url: "/images/robot/IMG_078620230711-113925.jpg",
-        alt: "IMG 078620230711 113925"
-      },
-      {
-        url: "/images/robot/IMG_078720230711-113934.jpg",
-        alt: "IMG 078720230711 113934"
-      },
-      {
-        url: "/images/robot/IMG_079120230711-114019.jpg",
-        alt: "IMG 079120230711 114019"
-      },
-      {
-        url: "/images/robot/IMG_079320230711-114030.jpg",
-        alt: "IMG 079320230711 114030"
-      },
-      {
-        url: "/images/robot/IMG_079620230711-114045.jpg",
-        alt: "IMG 079620230711 114045"
-      },
-      {
-        url: "/images/robot/IMG_079720230711-114050.jpg",
-        alt: "IMG 079720230711 114050"
-      },
-      {
-        url: "/images/robot/IMG_080320230711-114122.jpg",
-        alt: "IMG 080320230711 114122"
-      },
-      {
-        url: "/images/robot/IMG_081520230711-114254.jpg",
-        alt: "IMG 081520230711 114254"
-      }
-    ]
+    title: "73 Welding Robot Sold By Manufacturers",
+    category: "Uncategorised",
+    description: "",
+    body: "<div class=\"sr-txt-title\">\n<h2 class=\"sr-txt-h2\">Product Description of welding robot positioner</h2>\n</div>\n<div class=\"async-rich-info\">\n<div class=\"rich-text cf\">\n<div class=\"cke-navigation\" contenteditable=\"false\" id=\"1713341965960\">\n<p>Product Description</p>\n</div>\n<div data-mic-template=\"\">\n<div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\"><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165859385366.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165859385366.webp\" title=\"welding robot\" width=\"800\"/></div>\n<div data-mic-template-item=\"\" data-mic-template-text=\"\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<h2><br/><br/>\u00a0 \u00a0 \u00a0 \u00a0 <strong>Welding\u00a0 robot </strong>need extra axle ,The linear rali, also known as the seventh axis of a robotic arm or the walking axis of a robot, has a lower cost of installing a walking linear rali than directly installing a few robots. Investing it in the production line can improve production efficiency and bring higher economic benefits to enterprises.<br/>\u00a0 As a walking auxiliary mechanism for<strong><a href=\"welding-machine/robot\">\u00a0Robots</a></strong>, the ground track has also rapidly developed and is widely used in some complex spatial and large workpiece situations. The robot track is mainly used to drive <em>welding robot t</em>o move along designated routes, expand the robot's operating radius, expand the robot's usage range and functions, further improve the efficiency of robot use, reduce robot usage costs, and achieve comprehensive automated production.</h2>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165859838503.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165859838503.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165900307239.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165900307239.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165900697880.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165900697880.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165901213516.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165901213516.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165901604130.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165901604130.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165902041637.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165902041637.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165902447869.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165902447869.webp\" title=\"welding robot\" width=\"800\"/><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165902885372.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165902885372.webp\" title=\"welding robot\" width=\"800\"/></p>\n<div class=\"cke-navigation\" contenteditable=\"false\" id=\"1713341965962\">\n<p>Product Parameters</p>\n</div>\n<div class=\"rich-text-table\">\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td colspan=\"4\">1,Technical Parameters of welding robot</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>NO.</td>\n<td>Projects</td>\n<td>Parameters and specifications</td>\n<td>Remarks</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>1.\u00a0\u00a0 \u00a0</td>\n<td>Product name</td>\n<td>Single-axis robot walking track</td>\n<td>Light loads</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>2.\u00a0\u00a0 \u00a0</td>\n<td>Main uses:</td>\n<td>Welding, light feeding</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>3.\u00a0\u00a0 \u00a0</td>\n<td>Model</td>\n<td>AUT-SW-X-Z-L-004</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>4.\u00a0\u00a0 \u00a0</td>\n<td>Controls the number of axes</td>\n<td>Single-axis (X-axis)</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>5.\u00a0\u00a0 \u00a0</td>\n<td>Mounting form</td>\n<td>Floor-mounted formal wear</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>6.\u00a0\u00a0 \u00a0</td>\n<td>Transmission mode</td>\n<td>Rack and pinion drive</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>7.\u00a0\u00a0 \u00a0</td>\n<td>Guided way</td>\n<td>Linear guides and slides</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>8.\u00a0\u00a0 \u00a0</td>\n<td>Lubrication method</td>\n<td>Automatic lubrication</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>9.\u00a0\u00a0 \u00a0</td>\n<td>Reducer</td>\n<td>Precision planetary reducer</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>10. \u00a0</td>\n<td>Reducer speed ratio</td>\n<td>i=10</td>\n<td>Special speed ratios can be customized</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>11. \u00a0</td>\n<td>acceleration</td>\n<td>\u22641.0m/s\u00b2 (acceleration time\u22651S)</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>12. \u00a0</td>\n<td>Repeatability accuracy</td>\n<td>\u00b10.1mm</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>13. \u00a0</td>\n<td>Movement speed</td>\n<td>0-60000mm/min</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>14. \u00a0</td>\n<td>Valid itinerary</td>\n<td>3000mm</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>15. \u00a0</td>\n<td>Slide table effective installation dimensions</td>\n<td>450mm\u00d7520mm(L\u00d7W)</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td rowspan=\"2\">16. \u00a0</td>\n<td rowspan=\"2\">Maximum load</td>\n<td>Total load\u2264 800kg</td>\n<td rowspan=\"2\">\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>The end load of the handling robot \u2264 50kg</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>17. \u00a0</td>\n<td>Dimensions</td>\n<td>4000mm\u00d7860mm\u00d7700mm (shroud height)</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td colspan=\"4\">2,Core components manufacturer</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>NO.</td>\n<td>Projects</td>\n<td>Manufacturer</td>\n<td>Remarks</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>1.\u00a0\u00a0 \u00a0</td>\n<td>Precision planetary reducer</td>\n<td>/</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>2.\u00a0\u00a0 \u00a0</td>\n<td>Linear guides and slides</td>\n<td>/</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>3.\u00a0\u00a0 \u00a0</td>\n<td>Rack</td>\n<td>/</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>4.\u00a0\u00a0 \u00a0</td>\n<td>Automatic lube oil pump</td>\n<td>/</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>5.\u00a0\u00a0 \u00a0</td>\n<td>Cable chains</td>\n<td>/</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td colspan=\"4\">Note: The manufacturer has special requirements that can be replaced, but the production cycle and price adjustment will be extended!</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td colspan=\"5\">3,Standard colorway</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>NO.</td>\n<td>Projects</td>\n<td colspan=\"2\">Color</td>\n<td>Remarks</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>1.\u00a0\u00a0 \u00a0</td>\n<td>The overall base and slide table are available</td>\n<td>Graphite lime RAL7024</td>\n<td>Off-white RAL9002</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>2.\u00a0\u00a0 \u00a0</td>\n<td>Protective shields</td>\n<td>Light yellow RAL1018</td>\n<td>Traffic red RAL3020</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>3.\u00a0\u00a0 \u00a0</td>\n<td>Machined surfaces</td>\n<td colspan=\"2\">Spray anti-rust oil</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td>4.\u00a0\u00a0 \u00a0</td>\n<td>Machined parts</td>\n<td colspan=\"2\">Blackening treatment</td>\n<td>\u00a0</td>\n<td>\u00a0</td>\n</tr>\n<tr>\n<td colspan=\"5\">Note: Special colors can be customized!but will extend the production cycle and price adjustment!</td>\n<td>\u00a0</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div data-mic-template=\"\">\n<div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\">\u00a0</div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\">\u00a0</div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\">\u00a0</div>\n</div>\n</div>\n<div class=\"cke-navigation\" contenteditable=\"false\" id=\"1713341965964\">\n<p>Packaging &amp; Shipping</p>\n</div>\n<div data-mic-template=\"\">\n<div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\"><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165906494764.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165906494764.webp\" title=\"welding robot\" width=\"800\"/></div>\n<div data-mic-template-image=\"\" data-mic-template-item=\"\"><img alt=\"welding robot\" data-original=\"http://images.51microshop.com/16116/product/20240423/20240423165907072873.webp\" height=\"\" src=\"http://images.51microshop.com/16116/product/20240423/20240423165907072873.webp\" title=\"welding robot\" width=\"800\"/></div>\n</div>\n</div>\n</div>\n</div>",
+    images: [],
   },
   {
     slug: "74-welding-positioner-with-1-axis-for-robot-cobot-welding",
-    title: "Welding Positioner with 1-Axis  for Robot cobot Welding",
-    category: "robot",
-    description: "Product Description of robot cobot welding",
-    images: [
-      {
-        url: "/images/robot/IMG_077920230711-113842.jpg",
-        alt: "IMG 077920230711 113842"
-      },
-      {
-        url: "/images/robot/IMG_078220230711-113903.jpg",
-        alt: "IMG 078220230711 113903"
-      },
-      {
-        url: "/images/robot/IMG_078320230711-113909.jpg",
-        alt: "IMG 078320230711 113909"
-      },
-      {
-        url: "/images/robot/IMG_078520230711-113920.jpg",
-        alt: "IMG 078520230711 113920"
-      },
-      {
-        url: "/images/robot/IMG_078620230711-113925.jpg",
-        alt: "IMG 078620230711 113925"
-      },
-      {
-        url: "/images/robot/IMG_078720230711-113934.jpg",
-        alt: "IMG 078720230711 113934"
-      },
-      {
-        url: "/images/robot/IMG_079120230711-114019.jpg",
-        alt: "IMG 079120230711 114019"
-      },
-      {
-        url: "/images/robot/IMG_079320230711-114030.jpg",
-        alt: "IMG 079320230711 114030"
-      },
-      {
-        url: "/images/robot/IMG_079620230711-114045.jpg",
-        alt: "IMG 079620230711 114045"
-      },
-      {
-        url: "/images/robot/IMG_079720230711-114050.jpg",
-        alt: "IMG 079720230711 114050"
-      },
-      {
-        url: "/images/robot/IMG_080320230711-114122.jpg",
-        alt: "IMG 080320230711 114122"
-      },
-      {
-        url: "/images/robot/IMG_081520230711-114254.jpg",
-        alt: "IMG 081520230711 114254"
-      }
-    ]
+    title: "74 Welding Positioner With 1 Axis For Robot Cobot Welding",
+    category: "Uncategorised",
+    description: "",
+    body: "<div class=\"sr-txt-title\">\n<h2 class=\"sr-txt-h2\">Product Description of robot cobot welding</h2>\n</div>",
+    images: [],
   },
   {
     slug: "78-welding-postioner-for-all-kind-welding-girth-seam-and-long-seam",
-    title: "Welding Postioner for all kind welding girth seam and Long seam",
-    category: "Blog",
-    description: "Welding Positioner for welding girth seam       GREAT THINGS WE'VE DONE                        For your pipe butting                   For pipe elbow weld      ",
-    images: ""
+    title: "78 Welding Postioner For All Kind Welding Girth Seam And Long Seam",
+    category: "Uncategorised",
+    description: "",
+    body: "Welding Positioner for welding girth seam       GREAT THINGS WE'VE DONE                        For your pipe butting                   For pipe elbow weld                           Pipe Flange butting....                           Pipe Positioner                         Wast Trading Co. Bar in Seattle                               Pipe Tank Girth welding                           Tank LongSeam weld                         ELbow pipe welding                               Pipe Welding                   Robot Positioner                              Have a project In Mind?       Get a free quote for your project             Contact Us",
+    images: [],
   },
   {
     slug: "79-weld-positioner-benefits-and-efficiency-in-welding-operations",
-    title: "Weld Positioner: Benefits and Efficiency in Welding Operations",
-    category: "positioner",
-    description: "A weld positioner is a piece of equipment used in welding processes to manipulate and position the workpiece for optimal welding results. It is designed to hold",
-    images: [
-      {
-        url: "/images/wp/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/20110116658.jpg",
-        alt: "20110116658"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwm-1.jpg",
-        alt: "cwm 1"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/cwp60-03.jpg",
-        alt: "cwp60 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/dwp80-2.jpg",
-        alt: "dwp80 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/ht-2.jpg",
-        alt: "ht 2"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-01.jpg",
-        alt: "wp 01"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-02.jpg",
-        alt: "wp 02"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-03.jpg",
-        alt: "wp 03"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-04.jpg",
-        alt: "wp 04"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-05.jpg",
-        alt: "wp 05"
-      },
-      {
-        url: "/images/wp/_spmedia_thumbs/wp-06.jpg",
-        alt: "wp 06"
-      }
-    ]
+    title: "79 Weld Positioner Benefits And Efficiency In Welding Operations",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>A weld positioner is a piece of equipment used in welding processes to manipulate and position the workpiece for optimal welding results. It is designed to hold and rotate the workpiece, allowing the welder to access all angles and sides of the joint with ease. Weld positioners are commonly used in industries such as manufacturing, construction, and metal fabrication to improve efficiency and accuracy in welding operations. This article will explore the features, benefits, and applications of weld positioners in various industries.</p>\n<p>\"Article:Weld Positioner: A Useful Tool for Welding ProjectsWeld positioners are an essential tool in the welding industry, providing a convenient and efficient way to manipulate and position workpieces during the welding process. These devices are designed to improve productivity, reduce operator fatigue, and ensure high-quality welds. In this article, we will explore the benefits and applications of weld positioners, as well as the different types available in the market.Neutral tagline:Exploring the benefits and applications of weld positioners in the welding industry.\"</p>\n<p>A weld positioner is a piece of equipment used in welding processes to manipulate and position the workpiece for optimal welding results. It is designed to hold and rotate the workpiece, allowing the welder to access all angles and sides of the joint with ease. Weld positioners are commonly used in industries such as manufacturing, construction, and metal fabrication to improve efficiency and accuracy in welding operations. This article will explore the features, benefits, and applications of weld positioners in various industries.</p>\n<p><h3>What are the main benefits of using a weld positioner in the welding process?</h3><strong></strong><div>\n<p>When it comes to welding, using a weld positioner can greatly improve the efficiency and quality of the welding process. A weld positioner is a device that allows the welder to rotate and position the workpiece, making it easier to access all sides of the joint. There are several main benefits of using a weld positioner in the welding process:</p>\n<ol>\n<li><strong><strong>Improved Weld Quality:</strong></strong> One of the main benefits of using a weld positioner is that it allows for better access to the joint, resulting in improved weld quality. By being able to rotate and position the workpiece, the welder can reach all areas of the joint more easily, leading to a more consistent and uniform weld.</li>\n<li><strong><strong>Increased Productivity:</strong></strong> Using a weld positioner can also increase productivity in the welding process. With the ability to rotate and position the workpiece, the welder can complete the job more quickly and efficiently, reducing the overall time it takes to complete a weld.</li>\n<li><strong><strong>Reduced Welder Fatigue:</strong></strong> Welding can be a physically demanding job, especially when working on large or heavy workpieces. A weld positioner can help reduce welder fatigue by allowing the workpiece to be positioned at a comfortable working height and angle, reducing strain on the welder's body.</li>\n<li><strong><strong>Enhanced Safety:</strong></strong> Using a weld positioner can also improve safety in the welding process. By being able to rotate and position the workpiece, the welder can avoid awkward and potentially dangerous positions, reducing the risk of injury.</li>\n</ol>\n<p>Overall, using a weld positioner in the welding process offers several benefits, including improved weld quality, increased productivity, reduced welder fatigue, and enhanced safety.</p>\n</div><h3>How does a weld positioner improve the efficiency and accuracy of welding operations?</h3><strong></strong><div>\n<p>Welding is a crucial process in various industries, and the efficiency and accuracy of welding operations are essential for ensuring the quality of the final product. One tool that can significantly improve the efficiency and accuracy of welding operations is a weld positioner.</p>\n<p>A weld positioner is a device that is used to hold and rotate the workpiece during welding. It allows the welder to easily position the workpiece at the optimal angle for welding, reducing the need for awkward body positions and minimizing the risk of human error. Here are some ways in which a weld positioner can improve welding operations:</p>\n<ol>\n<li><strong><strong>Improved access:</strong></strong> A weld positioner allows the workpiece to be rotated and tilted, providing better access to all sides of the joint. This makes it easier for the welder to reach difficult-to-access areas, resulting in more consistent and higher quality welds.</li>\n<li><strong><strong>Increased productivity:</strong></strong> By eliminating the need for manual repositioning of the workpiece, a weld positioner can significantly reduce the time it takes to complete a welding job. This increased productivity can lead to cost savings and faster project completion.</li>\n<li><strong><strong>Enhanced safety:</strong></strong> Welding in awkward positions can lead to fatigue and increased risk of injury. A weld positioner helps to reduce the physical strain on the welder, making the welding process safer and more comfortable.</li>\n<li><strong><strong>Greater accuracy:</strong></strong> With the ability to precisely position the workpiece, a weld positioner allows for more accurate and consistent welds. This can result in improved weld quality and reduced rework.</li>\n</ol>\n<p>In conclusion, a weld positioner is a valuable tool for improving the efficiency and accuracy of welding operations. By providing better access, increasing productivity, enhancing safety, and ensuring greater accuracy, a weld positioner can help to optimize the welding process and ultimately lead to better quality products.</p>\n</div></p>\n<p>In conclusion, weld positioners are valuable tools in the welding industry, providing a means to manipulate and position workpieces for optimal welding efficiency and quality. They offer a range of benefits, including increased productivity, improved weld quality, and reduced operator fatigue. While there are various types and sizes of positioners available, each serves the common purpose of enhancing the welding process. As technology continues to advance, we can expect further developments in weld positioner capabilities, further improving the welding industry as a whole.</p>",
+    images: [],
   },
   {
     slug: "80-welding-rotator-advantages-and-contributions-to-efficiency-and-safety",
-    title: "Welding Rotator: Advantages and Contributions to Efficiency and Safety",
-    category: "turning rolls",
-    description: "Welding rotators are essential pieces of equipment used in the welding industry to assist in the manipulation and positioning of cylindrical workpieces. These r",
-    images: [
-      {
-        url: "/images/wr/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/12wr00-19.jpg",
-        alt: "12wr00 19"
-      },
-      {
-        url: "/images/wr/12wr00-23.jpg",
-        alt: "12wr00 23"
-      },
-      {
-        url: "/images/wr/12wr00-26.jpg",
-        alt: "12wr00 26"
-      },
-      {
-        url: "/images/wr/12wr00-29.jpg",
-        alt: "12wr00 29"
-      },
-      {
-        url: "/images/wr/12wr00-35.jpg",
-        alt: "12wr00 35"
-      },
-      {
-        url: "/images/wr/12wr00-36.jpg",
-        alt: "12wr00 36"
-      },
-      {
-        url: "/images/wr/12wr00-37.jpg",
-        alt: "12wr00 37"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-10.jpg",
-        alt: "12wr00 10"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-18.jpg",
-        alt: "12wr00 18"
-      },
-      {
-        url: "/images/wr/_spmedia_thumbs/12wr00-19.jpg",
-        alt: "12wr00 19"
-      }
-    ]
+    title: "80 Welding Rotator Advantages And Contributions To Efficiency And Safety",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Welding rotators are essential pieces of equipment used in the welding industry to assist in the manipulation and positioning of cylindrical workpieces. These rotators are designed to rotate and support heavy workpieces, allowing for precise and efficient welding operations. With various models and sizes available, welding rotators are utilized in a wide range of industries, including shipbuilding, construction, and manufacturing. This article will explore the functions, benefits, and applications of welding rotators, providing a comprehensive overview of their role in the welding process.</p>\n<p>\"Welding Rotator: A Versatile Tool for Welding ProjectsTagline: Enhancing Efficiency and Precision in Welding Operations\"</p>\n<p>Welding rotators are essential pieces of equipment used in the welding industry to assist in the manipulation and positioning of cylindrical workpieces. These rotators are designed to rotate and support heavy workpieces, allowing for precise and efficient welding operations. With various models and sizes available, welding rotators are utilized in a wide range of industries, including shipbuilding, construction, and manufacturing. This article will explore the functions, benefits, and applications of welding rotators, providing a comprehensive overview of their role in the welding process.</p>\n<p><h3>What are the main advantages of using welding rotators in the welding process?</h3><strong></strong><div>\n<p>When it comes to the welding process, using welding rotators can offer a number of advantages that can greatly improve efficiency and quality. Welding rotators are devices designed to rotate cylindrical workpieces during welding, which can help to ensure a more uniform and consistent weld. Here are some of the main advantages of using welding rotators in the welding process:</p>\n<ol>\n<li><strong><strong>Improved Weld Quality:</strong></strong> By rotating the workpiece, welding rotators can help to ensure a more uniform distribution of heat and weld metal, resulting in a higher quality weld with fewer defects.</li>\n<li><strong><strong>Increased Productivity:</strong></strong> Welding rotators can significantly reduce the time and labor required for welding cylindrical workpieces, allowing for faster and more efficient production.</li>\n<li><strong><strong>Enhanced Safety:</strong></strong> Using welding rotators can help to reduce the need for manual handling of heavy and awkward workpieces, which can improve safety and reduce the risk of workplace injuries.</li>\n<li><strong><strong>Versatility:</strong></strong> Welding rotators are available in a range of sizes and configurations, making them suitable for a wide variety of welding applications and workpiece sizes.</li>\n<li><strong><strong>Cost Savings:</strong></strong> By improving efficiency and productivity, welding rotators can help to reduce overall welding costs and increase the profitability of welding operations.</li>\n</ol>\n<p>Overall, the use of welding rotators in the welding process can offer a range of benefits that can help to improve the quality, efficiency, and safety of welding operations.</p>\n</div><h3>How do welding rotators contribute to improving the efficiency and safety of welding operations?</h3><strong></strong><div>\n<p>Welding rotators are an essential tool in the welding industry, contributing significantly to improving the efficiency and safety of welding operations. These devices are designed to rotate cylindrical workpieces, such as pipes, tanks, and pressure vessels, during the welding process. By doing so, welding rotators offer several benefits that enhance the overall welding operation.</p>\n<ol>\n<li><strong><strong>Improved Welding Quality:</strong></strong> Welding rotators ensure a consistent and uniform weld seam by rotating the workpiece at a controlled speed. This helps to prevent welding defects, such as uneven penetration and inconsistent bead shape, resulting in higher welding quality.</li>\n<li><strong><strong>Enhanced Productivity:</strong></strong> By automating the rotation of workpieces, welding rotators allow welders to focus on the welding process itself, rather than manually rotating the workpiece. This leads to increased productivity and faster completion of welding projects.</li>\n<li><strong><strong>Reduced Welding Time:</strong></strong> The continuous rotation of workpieces by welding rotators eliminates the need for frequent repositioning, leading to a significant reduction in welding time. This is particularly beneficial for large-scale welding projects.</li>\n<li><strong><strong>Enhanced Safety:</strong></strong> Welding rotators contribute to a safer working environment by minimizing the need for manual handling of heavy and bulky workpieces. This reduces the risk of workplace injuries and ensures the safety of the welding operators.</li>\n<li><strong><strong>Versatility:</strong></strong> Welding rotators are available in various sizes and load capacities, making them suitable for a wide range of welding applications. They can accommodate workpieces of different diameters and lengths, offering versatility in welding operations.</li>\n</ol>\n<p>In conclusion, welding rotators play a crucial role in improving the efficiency and safety of welding operations. Their ability to enhance welding quality, productivity, and safety, while reducing welding time, makes them an indispensable tool for welders across various industries.</p>\n</div></p>\n<p>In conclusion, welding rotators are an essential piece of equipment in the welding industry, providing support and stability for cylindrical workpieces during the welding process. They offer a range of benefits, including increased productivity, improved safety, and enhanced welding quality. With various sizes and capacities available, welding rotators can accommodate a wide range of workpieces, making them a versatile and valuable tool for welders. Whether used in small workshops or large-scale industrial settings, welding rotators play a crucial role in ensuring efficient and effective welding operations.</p>",
+    images: [],
   },
   {
     slug: "81-robot-welding-advantages-and-contributions-to-efficiency-in-manufacturing",
-    title: "Robot Welding: Advantages and Contributions to Efficiency in Manufacturing",
-    category: "robot",
-    description: "Robot welding is a process in which automated machines are used to perform welding tasks. These robots are equipped with advanced technology and are programmed ",
-    images: [
-      {
-        url: "/images/robot/IMG_077920230711-113842.jpg",
-        alt: "IMG 077920230711 113842"
-      },
-      {
-        url: "/images/robot/IMG_078220230711-113903.jpg",
-        alt: "IMG 078220230711 113903"
-      },
-      {
-        url: "/images/robot/IMG_078320230711-113909.jpg",
-        alt: "IMG 078320230711 113909"
-      },
-      {
-        url: "/images/robot/IMG_078520230711-113920.jpg",
-        alt: "IMG 078520230711 113920"
-      },
-      {
-        url: "/images/robot/IMG_078620230711-113925.jpg",
-        alt: "IMG 078620230711 113925"
-      },
-      {
-        url: "/images/robot/IMG_078720230711-113934.jpg",
-        alt: "IMG 078720230711 113934"
-      },
-      {
-        url: "/images/robot/IMG_079120230711-114019.jpg",
-        alt: "IMG 079120230711 114019"
-      },
-      {
-        url: "/images/robot/IMG_079320230711-114030.jpg",
-        alt: "IMG 079320230711 114030"
-      },
-      {
-        url: "/images/robot/IMG_079620230711-114045.jpg",
-        alt: "IMG 079620230711 114045"
-      },
-      {
-        url: "/images/robot/IMG_079720230711-114050.jpg",
-        alt: "IMG 079720230711 114050"
-      },
-      {
-        url: "/images/robot/IMG_080320230711-114122.jpg",
-        alt: "IMG 080320230711 114122"
-      },
-      {
-        url: "/images/robot/IMG_081520230711-114254.jpg",
-        alt: "IMG 081520230711 114254"
-      }
-    ]
+    title: "81 Robot Welding Advantages And Contributions To Efficiency In Manufacturing",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>Robot welding is a process in which automated machines are used to perform welding tasks. These robots are equipped with advanced technology and are programmed to carry out precise and efficient welding operations. The use of robot welding has become increasingly popular in various industries due to its ability to improve productivity, reduce labor costs, and ensure high-quality welds. This article will explore the various aspects of robot welding, including its applications, benefits, and future prospects.</p>\n<p>\"Article:Robot Welding: The Future of ManufacturingTagline:Exploring the advancements and impact of robot welding in the manufacturing industry.\"</p>\n<p>Robot welding is a process in which automated machines are used to perform welding tasks. These robots are equipped with advanced technology and are programmed to carry out precise and efficient welding operations. The use of robot welding has become increasingly popular in various industries due to its ability to improve productivity, reduce labor costs, and ensure high-quality welds. This article will explore the various aspects of robot welding, including its applications, benefits, and future prospects.</p>\n<p><h3>What are the advantages of using robot welding in manufacturing processes?</h3><strong></strong><div>\n<p>Robot welding has become an integral part of the manufacturing process in various industries. It offers numerous advantages that have revolutionized the way products are made. In this blog post, we will explore the benefits of using robot welding in manufacturing processes.</p>\n<ol>\n<li><strong>Increased Efficiency:</strong> One of the primary advantages of using robot welding is the significant increase in efficiency. Robots can work continuously without the need for breaks, resulting in higher productivity and faster production times.</li>\n<li><strong>Precision and Consistency:</strong> Robots are programmed to perform welding tasks with extreme precision, ensuring consistent quality in every weld. This level of accuracy is difficult to achieve with manual welding, leading to improved product quality.</li>\n<li><strong>Cost Savings:</strong> While the initial investment in robot welding technology may be high, the long-term cost savings are substantial. Robots can work around the clock, reducing labor costs and minimizing the need for rework due to errors.</li>\n<li><strong>Improved Safety:</strong> By taking over hazardous welding tasks, robots help improve workplace safety for human workers. This reduces the risk of injuries and creates a safer working environment.</li>\n<li><strong>Flexibility:</strong> Robot welding systems can be easily reprogrammed to adapt to different welding tasks and product variations. This flexibility allows manufacturers to quickly switch between different production runs without significant downtime.</li>\n<li><strong>Data Collection:</strong> Robot welding systems can collect and analyze data on welding processes, providing valuable insights for process optimization and quality control.</li>\n</ol>\n<p>In conclusion, the advantages of using robot welding in manufacturing processes are undeniable. From increased efficiency and precision to cost savings and improved safety, robot welding has transformed the way products are manufactured, making it a valuable asset for any modern manufacturing facility.</p>\n</div><h3>How does robot welding technology contribute to increased efficiency and precision in welding operations?</h3><strong></strong><div>\n<p>Robot welding technology has revolutionized the welding industry by significantly contributing to increased efficiency and precision in welding operations. This advanced technology has transformed the way welding is done, offering numerous benefits to manufacturers and welders alike.</p>\n<ol>\n<li><strong>Increased Efficiency:</strong> Robot welding technology has greatly improved the speed and efficiency of welding operations. Robots are capable of working around the clock without the need for breaks, resulting in higher productivity and faster completion of welding tasks. This increased efficiency allows manufacturers to meet tight production deadlines and fulfill large orders in a timely manner.</li>\n<li><strong>Precision:</strong> One of the key advantages of robot welding technology is its ability to deliver precise and consistent welds. Robots are programmed to follow exact welding paths and parameters, ensuring that each weld is of the highest quality and accuracy. This level of precision is difficult to achieve with manual welding and helps to minimize the need for rework or corrections.</li>\n<li><strong>Quality Control:</strong> Robot welding technology also contributes to improved quality control in welding operations. By consistently executing welds with precision, robots help to reduce the likelihood of defects and errors. This ultimately leads to higher quality welds and finished products, enhancing the overall reputation of the manufacturer.</li>\n<li><strong>Safety:</strong> Robots are capable of working in hazardous environments and handling dangerous materials, reducing the risk of injury to human welders. This technology helps to create a safer working environment and minimizes the potential for workplace accidents.</li>\n</ol>\n<p>In conclusion, robot welding technology has had a profound impact on the welding industry, offering increased efficiency, precision, quality control, and safety. As this technology continues to advance, it is expected to further revolutionize the way welding operations are conducted, leading to even greater benefits for manufacturers and welders.</p>\n</div></p>\n<p>In conclusion, robot welding has become an increasingly popular and efficient method for joining metal components in various industries. The precision, speed, and consistency of robot welding have made it a valuable asset for manufacturers looking to improve their production processes. While there are still some limitations and challenges to overcome, the advancements in technology and the continued development of robotic systems are likely to further enhance the capabilities of robot welding in the future. Overall, robot welding offers a promising solution for achieving high-quality welds while increasing productivity and reducing costs.</p>",
+    images: [],
   },
   {
     slug: "83-maximizing-efficiency-and-accuracy-with-tig-welding-manipulator",
-    title: "Maximizing Efficiency and Accuracy with TIG Welding Manipulator",
-    category: "Blog",
-    description: "TIG welding manipulators are a crucial tool in the welding industry, designed to assist welders in achieving precise and consistent welds. These machines are us",
-    images: ""
+    title: "83 Maximizing Efficiency And Accuracy With Tig Welding Manipulator",
+    category: "Uncategorised",
+    description: "",
+    body: "<p>TIG welding manipulators are a crucial tool in the welding industry, designed to assist welders in achieving precise and consistent welds. These machines are used to hold and position the welding torch, allowing for greater control and accuracy during the welding process. With the ability to manipulate the torch in multiple directions, TIG welding manipulators are essential for welding tasks that require intricate and complex movements. In this article, we will explore the features and benefits of TIG welding manipulators, as well as their various applications in the welding industry.</p>\n<p>\"TIG Welding Manipulator: Enhancing Precision and Efficiency in Welding OperationsTagline: Exploring the benefits of TIG welding manipulators for improved welding performance.\"</p>\n<p>TIG welding manipulators are a crucial tool in the welding industry, designed to assist welders in achieving precise and consistent welds. These machines are used to hold and position the welding torch, allowing for greater control and accuracy during the welding process. With the ability to manipulate the torch in multiple directions, TIG welding manipulators are essential for welding tasks that require intricate and complex movements. In this article, we will explore the features and benefits of TIG welding manipulators, as well as their various applications in the welding industry.</p>\n<p><h3>What are the key benefits of using a TIG welding manipulator in the welding process?</h3><strong></strong><div>\n<p>When it comes to welding, precision and accuracy are crucial for achieving high-quality results. This is where TIG welding manipulators come into play. TIG welding manipulators are designed to assist welders in achieving consistent and precise welds, while also improving safety and efficiency in the welding process.</p>\n<p>Here are some key benefits of using a TIG welding manipulator:</p>\n<ol>\n<li><strong><strong>Precision:</strong></strong> TIG welding manipulators allow for precise control over the welding torch position and movement. This helps in achieving consistent and high-quality welds, especially in complex and intricate welding projects.</li>\n<li><strong><strong>Increased safety:</strong></strong> By using a TIG welding manipulator, welders can reduce their exposure to hazardous fumes and radiation, as well as minimize the risk of accidents and injuries associated with manual welding processes.</li>\n<li><strong><strong>Improved efficiency:</strong></strong> TIG welding manipulators can significantly increase the speed and efficiency of the welding process, as they eliminate the need for constant manual adjustments and repositioning of the welding torch.</li>\n<li><strong><strong>Ability to weld in hard-to-reach areas:</strong></strong> TIG welding manipulators are especially useful for welding in tight spaces or hard-to-reach areas, where manual welding may be difficult or impractical.</li>\n<li><strong><strong>Consistency:</strong></strong> With the help of a TIG welding manipulator, welders can achieve consistent and uniform welds, leading to improved overall weld quality and reliability.</li>\n</ol>\n<p>Overall, TIG welding manipulators offer a range of benefits that can greatly enhance the welding process, making it more precise, safe, and efficient.</p>\n</div><h3>How does a TIG welding manipulator improve the efficiency and accuracy of welding operations?</h3><strong></strong><div>\n<p>When it comes to welding operations, efficiency and accuracy are key factors in ensuring high-quality results. One tool that can greatly improve both of these aspects is a TIG welding manipulator. TIG, or tungsten inert gas, welding is a precise and clean welding process that is commonly used in industries such as aerospace, automotive, and fabrication.</p>\n<p>So, how does a TIG welding manipulator improve the efficiency and accuracy of welding operations? Let's break it down:</p>\n<ol>\n<li><strong>Consistent Torch Positioning:</strong> A TIG welding manipulator allows for precise and consistent positioning of the welding torch. This ensures that the weld is applied at the correct angle and distance, resulting in a more accurate and uniform weld.</li>\n<li><strong>Increased Productivity:</strong> By automating the torch positioning, a welding manipulator can significantly increase the productivity of welding operations. This allows welders to focus on other tasks while the manipulator handles the welding process.</li>\n<li><strong>Reduced Operator Fatigue:</strong> Manual welding can be physically demanding, leading to operator fatigue and potential errors. A welding manipulator takes the strain off the operator, reducing fatigue and improving overall weld quality.</li>\n<li><strong>Improved Safety:</strong> With a welding manipulator, operators can work from a safe distance, reducing the risk of exposure to fumes, sparks, and heat. This contributes to a safer working environment for welders.</li>\n<li><strong>Precision Control:</strong> Many TIG welding manipulators offer advanced control features, allowing for precise adjustments to welding parameters such as speed, heat input, and torch angle. This level of control results in more accurate and consistent welds.</li>\n</ol>\n<p>In conclusion, a TIG welding manipulator is a valuable tool for improving the efficiency and accuracy of welding operations. By automating torch positioning, increasing productivity, reducing operator fatigue, improving safety, and providing precision control, welding manipulators play a crucial role in achieving high-quality welds in various industries.</p>\n</div></p>\n<p>In conclusion, the TIG welding manipulator is a versatile and efficient tool that offers numerous benefits for welding processes. Its ability to provide precise and consistent welds, improve operator safety, and increase productivity makes it a valuable asset for various industries. With its advanced technology and customizable features, the TIG welding manipulator is a reliable solution for achieving high-quality welds in a wide range of applications. Whether used for small-scale projects or large-scale production, this equipment has proven to be a valuable investment for companies looking to enhance their welding capabilities.</p>",
+    images: [],
   },
   {
     slug: "84-external-clamping-ring-fitup-line",
-    title: "External Clamping Ring fitup line for all pressure tank plant",
-    category: "boom&column",
-    description: "External Clamping Ring fitup line for all pressure tank plant   ，USE FOR Tank Clamping and Welding Machines​",
-    images: [
-      {
-        url: "/images/wm/52B22521-1452-4962-BE8B-5569E5D27EB420161123-150.jpg",
-        alt: "52B22521 1452 4962 BE8B 5569E5D27EB420161123 150"
-      },
-      {
-        url: "/images/wm/from wm-1.jpg",
-        alt: "from wm 1"
-      },
-      {
-        url: "/images/wm/from wm-2.jpg",
-        alt: "from wm 2"
-      },
-      {
-        url: "/images/wm/tu pian1.jpg",
-        alt: "tu pian1"
-      },
-      {
-        url: "/images/wm/tu pian2.jpg",
-        alt: "tu pian2"
-      },
-      {
-        url: "/images/wm/wm-00.jpg",
-        alt: "wm 00"
-      },
-      {
-        url: "/images/wm/WM-001.jpg",
-        alt: "WM 001"
-      },
-      {
-        url: "/images/wm/wm-01.jpg",
-        alt: "wm 01"
-      },
-      {
-        url: "/images/wm/wm-02.jpg",
-        alt: "wm 02"
-      },
-      {
-        url: "/images/wm/wm-03.jpg",
-        alt: "wm 03"
-      },
-      {
-        url: "/images/wm/wm-04.jpg",
-        alt: "wm 04"
-      },
-      {
-        url: "/images/wm/wm-05.jpg",
-        alt: "wm 05"
-      }
-    ]
+    title: "84 External Clamping Ring Fitup Line",
+    category: "Uncategorised",
+    description: "",
+    body: "<h1><strong>\u00a0 External Clamping Ring fitup line for all pressure tank plant\u00a0 \u00a0\uff0cUSE FOR Tank Clamping and Welding Machines\u200b</strong></h1>\n<p class=\"p\">Dependent on diameter, shape and wall thickness we can offer three different concepts for the\u00a0welding of vessels, tanks and other cylindrical or conical tubulars:</p>\n<p class=\"p\">1 External Clamping Rings</p>\n<p class=\"p\">2.Internal Clamping Rings(2026 PLAN)</p>\n<p class=\"p\">3.The Crocodile((2027 PLAN)</p>\n<p class=\"p\">\u00a0 \u00a0All these machines are suitable to carry-out assembly, clamping and welding procedures. In combination with <a href=\"https://www.deuma.co/manipulators-column-boom\">Column &amp; Booms (Manipulators)</a>\u00a0and<a href=\"https://www.deuma.co/turning-rolls\">\u2002Turning Rolls</a>\u00a0complete production lines for the manufacture of tanks and vessels can be supplied.</p>\n<h2 class=\"p\"><!-- [if !supportLists]-->1.<a href=\"welding-machine/turning-rolls\" title=\"turning roll\">\u00a0</a><a href=\"welding-machine/turning-rolls\" title=\"turning roll\"><!--[endif]-->External Clamping Rings</a></h2>\n<p class=\"p\">\u00a0 \u00a0We distinguish stationary External Clamping Rings Type ECR , and\u00a0Rotary Clamping Rings\u00a0Type RECR.\u200b</p>\n<p class=\"p\">\u00a0 \u00a0These are employed for diameters ranging from approx. 400 to 4000mm and wall thicknesses from 3 to 12 mm .\u00a0special\u00a025 mm.</p>\n<p class=\"p\">\u00a0 \u00a0External Clamping Ring fitup line mainly use for pipe line and tank plant.</p>\n<p align=\"justify\" class=\"15\"><!-- [if !supportLists]-->1.\u00a0<!--[endif]--><strong>Technical features of the complex:</strong></p>\n<div align=\"center\">\n<table border=\"1\" cellspacing=\"0\" class=\"MsoNormalTable\">\n<tbody>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\"><strong>Serial Number</strong></p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p align=\"center\" class=\"MsoNormal\"><strong>Device Features</strong></p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\"><strong>Units</strong></p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\"><strong>Parameters</strong></p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\"><strong>Remarks</strong></p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">1</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Applicable workpiece diameter</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">3220</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">2</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Workpiece diameter accuracy</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">Plus or minus 6</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">3</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Hydraulic</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">Megapascal</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">10</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">4</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Number of clamping cylinders</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u0448 \u0442</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">2</p>\n</td>\n<td valign=\"center\" width=\"403\">\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">5</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Clamp cylinder size</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">\u00c6\u00a0120 x 70</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">6</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Number of tension cylinders</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">a</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">10</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">Includes retaining ring and adjusting ring kit</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">7</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Tighten the cylinder size</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">\u00c6\u00a080 x 45</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">8</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Number of shock absorbing cylinders</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">a</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">4</p>\n</td>\n<td valign=\"center\" width=\"403\">\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">9</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Shock absorber cylinder size</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">millimeter</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">\u00c6\u00a050 x 40</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">10</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Circular support rollers for moving support</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">a</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">4</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">Included in hydraulic system</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">11</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Fixed ring and adjusting ring width</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c m</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">3650</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">12</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Stationary ring and adjusting ring height</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">4000</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">\u2014</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">13</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Output roller stand length</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">10000</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">The roller frame consists of conveyor brackets (8 parts), lifting and rotating brackets (4 parts), see item 6, Photo 1, Appendix 2</p>\n</td>\n</tr>\n<tr>\n<td valign=\"center\" width=\"109\">\n<p align=\"center\" class=\"MsoNormal\">14</p>\n</td>\n<td valign=\"center\" width=\"482\">\n<p class=\"MsoNormal\">Entrance roller frame length</p>\n</td>\n<td valign=\"center\" width=\"170\">\n<p align=\"center\" class=\"MsoNormal\">\u043c \u043c</p>\n</td>\n<td valign=\"center\" width=\"188\">\n<p align=\"center\" class=\"MsoNormal\">5000</p>\n</td>\n<td valign=\"center\" width=\"403\">\n<p align=\"center\" class=\"MsoNormal\">The roller frame includes conveyor brackets (4 parts), lifting and rotating brackets (4 parts), see Item 5, Photo 1, Appendix 2</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+    images: [],
   },
   {
     slug: "85-terms",
-    title: "Terms",
+    title: "85 Terms",
     category: "Uncategorised",
-    description: "Last updated: April 17, 2026",
-    images: ""
+    description: "",
+    body: "<p class=\"MsoNormal\">Last updated: April 17, 2026</p>\n<p class=\"MsoNormal\">Please read these terms and conditions carefully before using Our Service.</p>\n<p class=\"MsoNormal\">## Interpretation and Definitions</p>\n<p class=\"MsoNormal\">### Interpretation</p>\n<p class=\"MsoNormal\">The words whose initial letters are capitalized have meanings defined under the following conditions.</p>\n<p class=\"MsoNormal\">### Definitions</p>\n<p class=\"MsoNormal\">Affiliate means an entity that controls, is controlled by, or is under common control with a party.</p>\n<p class=\"MsoNormal\">Country refers to: China</p>\n<p class=\"MsoNormal\">Company (referred to as \"the Company\", \"We\", \"Us\" or \"Our\") refers to DESAN ELECTRIC LTD, SHANGHAI 201400.</p>\n<p class=\"MsoNormal\">Device means any computer, mobile phone, or tablet that can access the Service. Service refers to the **Xingtian Content Service** tool, which provides authorized TikTok content publishing, video upload, account management, and data analytics services through official TikTok API. </p>\n<p class=\"MsoNormal\">These Terms and Conditions govern the use of the **Xingtian Content Service** application and its related API services at https://api.bqeai.cn/tiktok/callback. Terms and Conditions (also referred to as \"Terms\") means these Terms that govern Your access to and use of the **Xingtian Content Service** Service. </p>\n<p class=\"MsoNormal\">Website refers to DESAN WELDING, accessible from https://www.desanee.com You means the user or entity using the Xingtian Integration service.</p>\n<p class=\"MsoNormal\">## Acknowledgment</p>\n<p class=\"MsoNormal\">These Terms apply to the **Xingtian Content Service** application, which connects to the official TikTok API for video publishing, account management, and content analytics for business accounts. </p>\n<p class=\"MsoNormal\">Your access to and use of the **Xingtian Content Service** Service is conditioned on Your acceptance of these Terms. You represent that you are over 18 years of age. </p>\n<p class=\"MsoNormal\">## Links to Other Websites</p>\n<p class=\"MsoNormal\">Our Service may contain links to third-party websites. We have no control over third-party sites and assume no responsibility for their content or policies.</p>\n<p class=\"MsoNormal\">## Termination</p>\n<p class=\"MsoNormal\">We may terminate or suspend access immediately if You breach these Terms.</p>\n<p class=\"MsoNormal\">## Limitation of Liability</p>\n<p class=\"MsoNormal\">To the maximum extent permitted by law, the Company shall not be liable for any indirect, incidental, special, consequential, or punitive damages.</p>\n<p class=\"MsoNormal\">## \"AS IS\" and \"AS AVAILABLE\" Disclaimer</p>\n<p class=\"MsoNormal\">The **Xingtian Content Service** Service is provided \"AS IS\" without warranties of any kind. </p>\n<p class=\"MsoNormal\">## Governing Law</p>\n<p class=\"MsoNormal\">\u00a0The laws of China shall govern these Terms, excluding its conflicts of law rules.</p>\n<p class=\"MsoNormal\">\u00a0## Disputes Resolution</p>\n<p class=\"MsoNormal\">Any disputes shall first be resolved by contacting the Company informally.</p>\n<p class=\"MsoNormal\">## United States Legal Compliance</p>\n<p class=\"MsoNormal\">You represent and warrant that:</p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->(i)\u00a0<!--[endif]-->You are not located in a country subject to U.S. government embargo;</p>\n<p class=\"MsoNormal\">(ii) You are not listed on any U.S. government prohibited or restricted party list.</p>\n<p class=\"MsoNormal\">## Severability and Waiver I</p>\n<p class=\"MsoNormal\">f any provision is held invalid, the remaining provisions shall remain in full force.</p>\n<p class=\"MsoNormal\">## Changes to These Terms</p>\n<p class=\"MsoNormal\">We may update these Terms at any time. We will notify users of material changes.</p>\n<p class=\"MsoNormal\">## Contact Us</p>\n<p class=\"MsoNormal\">\u00a0If you have questions about these Terms for **Xingtian Content Service**, </p>\n<p class=\"MsoNormal\">contact us at: SUBO@DESANEE.COM</p>",
+    images: [],
   },
   {
     slug: "86-privacy-policy",
-    title: "Privacy Policy",
+    title: "86 Privacy Policy",
     category: "Uncategorised",
-    description: "Privacy Policy",
-    images: ""
+    description: "",
+    body: "<p class=\"MsoNormal\">Privacy Policy</p>\n<p class=\"MsoNormal\">Last updated: April 17, 2026</p>\n<p class=\"MsoNormal\">This Privacy Policy describes Our policies on the collection, use, and disclosure of Your information when using the **Xingtian Content Service** service. </p>\n<p class=\"MsoNormal\">## Interpretation and Definitions</p>\n<p class=\"MsoNormal\">### Company DESAN ELECTRIC LTD, SHANGHAI 201400.</p>\n<p class=\"MsoNormal\">### Country China</p>\n<p class=\"MsoNormal\">\u00a0### Service</p>\n<p class=\"MsoNormal\">**Xingtian Content Service** \u2014 an official TikTok API integration tool for video upload, publish, account management, and analytics. #</p>\n<p class=\"MsoNormal\">## Website https://www.desanee.com</p>\n<p class=\"MsoNormal\">### API Service https://api.bqeai.cn/tiktok/callback</p>\n<p class=\"MsoNormal\">### You User of the Xingtian TikTok Integration service.</p>\n<p class=\"MsoNormal\">## Collecting and Using Your Personal Data</p>\n<p class=\"MsoNormal\">The **Xingtian Content Service** service only collects necessary information to provide TikTok authorized login, video publishing, and account management functions via official TikTok API. </p>\n<p class=\"MsoNormal\">### Personal Data</p>\n<p class=\"MsoNormal\">\u00a0We may collect:</p>\n<p class=\"MsoNormal\">- Email address</p>\n<p class=\"MsoNormal\">- Name</p>\n<p class=\"MsoNormal\">- Phone number</p>\n<p class=\"MsoNormal\">- Address information (if provided)</p>\n<p class=\"MsoNormal\">### Usage Data Automatically collected data includes:</p>\n<p class=\"MsoNormal\">- IP address</p>\n<p class=\"MsoNormal\">- Browser type</p>\n<p class=\"MsoNormal\">- Access time</p>\n<p class=\"MsoNormal\">- Device information</p>\n<p class=\"MsoNormal\">- API authorization logs for TikTok integration</p>\n<p class=\"MsoNormal\">\u00a0### Use of Your Personal Data</p>\n<p class=\"MsoNormal\">We use Personal Data only to:</p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->1.\u00a0<!--[endif]-->Provide and maintain the **Xingtian Content Service** service </p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->2.\u00a0<!--[endif]-->Perform TikTok API authorization and video publishing</p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->3.\u00a0<!--[endif]-->Manage user accounts and TikTok business account integration</p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->4.\u00a0<!--[endif]-->Comply with legal requirements</p>\n<p class=\"MsoNormal\"><!-- [if !supportLists]-->5.\u00a0<!--[endif]-->Contact users for service support</p>\n<p class=\"MsoNormal\">\u00a0## Data Retention</p>\n<p class=\"MsoNormal\">We retain Personal Data only as long as necessary for legal obligations and service purposes. Data is securely deleted or anonymized when no longer needed.</p>\n<p class=\"MsoNormal\">## Data Transfer</p>\n<p class=\"MsoNormal\">Your data may be processed outside your region for the purpose of providing the **Xingtian Content Service** service, with proper security safeguards. </p>\n<p class=\"MsoNormal\">## Delete Your Personal Data</p>\n<p class=\"MsoNormal\">You may request deletion of your Personal Data by contacting us.</p>\n<p class=\"MsoNormal\">## Disclosure of Personal Data</p>\n<p class=\"MsoNormal\">We may disclose data:</p>\n<p class=\"MsoNormal\">- To comply with legal obligations</p>\n<p class=\"MsoNormal\">- To protect the Company\u2019s rights and safety</p>\n<p class=\"MsoNormal\">- With your explicit consent</p>\n<p class=\"MsoNormal\">## Security</p>\n<p class=\"MsoNormal\">We use commercially reasonable measures to protect your data. No method of transmission over the Internet is 100% secure.</p>\n<p class=\"MsoNormal\">## Children's Privacy</p>\n<p class=\"MsoNormal\">Our service does not address anyone under the age of 16.</p>\n<p class=\"MsoNormal\">## Changes to This Privacy Policy</p>\n<p class=\"MsoNormal\">We may update this policy periodically. Changes are effective when posted.</p>\n<p class=\"MsoNormal\">## Contact Us</p>\n<p class=\"MsoNormal\">If you have questions about this Privacy Policy for **Xingtian Content Service**, </p>\n<p class=\"MsoNormal\">contact us at: SUBO@DESANEE.COM</p>",
+    images: [],
   }
 ];
-
