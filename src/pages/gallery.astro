@@ -1,7 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
-// Gallery data is loaded client-side from JSON to avoid TS build issues
 ---
 
 <Layout title="Product Gallery">
@@ -10,9 +8,8 @@ import Layout from '../layouts/Layout.astro';
       <h1 class="page-title">Product Gallery</h1>
       <p class="page-sub">Explore our welding equipment across all categories.</p>
 
-      <div id="galleryContainer">
-        <p class="loading-text">Loading gallery...</p>
-      </div>
+      <div class="filter-bar" id="filterBar"></div>
+      <div id="galleryContainer"><p class="loading-text">Loading gallery...</p></div>
     </div>
   </section>
 </Layout>
@@ -21,58 +18,64 @@ import Layout from '../layouts/Layout.astro';
   fetch('/gallery-data.json')
     .then(r => r.json())
     .then(data => {
-      const container = document.getElementById('galleryContainer');
-      let html = '';
-      data.forEach(cat => {
-        html += '<div class="gallery-category">';
-        html += '<h2 class="cat-title">' + cat.category + '</h2>';
-        cat.rows.forEach(row => {
-          html += '<div class="gallery-row ' + row.type + '">';
-          row.images.forEach(img => {
-            html += '<div class="gallery-item"><img src="' + img + '" alt="" loading="lazy" /></div>';
+      // Build filter tabs
+      let filterHtml = '<button class="tag tag-primary filter-btn active" data-idx="all">All</button>';
+      data.forEach((cat, i) => {
+        filterHtml += '<button class="tag tag-subtle filter-btn" data-idx="' + i + '">' + cat.category + '</button>';
+      });
+      document.getElementById('filterBar').innerHTML = filterHtml;
+
+      function render(filterIdx) {
+        let html = '';
+        data.forEach((cat, catIdx) => {
+          if (filterIdx !== 'all' && catIdx !== filterIdx) return;
+          html += '<div class="gallery-category">';
+          html += '<h2 class="cat-title">' + cat.category + ' <span class="cat-count">' + (cat.rows.length * 4) + ' photos</span></h2>';
+          cat.rows.forEach(row => {
+            html += '<div class="gallery-row ' + row.type + '">';
+            row.images.forEach(img => {
+              html += '<div class="gallery-item"><img src="' + img + '" alt="" loading="lazy" /></div>';
+            });
+            html += '</div>';
           });
           html += '</div>';
         });
-        html += '</div>';
+        document.getElementById('galleryContainer').innerHTML = html || '<p>No images found.</p>';
+      }
+
+      render('all');
+
+      // Filter click handlers
+      document.querySelectorAll('#filterBar .filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#filterBar .filter-btn').forEach(b => { b.classList.remove('active'); b.classList.add('tag-subtle'); });
+          btn.classList.add('active'); btn.classList.remove('tag-subtle');
+          const idx = btn.dataset.idx === 'all' ? 'all' : parseInt(btn.dataset.idx);
+          render(idx);
+        });
       });
-      container.innerHTML = html;
-    })
-    .catch(() => {
-      document.getElementById('galleryContainer').innerHTML = '<p>Failed to load gallery. Please refresh.</p>';
     });
 </script>
 
 <style>
   .page-title { text-align: center; font-size: 2.25rem; }
-  .page-sub { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-2xl); }
+  .page-sub { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-xl); }
   .loading-text { text-align: center; color: var(--text-secondary); }
 
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: var(--space-2xl); }
+  .filter-btn { background: var(--bg-card); color: var(--text-body); cursor: pointer; transition: all var(--transition-fast); border: 1px solid var(--border-card); font-family: inherit; font-size: var(--font-size-small); font-weight: 600; }
+  .filter-btn:hover { background: var(--color-primary); color: var(--color-soft-white); }
+  .filter-btn.active { background: var(--color-primary); color: var(--color-soft-white); }
+
   .gallery-category { margin-bottom: var(--space-3xl); }
-  .cat-title {
-    font-size: 1.25rem; color: var(--text-heading);
-    margin-bottom: var(--space-lg); padding-bottom: var(--space-sm);
-    border-bottom: 2px solid var(--border-default);
-  }
+  .cat-title { font-size: 1.25rem; color: var(--text-heading); margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 2px solid var(--border-default); }
+  .cat-count { font-size: var(--font-size-small); color: var(--text-secondary); font-weight: 400; margin-left: 8px; }
 
-  .gallery-row {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    gap: var(--space-md); margin-bottom: var(--space-md);
-  }
-
-  .gallery-item {
-    border-radius: var(--radius-md); overflow: hidden;
-    background: var(--bg-card); border: 1px solid var(--border-light);
-    aspect-ratio: 4/3;
-  }
+  .gallery-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); margin-bottom: var(--space-md); }
+  .gallery-item { border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); aspect-ratio: 4/3; }
   .gallery-row.portrait .gallery-item { aspect-ratio: 3/4; }
-  .gallery-item img {
-    width: 100%; height: 100%; object-fit: cover;
-    transition: transform var(--transition-base);
-  }
+  .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-base); }
   .gallery-item:hover img { transform: scale(1.05); }
 
-  @media (max-width: 768px) {
-    .gallery-row { grid-template-columns: repeat(2, 1fr); }
-    .gallery-row.portrait { grid-template-columns: repeat(2, 1fr); }
-  }
+  @media (max-width: 768px) { .gallery-row { grid-template-columns: repeat(2, 1fr); } }
 </style>
