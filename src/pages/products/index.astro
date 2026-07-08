@@ -1,25 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import matter from 'gray-matter';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const contentDir = path.resolve(__dirname, '../../content/products');
-const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.mdx'));
-
-const products = files.map(f => {
-  const raw = fs.readFileSync(path.join(contentDir, f), 'utf-8');
-  const { data } = matter(raw);
-  return {
-    slug: f.replace('.mdx', ''),
-    title: data.title || f.replace('.mdx', '').replace(/-/g, ' '),
-    category: data.category || 'Uncategorised',
-    desc: (data.description || '').slice(0, 120),
-    images: data.images || [],
-  };
-});
+import { products } from '../../data/product-list';
 
 const categories = [...new Set(products.map(p => p.category))].sort();
 ---
@@ -44,13 +25,13 @@ const categories = [...new Set(products.map(p => p.category))].sort();
               {product.images.length > 0 ? (
                 <img src={product.images[0].url} alt={product.images[0].alt} loading="lazy" />
               ) : (
-                <span class="no-img-icon">{product.category === 'positioner' ? '🔄' : '🔩'}</span>
+                <span class="no-img-icon">🔩</span>
               )}
             </div>
             <div class="product-info">
               <span class="tag tag-subtle">{product.category}</span>
               <h3>{product.title}</h3>
-              <p class="product-desc">{product.desc}</p>
+              <p class="product-desc">{product.description.slice(0, 120)}</p>
             </div>
           </a>
         ))}
@@ -80,7 +61,7 @@ const categories = [...new Set(products.map(p => p.category))].sort();
   .page-sub { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-xl); }
 
   .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: var(--space-2xl); }
-  .filter-btn { background: var(--bg-card); color: var(--text-body); cursor: pointer; transition: all var(--transition-fast); border: 1px solid var(--border-card); }
+  .filter-btn { background: var(--bg-card); color: var(--text-body); cursor: pointer; transition: all var(--transition-fast); border: 1px solid var(--border-card); font-family: inherit; font-size: var(--font-size-small); font-weight: 600; }
   .filter-btn:hover { background: var(--color-primary); color: var(--color-soft-white); }
   .filter-btn.active { background: var(--color-primary); color: var(--color-soft-white); }
 

@@ -1,31 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import matter from 'gray-matter';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const contentDir = path.resolve(__dirname, '../../content/products');
-const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.mdx'));
-
-const productsData = files.map(f => {
-  const raw = fs.readFileSync(path.join(contentDir, f), 'utf-8');
-  const { data } = matter(raw);
-  return {
-    slug: f.replace('.mdx', ''),
-    title: data.title || f.replace('.mdx', '').replace(/-/g, ' '),
-    category: data.category || 'Uncategorised',
-    description: data.description || '',
-    images: data.images || [],
-  };
-});
+import { products } from '../../data/product-list';
 
 export function getStaticPaths() {
-  return productsData.map(p => ({
-    params: { slug: p.slug },
-    props: p,
-  }));
+  return products.map(p => ({ params: { slug: p.slug }, props: p }));
 }
 
 const product = Astro.props;
