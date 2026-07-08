@@ -291,7 +291,7 @@ import Layout from '../layouts/Layout.astro';
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin: 0 var(--space-xl);
+    margin: var(--space-lg) var(--space-xl);
     border-radius: var(--radius-lg);
   }
   /* 轮播图层 */
@@ -416,7 +416,9 @@ import Layout from '../layouts/Layout.astro';
   /* ===== 统计条 ===== */
   .stats-bar {
     background: var(--color-primary);
-    padding: var(--space-lg) 0;
+    padding: var(--space-md) 0;
+    margin: 0 var(--space-xl);
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   }
   .stats-grid {
     display: grid;

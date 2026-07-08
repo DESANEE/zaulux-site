@@ -39,9 +39,9 @@ const { title, description } = Astro.props;
             <option value="ko">한국어</option>
           </select>
           <div class="topbar-social">
-            <a href="https://www.facebook.com/wxsubo/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
-            <a href="https://x.com/DESANELEC" target="_blank" rel="noopener" aria-label="X">X</a>
-            <a href="https://www.youtube.com/wxsubo" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+            <a href="https://www.facebook.com/wxsubo/" target="_blank" rel="noopener" aria-label="Facebook"><img src="/images/icon-fb.png" alt="FB" class="social-icon" /></a>
+            <a href="https://x.com/DESANELEC" target="_blank" rel="noopener" aria-label="X"><img src="/images/icon-x.png" alt="X" class="social-icon" /></a>
+            <a href="https://www.youtube.com/wxsubo" target="_blank" rel="noopener" aria-label="YouTube"><img src="/images/icon-yt.png" alt="YT" class="social-icon" /></a>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@ const { title, description } = Astro.props;
     <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <a href="/" class="footer-logo">ZAULUX</a>
+          <a href="/" class="footer-logo"><img src="/images/foot-logo.png" alt="ZAULUX" class="footer-logo-img" /></a>
           <p>Lighting the Way to Smart Welding</p>
           <p class="footer-brand-desc">Inspired by "Zhuang" (庄) — the hub where paths converge. Connecting the world through intelligent manufacturing.</p>
         </div>
@@ -280,6 +280,14 @@ const { title, description } = Astro.props;
     display: flex;
     gap: var(--space-md);
   }
+  .social-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    transition: opacity var(--transition-fast);
+    vertical-align: middle;
+  }
+  .topbar-social a:hover .social-icon { opacity: 1; }
   .topbar-social a {
     color: var(--text-on-dark-body);
     font-size: 0.6875rem;
@@ -318,7 +326,7 @@ const { title, description } = Astro.props;
     gap: 10px;
   }
   .logo-img {
-    height: 36px;
+    height: 48px;
     width: auto;
   }
   .logo span {
@@ -479,6 +487,10 @@ const { title, description } = Astro.props;
     font-weight: 700;
     color: var(--color-soft-white);
     text-decoration: none;
+  }
+  .footer-logo-img {
+    height: 40px;
+    width: auto;
   }
   .footer-brand p {
     margin-top: var(--space-sm);
