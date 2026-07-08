@@ -188,7 +188,10 @@ const { title, description } = Astro.props;
     <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <a href="/" class="footer-logo"><img src="/images/foot-logo.png" alt="ZAULUX" class="footer-logo-img" /></a>
+          <a href="/" class="footer-logo">
+            <img src="/images/foot-logo.png" alt="ZAULUX" class="footer-logo-img" />
+            <span class="footer-brand-of">A BRAND OF DESAN</span>
+          </a>
           <p>Lighting the Way to Smart Welding</p>
           <p class="footer-brand-desc">Inspired by "Zhuang" (庄) — the hub where paths converge. Connecting the world through intelligent manufacturing.</p>
         </div>
@@ -508,6 +511,14 @@ const { title, description } = Astro.props;
   .footer-logo-img {
     height: 40px;
     width: auto;
+  }
+  .footer-brand-of {
+    font-size: 0.625rem;
+    color: #5A7060;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 10px;
   }
   .footer-brand p {
     margin-top: var(--space-sm);
