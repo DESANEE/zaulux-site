@@ -1,26 +1,34 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
-const allProducts = await Astro.glob('../../content/products/*.mdx');
+// Read and parse all MDX files for frontmatter
+const contentDir = path.join(process.cwd(), 'src/content/products');
+const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.mdx'));
+
+const productsData = files.map(f => {
+  const raw = fs.readFileSync(path.join(contentDir, f), 'utf-8');
+  const { data } = matter(raw);
+  return {
+    slug: f.replace('.mdx', ''),
+    title: data.title || f.replace('.mdx', '').replace(/-/g, ' '),
+    category: data.category || 'Uncategorised',
+    description: data.description || '',
+    images: data.images || [],
+  };
+});
 
 export function getStaticPaths() {
-  return allProducts.map(p => {
-    const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
-    return {
-      params: { slug },
-      props: {
-        frontmatter: p.frontmatter || {},
-      },
-    };
-  });
+  return productsData.map(p => ({
+    params: { slug: p.slug },
+    props: p,
+  }));
 }
 
-const { frontmatter } = Astro.props;
-const images: Array<{url: string; alt: string}> = frontmatter.images || [];
-const description: string = frontmatter.description || '';
-const category: string = frontmatter.category || 'Uncategorised';
-const title: string = frontmatter.title || Astro.params.slug?.replace(/-/g, '') || '';
-const Content = null; // MDX Content not available via props
+const product = Astro.props;
+const { title, category, description, images } = product;
 ---
 
 <Layout title={title} description={description}>
@@ -29,7 +37,6 @@ const Content = null; // MDX Content not available via props
       <a href="/products/" class="back-link">← Back to Products</a>
 
       <div class="product-layout">
-        <!-- 产品图 -->
         <div class="product-hero-img">
           {images.length > 0 ? (
             <img src={images[0].url} alt={images[0].alt} class="product-main-img" />
@@ -38,7 +45,6 @@ const Content = null; // MDX Content not available via props
           )}
         </div>
 
-        <!-- 产品信息 -->
         <div class="product-detail">
           <span class="tag tag-primary">{category}</span>
           <h1>{title}</h1>
@@ -47,22 +53,18 @@ const Content = null; // MDX Content not available via props
         </div>
       </div>
 
-      <!-- MDX 正文摘要 -->
       {description && (
         <div class="section-inner">
-          <div class="mdx-summary">
-            <h2>Overview</h2>
-            <p>{description}</p>
-          </div>
+          <h2>Overview</h2>
+          <p class="overview-text">{description}</p>
         </div>
       )}
 
-      <!-- 图库 -->
       {images.length > 1 && (
         <div class="section-inner">
           <h2>Product Gallery</h2>
           <div class="image-gallery">
-            {images.map((img, i) => (
+            {images.map((img: any, i: number) => (
               <figure>
                 <img src={img.url} alt={img.alt} loading="lazy" />
                 <figcaption>{img.alt}</figcaption>
@@ -74,7 +76,6 @@ const Content = null; // MDX Content not available via props
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="section section-alt cta-bottom">
     <div class="container cta-inner">
       <h2>Interested in the {title}?</h2>
@@ -85,119 +86,28 @@ const Content = null; // MDX Content not available via props
 </Layout>
 
 <style>
-  .back-link {
-    display: inline-block;
-    margin-bottom: var(--space-xl);
-    color: var(--text-secondary);
-    font-size: var(--font-size-small);
-    text-decoration: none;
-  }
+  .back-link { display: inline-block; margin-bottom: var(--space-xl); color: var(--text-secondary); font-size: var(--font-size-small); text-decoration: none; }
   .back-link:hover { color: var(--text-link-hover); }
 
-  .product-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-3xl);
-    align-items: start;
-  }
-  .product-hero-img {
-    background: var(--bg-section-alt);
-    border-radius: var(--radius-lg);
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-  .product-main-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    min-height: 300px;
-  }
-  .no-img {
-    font-size: 3rem;
-    color: var(--text-secondary);
-  }
-  .product-detail h1 {
-    font-size: 2rem;
-    margin: var(--space-md) 0;
-  }
+  .product-layout { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3xl); align-items: start; }
+  .product-hero-img { background: var(--bg-section-alt); border-radius: var(--radius-lg); min-height: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .product-main-img { width: 100%; height: 100%; object-fit: cover; min-height: 300px; }
+  .no-img { font-size: 3rem; color: var(--text-secondary); }
+  .product-detail h1 { font-size: 2rem; margin: var(--space-md) 0; }
   .product-detail .tag { margin-bottom: var(--space-sm); }
-  .lead {
-    color: var(--text-secondary);
-    font-size: 1.0625rem;
-    margin: var(--space-md) 0 var(--space-xl);
-    line-height: 1.7;
-  }
+  .lead { color: var(--text-secondary); font-size: 1.0625rem; margin: var(--space-md) 0 var(--space-xl); line-height: 1.7; }
 
-  .section-inner {
-    margin-top: var(--space-3xl);
-  }
+  .section-inner { margin-top: var(--space-3xl); }
   .section-inner h2 { margin-bottom: var(--space-lg); }
+  .overview-text { color: var(--text-body); line-height: 1.8; max-width: 800px; margin: 0 auto; }
 
-  /* MDX 正文样式 */
-  .mdx-content {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.8;
-    color: var(--text-body);
-  }
-  .mdx-content h2 {
-    color: var(--text-heading);
-    font-size: 1.375rem;
-    margin: var(--space-xl) 0 var(--space-md);
-  }
-  .mdx-content h3 {
-    color: var(--text-heading);
-    font-size: 1.125rem;
-    margin: var(--space-lg) 0 var(--space-sm);
-  }
-  .mdx-content p { margin-bottom: var(--space-md); }
-  .mdx-content img {
-    max-width: 100%;
-    border-radius: var(--radius-md);
-    margin: var(--space-md) 0;
-  }
-  .mdx-content ul, .mdx-content ol {
-    margin: var(--space-md) 0;
-    padding-left: var(--space-xl);
-  }
-  .mdx-content li { margin-bottom: 6px; }
-
-  /* 图库 */
-  .image-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: var(--space-md);
-  }
-  .image-gallery figure {
-    margin: 0;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-  }
-  .image-gallery img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  .image-gallery figcaption {
-    padding: 8px 12px;
-    font-size: var(--font-size-small);
-    color: var(--text-secondary);
-    text-align: center;
-  }
+  .image-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-md); }
+  .image-gallery figure { margin: 0; border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); }
+  .image-gallery img { width: 100%; height: 180px; object-fit: cover; }
+  .image-gallery figcaption { padding: 8px 12px; font-size: var(--font-size-small); color: var(--text-secondary); text-align: center; }
 
   .cta-bottom { text-align: center; }
-  .cta-inner {
-    padding: var(--space-3xl) var(--space-lg);
-    border-radius: var(--radius-lg);
-  }
+  .cta-inner { padding: var(--space-3xl) var(--space-lg); border-radius: var(--radius-lg); }
 
-  @media (max-width: 768px) {
-    .product-layout { grid-template-columns: 1fr; }
-    .image-gallery { grid-template-columns: repeat(2, 1fr); }
-  }
+  @media (max-width: 768px) { .product-layout { grid-template-columns: 1fr; } .image-gallery { grid-template-columns: repeat(2, 1fr); } }
 </style>

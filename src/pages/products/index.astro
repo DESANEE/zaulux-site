@@ -1,23 +1,25 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
-// Dynamic import — reads all MDX product files
-const allProducts = await Astro.glob('../../content/products/*.mdx');
+const contentDir = path.join(process.cwd(), 'src/content/products');
+const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.mdx'));
 
-const products = allProducts.map(mod => {
-  const slug = (mod.file || '').split('/').pop()?.replace('.mdx', '') || '';
-  const fm = mod.frontmatter || {};
+const products = files.map(f => {
+  const raw = fs.readFileSync(path.join(contentDir, f), 'utf-8');
+  const { data } = matter(raw);
   return {
-    slug,
-    title: fm.title || slug.replace(/-/g, ' '),
-    category: fm.category || 'Uncategorised',
-    desc: (fm.description || '').slice(0, 120),
-    images: fm.images || [],
+    slug: f.replace('.mdx', ''),
+    title: data.title || f.replace('.mdx', '').replace(/-/g, ' '),
+    category: data.category || 'Uncategorised',
+    desc: (data.description || '').slice(0, 120),
+    images: data.images || [],
   };
 });
 
 const categories = [...new Set(products.map(p => p.category))].sort();
----
 ---
 
 <Layout title="Products">
@@ -26,30 +28,21 @@ const categories = [...new Set(products.map(p => p.category))].sort();
       <h1 class="page-title">Products</h1>
       <p class="page-sub">Complete range of welding equipment and automation solutions.</p>
 
-      <!-- 分类筛选 -->
       <div class="filter-bar">
-        <a href="/products/" class="tag tag-primary filter-active">All</a>
+        <button class="tag tag-primary filter-btn active" data-cat="all">All</button>
         {categories.map(cat => (
-          <a href={`/products/?cat=${cat}`} class="tag tag-subtle filter-tag">{cat}</a>
+          <button class="tag tag-subtle filter-btn" data-cat={cat}>{cat}</button>
         ))}
       </div>
 
-      <!-- 产品列表 -->
       <div class="product-list">
         {products.map(product => (
           <a href={`/products/${product.slug}/`} class="product-card">
             <div class="product-img-placeholder">
               {product.images.length > 0 ? (
-                <img src={product.images[0].url} alt={product.images[0].alt} loading="lazy" style="width:100%;height:100%;object-fit:cover" />
+                <img src={product.images[0].url} alt={product.images[0].alt} loading="lazy" />
               ) : (
-                product.category === 'positioner' ? '🔄' :
-                product.category === 'turning rolls' ? '⚙️' :
-                product.category === 'boom&column' ? '🏗️' :
-                product.category === 'h beam' ? '📐' :
-                product.category === 'robot' ? '🤖' :
-                product.category === 'beveling' ? '🔧' :
-                product.category === 'automation' ? '⚡' :
-                product.category === 'hydraulic' ? '💧' : '🔩'
+                <span class="no-img-icon">{product.category === 'positioner' ? '🔄' : '🔩'}</span>
               )}
             </div>
             <div class="product-info">
@@ -64,79 +57,39 @@ const categories = [...new Set(products.map(p => p.category))].sort();
   </section>
 </Layout>
 
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const items = document.querySelectorAll('.product-card');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => { b.classList.remove('active'); b.classList.add('tag-subtle'); });
+      btn.classList.add('active'); btn.classList.remove('tag-subtle');
+      const cat = btn.dataset.cat;
+      items.forEach(item => {
+        const cardCat = item.querySelector('.tag-subtle')?.textContent;
+        item.style.display = (cat === 'all' || cardCat === cat) ? '' : 'none';
+      });
+    });
+  });
+</script>
+
 <style>
-  .page-title {
-    text-align: center;
-    font-size: 2.25rem;
-  }
-  .page-sub {
-    text-align: center;
-    color: var(--text-secondary);
-    margin-bottom: var(--space-xl);
-  }
+  .page-title { text-align: center; font-size: 2.25rem; }
+  .page-sub { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-xl); }
 
-  .filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: var(--space-2xl);
-  }
-  .filter-tag {
-    background: var(--bg-card);
-    color: var(--text-body);
-    cursor: pointer;
-    transition: all var(--transition-fast);
-  }
-  .filter-tag:hover {
-    background: var(--color-primary);
-    color: var(--color-soft-white);
-  }
-  .filter-active {
-    background: var(--color-primary);
-    color: var(--color-soft-white);
-    text-decoration: none;
-  }
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: var(--space-2xl); }
+  .filter-btn { background: var(--bg-card); color: var(--text-body); cursor: pointer; transition: all var(--transition-fast); border: 1px solid var(--border-card); }
+  .filter-btn:hover { background: var(--color-primary); color: var(--color-soft-white); }
+  .filter-btn.active { background: var(--color-primary); color: var(--color-soft-white); }
 
-  .product-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--space-lg);
-  }
+  .product-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-lg); }
 
-  .product-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-card);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    text-decoration: none;
-    transition: all var(--transition-base);
-    box-shadow: var(--shadow-card);
-    color: inherit;
-  }
-  .product-card:hover {
-    box-shadow: var(--shadow-card-hover);
-    transform: translateY(-2px);
-    color: inherit;
-  }
-  .product-img-placeholder {
-    background: var(--bg-section-alt);
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  .product-info {
-    padding: var(--space-md) var(--space-lg) var(--space-lg);
-  }
-  .product-info h3 {
-    margin: var(--space-sm) 0;
-    font-size: 1rem;
-  }
-  .product-desc {
-    color: var(--text-secondary);
-    font-size: var(--font-size-small);
-    line-height: 1.5;
-  }
+  .product-card { background: var(--bg-card); border: 1px solid var(--border-card); border-radius: var(--radius-lg); overflow: hidden; text-decoration: none; transition: all var(--transition-base); box-shadow: var(--shadow-card); color: inherit; }
+  .product-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-2px); color: inherit; }
+  .product-img-placeholder { background: var(--bg-section-alt); height: 160px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .product-img-placeholder img { width: 100%; height: 100%; object-fit: cover; }
+  .no-img-icon { font-size: 2.5rem; }
+  .product-info { padding: var(--space-md) var(--space-lg) var(--space-lg); }
+  .product-info h3 { margin: var(--space-sm) 0; font-size: 1rem; }
+  .product-desc { color: var(--text-secondary); font-size: var(--font-size-small); line-height: 1.5; }
 </style>
