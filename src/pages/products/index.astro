@@ -2,9 +2,11 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 
-const contentDir = path.join(process.cwd(), 'src/content/products');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const contentDir = path.resolve(__dirname, '../../content/products');
 const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.mdx'));
 
 const products = files.map(f => {
