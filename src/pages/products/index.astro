@@ -1,61 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Manual list of all products (generated from the MDX files)
-const products = [
-  { slug: '19-welding-positioner-wp1', title: 'Welding Positioner WP1', category: 'positioner', desc: '1-ton capacity welding positioner for small to medium workpieces.' },
-  { slug: '32-small-pipe-rotator-pr1a', title: 'Small Pipe Rotator PR1A', category: 'turning rolls', desc: 'Pipe turning roll for small diameter pipe welding.' },
-  { slug: '33-wind-tower-butt-welding-and-fit-up-rotator', title: 'Wind Tower Butt Welding & Fit-up Rotator', category: 'turning rolls', desc: 'Heavy-duty rotator for wind tower section alignment and welding.' },
-  { slug: '34-boom-and-column-welding-cobo-wm12', title: 'Boom & Column Welding COBO WM12', category: 'boom&column', desc: 'Compact boom and column manipulator for cobot welding cells.' },
-  { slug: '35-boom-and-column-welding-wm', title: 'Boom & Column Welding WM', category: 'boom&column', desc: 'Standard welding boom and column manipulator series.' },
-  { slug: '36-weld-manipulator-wm4040', title: 'Weld Manipulator WM4040', category: 'boom&column', desc: '4m x 4m heavy-duty welding manipulator with motorized travel.' },
-  { slug: '37-roller-cladding', title: 'Roller Cladding Machine', category: 'omni manipulator', desc: 'Submerged arc roller cladding for cylindrical surface hardfacing.' },
-  { slug: '38-hardfacing-welding-machine-dh10', title: 'Hardfacing Welding Machine DH10', category: 'automation', desc: 'Heavy-duty hardfacing machine for industrial roller reclamation.' },
-  { slug: '39-girth-seam-mig-welding-for-hydraulic-cylinder-and-chemical-machinery', title: 'Girth Seam MIG Welding System', category: 'boom&column', desc: 'Automated girth seam welding for hydraulic cylinders.' },
-  { slug: '40-welding-boom', title: 'Welding Boom', category: 'boom&column', desc: 'Fixed-length welding boom for basic longitudinal welding.' },
-  { slug: '41-welding-boom-column-wm5050', title: 'Welding Boom & Column WM5050', category: 'boom&column', desc: '5m x 5m welding manipulator for large vessel fabrication.' },
-  { slug: '42-hardfacing-welding-machine-dh50', title: 'Hardfacing Welding Machine DH50', category: 'automation', desc: 'Maximum capacity hardfacing machine for large roller builds.' },
-  { slug: '43-longitudinal-seam-welder', title: 'Longitudinal Seam Welder', category: 'boom&column', desc: 'Dedicated longitudinal seam welding machine for cylinders and cones.' },
-  { slug: '44-corrugated-plate-welding-machine-for-construction-industry', title: 'Corrugated Plate Welding Machine', category: 'h beam', desc: 'Automatic welding system for corrugated construction panels.' },
-  { slug: '45-plate-cutting-machine-cnc40', title: 'Plate Cutting Machine CNC40', category: 'beveling', desc: 'CNC flame/plasma cutting machine for steel plate preparation.' },
-  { slug: '46-h-beam-assembling-product-machine-z15', title: 'H-Beam Assembling Machine Z15', category: 'h beam', desc: 'H-beam assembly station with hydraulic clamping and alignment.' },
-  { slug: '47-h-beam-welding-machine', title: 'H-Beam Welding Machine', category: 'h beam', desc: 'Twin-arc submerged arc welding machine for H-beam fillet welds.' },
-  { slug: '48-straightening-machine-for-h-beam-welding-hyj800', title: 'H-Beam Straightening Machine HYJ800', category: 'h beam', desc: 'Hydraulic straightening press for post-weld H-beam correction.' },
-  { slug: '49-box-beam-build-up-line-gzj12', title: 'Box Beam Build-Up Line GZJ12', category: 'h beam', desc: 'Complete box beam assembly and welding production line.' },
-  { slug: '50-box-welding-beam-build-up-line-ubz12', title: 'Box Welding Beam Build-Up Line UBZ12', category: 'h beam', desc: 'Advanced box beam production line with automated welding.' },
-  { slug: '51-electro-slag-welding-machine-xd12', title: 'Electro-Slag Welding Machine XD12', category: 'automation', desc: 'Electro-slag welding system for thick plate joining.' },
-  { slug: '52-solar-track-controller', title: 'Solar Track Controller', category: 'Blog', desc: 'Solar panel tracking control system for photovoltaic arrays.' },
-  { slug: '53-solar-contorller-system-and-solar-controller', title: 'Solar Controller System', category: 'Blog', desc: 'Comprehensive solar tracking and control solution.' },
-  { slug: '54-solar-contorl-system', title: 'Solar Control System', category: 'Blog', desc: 'Solar energy management and tracking control system.' },
-  { slug: '55-diesel-engines-hydraulic-starter', title: 'Diesel Engine Hydraulic Starter', category: 'hydraulic', desc: 'Hydraulic starting system for large diesel engines.' },
-  { slug: '56-hardfacing-machine', title: 'Hardfacing Machine', category: 'automation', desc: 'General-purpose hardfacing and cladding machine.' },
-  { slug: '57-3d-laser-weld-tracking-sensors-for-tig-plasma-mig-welding', title: '3D Laser Weld Tracking Sensors', category: 'automation', desc: 'Real-time weld seam tracking for TIG, plasma, and MIG processes.' },
-  { slug: '58-electrode-submerged-arc-surfacing-and-electrode-electroslag-surfacing', title: 'Electrode Submerged Arc & Electroslag Surfacing', category: 'automation', desc: 'Dual-mode surfacing system for wear-resistant layers.' },
-  { slug: '59-welding-camera-apply-in-tig-plasma-welding-and-lcd-camera-monitor-for-welding', title: 'Welding Camera & LCD Monitor', category: 'automation', desc: 'High-temperature welding camera with LCD monitoring station.' },
-  { slug: '60-oem-waterproof-electric-control-box-metal-enclosures-cabinets-outdoor', title: 'Waterproof Electric Control Box', category: 'Uncategorised', desc: 'OEM waterproof metal enclosures for outdoor industrial use.' },
-  { slug: '61-sheet-metal-fabrication-and-sheet-metal-box', title: 'Sheet Metal Fabrication & Box', category: 'Uncategorised', desc: 'Custom sheet metal fabrication and electrical enclosures.' },
-  { slug: '62-truck-tailgate-lift-scissor-lift-power-pack', title: 'Truck Tailgate Lift Power Pack', category: 'hydraulic', desc: 'Hydraulic power pack for truck tailgate and scissor lifts.' },
-  { slug: '63-hydraulic-power-pack', title: 'Hydraulic Power Pack', category: 'hydraulic', desc: 'Compact hydraulic power unit for industrial machinery.' },
-  { slug: '64-hydraulic-cylinder', title: 'Hydraulic Cylinder', category: 'hydraulic', desc: 'Custom hydraulic cylinders for welding positioners and machinery.' },
-  { slug: '65-beam-face-milling-machine', title: 'Beam Face Milling Machine', category: 'beveling', desc: 'End face milling for H-beams and box beams before welding.' },
-  { slug: '66-beveling-machine-groove', title: 'Beveling Machine Groove', category: 'beveling', desc: 'Plate edge beveling and groove preparation machine.' },
-  { slug: '67-plate-milling-machine-xbj12', title: 'Plate Milling Machine XBJ12', category: 'beveling', desc: 'Heavy plate edge milling and beveling system.' },
-  { slug: '68-gd20-rolling-cutting-beveling-machine', title: 'GD20 Rolling Cutting & Beveling Machine', category: 'beveling', desc: 'Rolling plate cutting and beveling in one operation.' },
-  { slug: '69-keyhole-tig-welding-and-p-t-welding', title: 'Keyhole TIG & P-T Welding', category: 'automation', desc: 'Keyhole TIG and plasma-transferred arc welding systems.' },
-  { slug: '70-plasma-transfer-arc-system-pta', title: 'Plasma Transfer Arc System PTA', category: 'automation', desc: 'PTA welding and cladding system for wear-resistant coatings.' },
-  { slug: '71-robot-welding-positioner-double-axis-p-type-sets', title: 'Robot Welding Positioner — Double Axis P-Type', category: 'robot', desc: 'Dual-axis P-type positioner sets for robot welding cells.' },
-  { slug: '72-gantry-robot-welding-gr40', title: 'Gantry Robot Welding GR40', category: 'robot', desc: 'Gantry-style robot welding system for large workpieces.' },
-  { slug: '73-welding-robot-sold-by-manufacturers', title: 'Welding Robot — Factory Direct', category: 'robot', desc: 'Factory-direct welding robots with integrated positioners.' },
-  { slug: '74-welding-positioner-with-1-axis-for-robot-cobot-welding', title: '1-Axis Welding Positioner for Cobot', category: 'robot', desc: 'Compact 1-axis positioner for collaborative robot welding.' },
-  { slug: '78-welding-postioner-for-all-kind-welding-girth-seam-and-long-seam', title: 'Universal Welding Positioner', category: 'positioner', desc: 'Multi-purpose positioner for girth and longitudinal seam welding.' },
-  { slug: '79-weld-positioner-benefits-and-efficiency-in-welding-operations', title: 'Weld Positioner Benefits & Efficiency', category: 'positioner', desc: 'How welding positioners improve productivity and weld quality.' },
-  { slug: '80-welding-rotator-advantages-and-contributions-to-efficiency-and-safety', title: 'Welding Rotator Advantages', category: 'turning rolls', desc: 'Safety and efficiency benefits of welding rotator systems.' },
-  { slug: '81-robot-welding-advantages-and-contributions-to-efficiency-in-manufacturing', title: 'Robot Welding Advantages', category: 'robot', desc: 'How robotic welding systems transform manufacturing efficiency.' },
-  { slug: '83-maximizing-efficiency-and-accuracy-with-tig-welding-manipulator', title: 'TIG Welding Manipulator Efficiency', category: 'boom&column', desc: 'Maximizing weld accuracy with TIG welding manipulators.' },
-  { slug: '84-external-clamping-ring-fitup-line', title: 'External Clamping Ring Fit-Up Line', category: 'positioner', desc: 'Automated clamping ring system for pipe and vessel fit-up.' },
-];
+// Dynamic import — reads all MDX product files
+const allProducts = import.meta.glob('../../content/products/*.mdx', { eager: true });
+
+const products = Object.entries(allProducts).map(([path, mod]: [string, any]) => {
+  const slug = path.split('/').pop()?.replace('.mdx', '') || '';
+  const fm = mod.frontmatter || {};
+  return {
+    slug,
+    title: fm.title || slug.replace(/-/g, ' '),
+    category: fm.category || 'Uncategorised',
+    desc: (fm.description || '').slice(0, 120),
+    images: fm.images || [],
+  };
+});
 
 const categories = [...new Set(products.map(p => p.category))].sort();
+---
 ---
 
 <Layout title="Products">
@@ -77,14 +39,18 @@ const categories = [...new Set(products.map(p => p.category))].sort();
         {products.map(product => (
           <a href={`/products/${product.slug}/`} class="product-card">
             <div class="product-img-placeholder">
-              {product.category === 'positioner' ? '🔄' :
-               product.category === 'turning rolls' ? '⚙️' :
-               product.category === 'boom&column' ? '🏗️' :
-               product.category === 'h beam' ? '📐' :
-               product.category === 'robot' ? '🤖' :
-               product.category === 'beveling' ? '🔧' :
-               product.category === 'automation' ? '⚡' :
-               product.category === 'hydraulic' ? '💧' : '🔩'}
+              {product.images.length > 0 ? (
+                <img src={product.images[0].url} alt={product.images[0].alt} loading="lazy" style="width:100%;height:100%;object-fit:cover" />
+              ) : (
+                product.category === 'positioner' ? '🔄' :
+                product.category === 'turning rolls' ? '⚙️' :
+                product.category === 'boom&column' ? '🏗️' :
+                product.category === 'h beam' ? '📐' :
+                product.category === 'robot' ? '🤖' :
+                product.category === 'beveling' ? '🔧' :
+                product.category === 'automation' ? '⚡' :
+                product.category === 'hydraulic' ? '💧' : '🔩'
+              )}
             </div>
             <div class="product-info">
               <span class="tag tag-subtle">{product.category}</span>
