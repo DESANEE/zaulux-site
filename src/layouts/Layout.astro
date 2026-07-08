@@ -22,8 +22,8 @@ const { title, description } = Astro.props;
     <div class="topbar">
       <div class="container topbar-inner">
         <div class="topbar-contact">
-          <a href="tel:+86-510-83251886">📞 +86 510 8325 1886</a>
-          <a href="mailto:info@zaulux.com">✉ info@zaulux.com</a>
+          <a href="tel:+86-13395152320">📞 +86 133 9515 2320</a>
+          <a href="mailto:estra@desanee.cn">✉ estra@desanee.cn</a>
         </div>
         <div class="topbar-right">
           <select class="lang-select" onchange="if(this.value){ window.open('https://www-zaulux-com.translate.goog/?_x_tr_sl=en&_x_tr_tl='+this.value,'_self'); }">
@@ -39,9 +39,9 @@ const { title, description } = Astro.props;
             <option value="ko">한국어</option>
           </select>
           <div class="topbar-social">
-            <a href="#" aria-label="Facebook">FB</a>
-            <a href="#" aria-label="LinkedIn">LI</a>
-            <a href="#" aria-label="YouTube">YT</a>
+            <a href="https://www.facebook.com/wxsubo/" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+            <a href="https://x.com/DESANELEC" target="_blank" rel="noopener" aria-label="X">X</a>
+            <a href="https://www.youtube.com/wxsubo" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
           </div>
         </div>
       </div>
@@ -56,7 +56,10 @@ const { title, description } = Astro.props;
         </button>
 
         <!-- Logo -->
-        <a href="/" class="logo">ZAULUX <span>Smart Arcs, Bright Future</span></a>
+        <a href="/" class="logo">
+          <img src="/images/menu-logo.png" alt="ZAULUX" class="logo-img" />
+          <span>Smart Arcs, Bright Future</span>
+        </a>
 
         <!-- 菜单 -->
         <ul class="nav-links">
@@ -203,8 +206,8 @@ const { title, description } = Astro.props;
           </div>
           <div class="footer-col">
             <h4>Contact</h4>
-            <a href="mailto:info@zaulux.com">info@zaulux.com</a>
-            <a href="tel:+86-510-83251886">+86 510 8325 1886</a>
+            <a href="mailto:estra@desanee.cn">estra@desanee.cn</a>
+            <a href="tel:+86-13395152320">+86 133 9515 2320</a>
           </div>
         </div>
       </div>
@@ -212,6 +215,21 @@ const { title, description } = Astro.props;
         <p>© 2026 ZAULUX. All rights reserved.</p>
       </div>
     </footer>
+
+    <script>
+      // Sticky navbar — hide on scroll down, show on scroll up
+      let lastScroll = 0;
+      const navbar = document.querySelector('.navbar');
+      window.addEventListener('scroll', () => {
+        const now = window.scrollY;
+        if (now > lastScroll && now > 100) {
+          navbar.style.transform = 'translateY(-100%)';
+        } else {
+          navbar.style.transform = 'translateY(0)';
+        }
+        lastScroll = now;
+      });
+    </script>
   </body>
 </html>
 
@@ -280,6 +298,7 @@ const { title, description } = Astro.props;
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
   }
   .nav-inner {
     display: flex;
@@ -294,6 +313,13 @@ const { title, description } = Astro.props;
     text-decoration: none;
     white-space: nowrap;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-img {
+    height: 36px;
+    width: auto;
   }
   .logo span {
     color: var(--text-on-dark-body);

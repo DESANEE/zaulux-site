@@ -37,6 +37,10 @@ import Layout from '../layouts/Layout.astro';
         a hub where paths converge. From wind tower rotators to H-beam production lines,
         we deliver heavy-duty welding solutions trusted by fabricators across 50+ countries.
       </p>
+      <div class="hero-search">
+        <input type="text" id="heroSearch" class="hero-search-input" placeholder="Search welding equipment..." autocomplete="off" />
+        <div class="hero-search-results" id="heroSearchResults"></div>
+      </div>
       <div class="btn-group">
         <a href="/products/" class="btn btn-primary btn-lg">Browse Products</a>
         <a href="/contact/" class="btn btn-outline btn-outline-hero">Request Quote</a>
@@ -280,13 +284,15 @@ import Layout from '../layouts/Layout.astro';
   /* ===== Hero 轮播大图 ===== */
   .hero-full {
     position: relative;
-    height: 75vh;
-    min-height: 520px;
-    max-height: 800px;
+    height: 55vh;
+    min-height: 380px;
+    max-height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 0 var(--space-xl);
+    border-radius: var(--radius-lg);
   }
   /* 轮播图层 */
   .hero-slides,
@@ -573,4 +579,75 @@ import Layout from '../layouts/Layout.astro';
   @media (max-width: 480px) {
     .industry-grid { grid-template-columns: 1fr; }
   }
+
+  /* ===== 搜索框 ===== */
+  .hero-search {
+    position: relative;
+    max-width: 440px;
+    margin: 0 auto var(--space-lg);
+  }
+  .hero-search-input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: var(--radius-full);
+    border: 2px solid rgba(245,245,245,0.2);
+    background: rgba(0,0,0,0.25);
+    color: var(--color-soft-white);
+    font-size: 0.9375rem;
+    font-family: inherit;
+    backdrop-filter: blur(8px);
+    outline: none;
+    transition: border-color var(--transition-fast);
+  }
+  .hero-search-input::placeholder { color: rgba(245,245,245,0.5); }
+  .hero-search-input:focus { border-color: rgba(245,245,245,0.5); }
+  .hero-search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 6px;
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    z-index: 10;
+  }
+  .hero-search-results.active { display: block; }
+  .hero-search-results a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--text-body);
+    text-decoration: none;
+    font-size: var(--font-size-small);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .hero-search-results a:hover { background: var(--bg-section-alt); }
+  .hero-search-results a strong { color: var(--text-heading); }
 </style>
+
+<script>
+  // Product search from pre-built data
+  fetch('/products/search-data.json').then(r => r.json()).then(data => {
+    const input = document.getElementById('heroSearch');
+    const results = document.getElementById('heroSearchResults');
+    input.addEventListener('input', () => {
+      const q = input.value.toLowerCase().trim();
+      results.innerHTML = '';
+      if (q.length < 2) { results.classList.remove('active'); return; }
+      const matches = data.filter(p => p.title.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)).slice(0, 8);
+      if (matches.length) {
+        matches.forEach(p => { results.innerHTML += '<a href="/products/' + p.slug + '/"><strong>' + p.title + '</strong> — ' + p.category + '</a>'; });
+        results.classList.add('active');
+      } else { results.classList.remove('active'); }
+    });
+    document.addEventListener('click', e => { if (!input.parentElement.contains(e.target)) results.classList.remove('active'); });
+  }).catch(() => {
+    // Fallback: redirect to products page
+    document.getElementById('heroSearch').addEventListener('keydown', e => {
+      if (e.key === 'Enter') window.location = '/products/?search=' + encodeURIComponent(e.target.value);
+    });
+  });
+</script>

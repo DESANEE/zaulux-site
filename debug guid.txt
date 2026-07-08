@@ -1,0 +1,41 @@
+1.  D:\AI\zaulux-site\logo    
+
+   有favicon.ico
+   有首页 logo
+  有foot-logo 
+
+    加进去
+
+
+
+2.  首页电话  改为 +86 13395152320 
+
+     联系电话改为 estra@desanee.cn 
+
+3.     媒体链接
+
+
+facebook:     https://www.facebook.com/wxsubo/
+    youtube:    https://www.youtube.com/wxsubo
+
+     X  :   https://twitter.com/DESANELEC
+
+
+4.  在首页 增加 search  框 ，方便 搜索
+
+
+5.  在目录D:\AI\output  
+
+    下：  D:\AI\output\weld-articles   是desanee.com的 文章 导出来的。对应图片 是在这里的 D:\AI\output\DSiamge  
+
+        D:\AI\output\zaulux-articles   是你转换成的mdx 文件  图片也是 D:\AI\output\DSiamge 这个目录里的
+
+     你可以浏览 2个网站 浏览同一文章 ，要求文章内容和图片 一直。
+
+   
+6.    现在页面上还有很多 没有图片的 ，自己根据标题 去找 对应的 图片
+
+
+7.  首页 第一区域的 大图片 尺寸 缩小一些 ，来边 留出一定的灰白区域，页面太满 不好看
+
+8.  在首页往下滑动 后 如果鼠标有网上滑动 ，顶部要有粘性菜单栏  方便用户 点击。
