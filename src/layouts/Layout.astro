@@ -79,7 +79,7 @@ const { title, description } = Astro.props;
                   </a>
                   <a href="/products/" class="mega-card">
                     <div class="mega-img">
-                      <img src="/images/products/wp.jpg" alt="Positioners" loading="lazy" />
+                      <img src="/images/menu/menu-wp.jpg" alt="Positioners" loading="lazy" />
                     </div>
                     <span class="mega-label">Positioners</span>
                   </a>
@@ -91,13 +91,13 @@ const { title, description } = Astro.props;
                   </a>
                   <a href="/products/" class="mega-card">
                     <div class="mega-img">
-                      <img src="/images/products/hbeam.jpg" alt="H-Beam Lines" loading="lazy" />
+                      <img src="/images/menu/menu-hbeam.jpg" alt="H-Beam Lines" loading="lazy" />
                     </div>
                     <span class="mega-label">H-Beam Lines</span>
                   </a>
                   <a href="/products/" class="mega-card">
                     <div class="mega-img">
-                      <img src="/images/products/robot.jpg" alt="Robot Welding" loading="lazy" />
+                      <img src="/images/menu/menu-robot.jpg" alt="Robot Welding" loading="lazy" />
                     </div>
                     <span class="mega-label">Robot Welding</span>
                   </a>
@@ -109,13 +109,13 @@ const { title, description } = Astro.props;
                   </a>
                   <a href="/products/" class="mega-card">
                     <div class="mega-img">
-                      <img src="/images/products/beveling.jpg" alt="Beveling M/C" loading="lazy" />
+                      <img src="/images/xbj/menu-beveling.jpg" alt="Beveling M/C" loading="lazy" />
                     </div>
                     <span class="mega-label">Beveling M/C</span>
                   </a>
                   <a href="/products/" class="mega-card">
                     <div class="mega-img">
-                      <img src="/images/menu/menu-hyd.jpg" alt="Hydraulic" loading="lazy" />
+                      <img src="/images/menu/menu-sta.jpg" alt="Hydraulic" loading="lazy" />
                     </div>
                     <span class="mega-label">Hydraulic</span>
                   </a>
@@ -446,7 +446,7 @@ const { title, description } = Astro.props;
   }
   .mega-img {
     width: 100%;
-    height: 110px;
+    height: 130px;
     background: var(--bg-section-alt);
     border-radius: var(--radius-sm);
     display: flex;
@@ -457,7 +457,8 @@ const { title, description } = Astro.props;
   .mega-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding: 4px;
     transition: transform var(--transition-base);
   }
   .mega-card:hover .mega-img img {
