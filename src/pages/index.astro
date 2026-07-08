@@ -1,0 +1,576 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Welding Equipment & Automation Solutions"
+  description="ZAULUX — Professional welding positioners, turning rolls, manipulators, and H-beam production lines."
+>
+  <!-- ===== Hero 轮播大图区 ===== -->
+  <section class="hero-full" id="heroCarousel">
+    <!-- 4 张轮播图 -->
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image: url('/images/slide-1.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('/images/slide-2.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('/images/slide-3.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('/images/slide-4.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- 轮播箭头 -->
+    <button class="hero-arrow hero-arrow-left" aria-label="Previous slide" id="heroPrev">❮</button>
+    <button class="hero-arrow hero-arrow-right" aria-label="Next slide" id="heroNext">❮</button>
+
+    <!-- 轮播指示点 -->
+    <div class="hero-dots" id="heroDots">
+      <button class="hero-dot active" data-index="0"></button>
+      <button class="hero-dot" data-index="1"></button>
+      <button class="hero-dot" data-index="2"></button>
+      <button class="hero-dot" data-index="3"></button>
+    </div>
+
+    <div class="hero-content">
+      <span class="tag tag-primary">Industrial Welding Equipment</span>
+      <h1>Lighting the Way to<br />Smart Welding</h1>
+      <p>
+        <strong>ZAULUX</strong> — inspired by the Chinese character "Zhuang" (庄), symbolizing
+        a hub where paths converge. From wind tower rotators to H-beam production lines,
+        we deliver heavy-duty welding solutions trusted by fabricators across 50+ countries.
+      </p>
+      <div class="btn-group">
+        <a href="/products/" class="btn btn-primary btn-lg">Browse Products</a>
+        <a href="/contact/" class="btn btn-outline btn-outline-hero">Request Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function() {
+      const slides = document.querySelectorAll('.hero-slide');
+      const dots = document.querySelectorAll('.hero-dot');
+      const prev = document.getElementById('heroPrev');
+      const next = document.getElementById('heroNext');
+      let current = 0;
+      let timer;
+
+      function goTo(index) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = index;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+      }
+
+      function goNext() { goTo((current + 1) % slides.length); }
+      function goPrev() { goTo((current - 1 + slides.length) % slides.length); }
+
+      function startAuto() {
+        stopAuto();
+        timer = setInterval(goNext, 5000);
+      }
+      function stopAuto() { clearInterval(timer); }
+
+      prev.addEventListener('click', () => { goPrev(); startAuto(); });
+      next.addEventListener('click', () => { goNext(); startAuto(); });
+      dots.forEach(d => d.addEventListener('click', () => { goTo(+d.dataset.index); startAuto(); }));
+
+      // 鼠标悬停暂停轮播
+      const hero = document.getElementById('heroCarousel');
+      hero.addEventListener('mouseenter', stopAuto);
+      hero.addEventListener('mouseleave', startAuto);
+
+      startAuto();
+    })();
+  </script>
+
+  <!-- ===== 统计条 ===== -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">64+</span>
+          <span class="stat-label">Product Models</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Export Countries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">1000+</span>
+          <span class="stat-label">Installed Systems</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 产品分类 ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Product Categories</h2>
+      <p class="section-sub">Every piece of equipment engineered for reliability in demanding industrial environments.</p>
+      <div class="card-grid">
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/products/wp.jpg" alt="Positioners" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Welding Positioners</h3>
+            <p>1-axis to 3-axis positioners. WP1–WP30 series, 1 to 30 tons capacity.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/menu/menu-wr.jpg" alt="Turning Rolls" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Welding Turning Rolls</h3>
+            <p>Self-aligning rolls for cylindrical workpieces. Adjustable wheelbase, rubber/polyurethane.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/menu/menu-wm.jpg" alt="Manipulators" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Welding Manipulators</h3>
+            <p>Boom & column for automated welding. WM series, 3m–10m reach.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/products/hbeam.jpg" alt="H-Beam Lines" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>H-Beam Production Lines</h3>
+            <p>Complete assembly, welding, straightening. Web height 400mm–2000mm.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/products/robot.jpg" alt="Robot Welding" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Robot Welding Systems</h3>
+            <p>Gantry robots & cobot-ready positioners for automated production cells.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+        <a href="/products/" class="card category-card">
+          <div class="card-img"><img src="/images/menu/menu-auto.jpg" alt="Automation" loading="lazy" /></div>
+          <div class="card-body">
+            <h3>Specialty Equipment</h3>
+            <p>Hardfacing, beveling, PTA, electro-slag welding, and more.</p>
+            <span class="card-link">View Models →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 行业经验（借鉴 desanee "Rich Industry Experience"）===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Rich Industry Experience</h2>
+      <p class="section-sub">Proven solutions across 12 major industries — from oil & gas to aerospace.</p>
+
+      <div class="industry-grid">
+        <div class="industry-card">
+          <img src="/images/menu/OilGas.png" alt="Oil & Gas" loading="lazy" />
+          <div class="industry-label">Oil & Gas</div>
+          <p>Pipeline rotators, vessel positioners for refinery fabrication</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/Mining.png" alt="Mining" loading="lazy" />
+          <div class="industry-label">Mining</div>
+          <p>Heavy-component hardfacing and roller cladding systems</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-4-power generation.png" alt="Power Generation" loading="lazy" />
+          <div class="industry-label">Power Generation</div>
+          <p>Wind tower fit-up rotators, turbine casing welding systems</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-3-cement.png" alt="Cement" loading="lazy" />
+          <div class="industry-label">Cement</div>
+          <p>Kiln roller hardfacing and cladding for wear protection</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-6-marine.png" alt="Marine" loading="lazy" />
+          <div class="industry-label">Marine & Shipbuilding</div>
+          <p>Heavy-section turning rolls and panel welding lines</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-12-construction.png" alt="Construction" loading="lazy" />
+          <div class="industry-label">Construction</div>
+          <p>H-beam welding lines for structural steel fabrication</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-11-aerospace.png" alt="Aerospace" loading="lazy" />
+          <div class="industry-label">Aerospace</div>
+          <p>Precision TIG manipulators and keyhole welding systems</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-8-petrochemical.png" alt="Petrochemical" loading="lazy" />
+          <div class="industry-label">Petrochemical</div>
+          <p>Girth seam welders and roller beds for pressure vessels</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-7-agriculture.png" alt="Agriculture" loading="lazy" />
+          <div class="industry-label">Agriculture</div>
+          <p>Compact positioners and rolls for agricultural machinery</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-10-steel.png" alt="Steel & Pipe" loading="lazy" />
+          <div class="industry-label">Steel & Pipe</div>
+          <p>Pipe rotators, longitudinal seam welders for steel mills</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-5-glass.png" alt="Glass" loading="lazy" />
+          <div class="industry-label">Glass</div>
+          <p>Precision rotation systems for glass processing equipment</p>
+        </div>
+        <div class="industry-card">
+          <img src="/images/menu/line-9-paper.png" alt="Pulp & Paper" loading="lazy" />
+          <div class="industry-label">Pulp & Paper</div>
+          <p>Roller maintenance and hardfacing for paper mill machinery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 为什么选我们 ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Why ZAULUX</h2>
+      <p class="section-sub">Built for welders, trusted by fabricators worldwide.</p>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🏭</div>
+          <h3>Heavy-Duty Design</h3>
+          <p>All-welded steel frames, precision-machined bearing seats, industrial-grade motors rated for continuous duty.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🌍</div>
+          <h3>Global Support</h3>
+          <p>Serving 50+ countries with remote commissioning, local-language documentation, and spare parts delivery.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📋</div>
+          <h3>Custom Engineering</h3>
+          <p>Non-standard voltage, custom height ranges, explosion-proof variants, and special roller configurations.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🔒</div>
+          <h3>Safety Certified</h3>
+          <p>CE certified components, emergency stop circuits, overload protection, ISO compliant.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container cta-inner">
+      <h2>Ready to Upgrade Your Welding Line?</h2>
+      <p>Tell us your requirements — we match you with the right equipment.</p>
+      <a href="/contact/" class="btn btn-accent btn-lg">Get a Quote Today</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* ===== Hero 轮播大图 ===== */
+  .hero-full {
+    position: relative;
+    height: 75vh;
+    min-height: 520px;
+    max-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  /* 轮播图层 */
+  .hero-slides,
+  .hero-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-slide {
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 0;
+  }
+  .hero-slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(10, 46, 38, 0.85) 0%,
+      rgba(17, 66, 50, 0.65) 50%,
+      rgba(17, 66, 50, 0.45) 100%
+    );
+    z-index: 2;
+  }
+  /* 轮播箭头 */
+  .hero-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    background: rgba(10, 46, 38, 0.5);
+    border: 2px solid rgba(245, 245, 245, 0.3);
+    color: var(--color-soft-white);
+    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-base);
+    backdrop-filter: blur(4px);
+  }
+  .hero-arrow:hover {
+    background: rgba(10, 46, 38, 0.8);
+    border-color: var(--color-soft-white);
+  }
+  .hero-arrow-left { left: 20px; }
+  .hero-arrow-right { right: 20px; transform: translateY(-50%) rotate(180deg); }
+  /* 指示点 */
+  .hero-dots {
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    display: flex;
+    gap: 10px;
+  }
+  .hero-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid rgba(245, 245, 245, 0.5);
+    background: transparent;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    padding: 0;
+  }
+  .hero-dot.active {
+    background: var(--color-soft-white);
+    border-color: var(--color-soft-white);
+    transform: scale(1.2);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: var(--color-soft-white);
+    max-width: 720px;
+    padding: 0 var(--space-lg);
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-soft-white);
+    line-height: 1.15;
+    margin: var(--space-lg) 0 var(--space-md);
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    letter-spacing: -0.5px;
+  }
+  .hero-content p {
+    font-size: 1.125rem;
+    color: rgba(245, 245, 245, 0.85);
+    max-width: 600px;
+    margin: 0 auto var(--space-xl);
+    line-height: 1.7;
+  }
+  .btn-outline-hero {
+    color: var(--color-soft-white);
+    border-color: rgba(245, 245, 245, 0.5);
+  }
+  .btn-outline-hero:hover {
+    background: rgba(245, 245, 245, 0.1);
+    border-color: var(--color-soft-white);
+    color: var(--color-soft-white);
+  }
+  .btn-lg {
+    padding: 14px 36px;
+    font-size: 1.0625rem;
+  }
+
+  /* ===== 统计条 ===== */
+  .stats-bar {
+    background: var(--color-primary);
+    padding: var(--space-lg) 0;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: var(--space-lg);
+  }
+  .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-soft-white);
+  }
+  .stat-label {
+    font-size: var(--font-size-small);
+    color: var(--text-on-dark-body);
+    margin-top: 4px;
+  }
+
+  /* ===== 区块标题 ===== */
+  .section-title {
+    text-align: center;
+    margin-bottom: var(--space-sm);
+  }
+  .section-sub {
+    text-align: center;
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto var(--space-2xl);
+  }
+
+  /* ===== 产品分类卡片（带图） ===== */
+  .category-card {
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+  }
+  .card-img {
+    height: 180px;
+    overflow: hidden;
+  }
+  .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-base);
+  }
+  .category-card:hover .card-img img {
+    transform: scale(1.06);
+  }
+  .category-card .card-body {
+    padding: var(--space-md) var(--space-lg) var(--space-lg);
+  }
+  .category-card h3 {
+    margin-bottom: var(--space-xs);
+    font-size: 1rem;
+  }
+  .category-card p {
+    color: var(--text-secondary);
+    font-size: var(--font-size-small);
+    line-height: 1.6;
+    margin-bottom: var(--space-sm);
+  }
+  .card-link {
+    font-weight: 600;
+    font-size: var(--font-size-small);
+    color: var(--text-link);
+  }
+
+  /* ===== 行业经验网格 ===== */
+  .industry-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+  }
+  .industry-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    transition: all var(--transition-base);
+    border: 1px solid var(--border-light);
+  }
+  .industry-card:hover {
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
+  }
+  .industry-card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+  }
+  .industry-label {
+    font-weight: 700;
+    font-size: 0.9375rem;
+    color: var(--text-heading);
+    padding: var(--space-sm) var(--space-md) 0;
+  }
+  .industry-card p {
+    font-size: var(--font-size-small);
+    color: var(--text-secondary);
+    padding: 0 var(--space-md) var(--space-md);
+    line-height: 1.5;
+  }
+
+  /* ===== 特性 ===== */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xl);
+  }
+  .feature-item {
+    padding: var(--space-lg);
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
+  }
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: var(--space-sm);
+  }
+  .feature-item h3 {
+    margin-bottom: var(--space-sm);
+  }
+  .feature-item p {
+    color: var(--text-secondary);
+    font-size: var(--font-size-small);
+  }
+
+  /* ===== CTA ===== */
+  .cta-section {
+    text-align: center;
+  }
+  .cta-inner {
+    background: var(--bg-section-alt);
+    border-radius: var(--radius-lg);
+    padding: var(--space-3xl) var(--space-lg);
+  }
+  .cta-inner h2 {
+    margin-bottom: var(--space-sm);
+  }
+  .cta-inner p {
+    color: var(--text-secondary);
+    margin-bottom: var(--space-xl);
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width: 1024px) {
+    .industry-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .hero-full { height: 60vh; min-height: 420px; }
+    .hero-content h1 { font-size: 2rem; }
+    .hero-content p { font-size: 1rem; }
+    .industry-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .features-grid { grid-template-columns: 1fr; }
+    .card-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 480px) {
+    .industry-grid { grid-template-columns: 1fr; }
+  }
+</style>

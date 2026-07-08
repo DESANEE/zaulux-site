@@ -1,0 +1,543 @@
+---
+// src/layouts/Layout.astro
+export interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | ZAULUX — Lighting the Way to Smart Welding</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <!-- ===== 顶栏：联系方式 + 翻译 ===== -->
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-contact">
+          <a href="tel:+86-510-83251886">📞 +86 510 8325 1886</a>
+          <a href="mailto:info@zaulux.com">✉ info@zaulux.com</a>
+        </div>
+        <div class="topbar-right">
+          <div id="google_translate_element" class="gt-wrapper"></div>
+          <div class="topbar-social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 主导航 ===== -->
+    <header class="navbar">
+      <div class="container nav-inner">
+        <!-- 汉堡菜单（移动端）-->
+        <button class="burger" aria-label="Menu" onclick="this.parentElement.parentElement.classList.toggle('nav-open')">
+          <span></span><span></span><span></span>
+        </button>
+
+        <!-- Logo -->
+        <a href="/" class="logo">ZAULUX <span>Smart Arcs, Bright Future</span></a>
+
+        <!-- 菜单 -->
+        <ul class="nav-links">
+          <li><a href="/" class="nav-item">Home</a></li>
+
+          <!-- Products Mega Menu -->
+          <li class="nav-dropdown">
+            <a href="/products/" class="nav-item dropdown-toggle">Products ▾</a>
+            <div class="mega-menu">
+              <div class="container mega-inner">
+                <div class="mega-grid">
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/menu/menu-wr.jpg" alt="Turning Rolls" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Turning Rolls</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/products/wp.jpg" alt="Positioners" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Positioners</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/menu/menu-wm.jpg" alt="Boom & Column" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Boom & Column</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/products/hbeam.jpg" alt="H-Beam Lines" loading="lazy" />
+                    </div>
+                    <span class="mega-label">H-Beam Lines</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/products/robot.jpg" alt="Robot Welding" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Robot Welding</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/menu/menu-auto.jpg" alt="Automation" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Automation</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/products/beveling.jpg" alt="Beveling M/C" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Beveling M/C</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img">
+                      <img src="/images/menu/menu-hyd.jpg" alt="Hydraulic" loading="lazy" />
+                    </div>
+                    <span class="mega-label">Hydraulic</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Applications Mega Menu -->
+          <li class="nav-dropdown">
+            <button class="nav-item dropdown-toggle" aria-haspopup="true">Applications ▾</button>
+            <div class="mega-menu">
+              <div class="container mega-inner">
+                <div class="mega-grid">
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/OilGas.png" alt="Oil & Gas" loading="lazy" /></div>
+                    <span class="mega-label">Oil & Gas</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/Mining.png" alt="Mining" loading="lazy" /></div>
+                    <span class="mega-label">Mining</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-4-power generation.png" alt="Power Generation" loading="lazy" /></div>
+                    <span class="mega-label">Power Generation</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-3-cement.png" alt="Cement" loading="lazy" /></div>
+                    <span class="mega-label">Cement</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-6-marine.png" alt="Marine" loading="lazy" /></div>
+                    <span class="mega-label">Marine</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-12-construction.png" alt="Construction" loading="lazy" /></div>
+                    <span class="mega-label">Construction</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-11-aerospace.png" alt="Aerospace" loading="lazy" /></div>
+                    <span class="mega-label">Aerospace</span>
+                  </a>
+                  <a href="/products/" class="mega-card">
+                    <div class="mega-img"><img src="/images/menu/line-8-petrochemical.png" alt="Petrochemical" loading="lazy" /></div>
+                    <span class="mega-label">Petrochemical</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="/gallery/" class="nav-item">Gallery</a></li>
+          <li><a href="/about/" class="nav-item">About</a></li>
+          <li><a href="/contact/" class="nav-item">Contact</a></li>
+        </ul>
+
+        <a href="/contact/" class="btn btn-accent nav-cta">Get Quote</a>
+      </div>
+    </header>
+
+    <!-- 主内容 -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">ZAULUX</a>
+          <p>Lighting the Way to Smart Welding</p>
+          <p class="footer-brand-desc">Inspired by "Zhuang" (庄) — the hub where paths converge. Connecting the world through intelligent manufacturing.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Products</h4>
+            <a href="/products/">Positioners</a>
+            <a href="/products/">Turning Rolls</a>
+            <a href="/products/">Manipulators</a>
+            <a href="/products/">H-Beam Lines</a>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="/about/">About Us</a>
+            <a href="/contact/">Contact</a>
+            <a href="/products/85-terms/">Terms</a>
+            <a href="/products/86-privacy-policy/">Privacy</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:info@zaulux.com">info@zaulux.com</a>
+            <a href="tel:+86-510-83251886">+86 510 8325 1886</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 ZAULUX. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Google Translate -->
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'zh-CN,en,es,ru,ar,pt,fr,de,ja,ko',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+  </body>
+</html>
+
+<style>
+  /* ===== 顶栏 ===== */
+  .topbar {
+    background: var(--bg-footer);
+    padding: 6px 0;
+    font-size: 0.75rem;
+    border-bottom: 1px solid #1E5540;
+  }
+  .topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topbar-contact {
+    display: flex;
+    gap: var(--space-lg);
+  }
+  .topbar-contact a {
+    color: var(--text-on-dark-body);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+  .topbar-contact a:hover {
+    color: var(--color-soft-white);
+  }
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+  .gt-wrapper {
+    font-size: 0.6875rem;
+  }
+  .gt-wrapper .goog-te-gadget {
+    font-family: var(--font-family-base);
+    color: var(--text-on-dark-body);
+  }
+  .gt-wrapper .goog-te-gadget select {
+    background: var(--bg-nav);
+    color: var(--text-on-dark-body);
+    border: 1px solid #1E5540;
+    border-radius: var(--radius-sm);
+    padding: 2px 6px;
+    font-size: 0.6875rem;
+    font-family: inherit;
+  }
+  /* 隐藏 GT 默认横幅 */
+  .goog-te-banner-frame { display: none !important; }
+  body { top: 0 !important; }
+  .skiptranslate iframe { display: none !important; }
+  .topbar-social {
+    display: flex;
+    gap: var(--space-md);
+  }
+  .topbar-social a {
+    color: var(--text-on-dark-body);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+  .topbar-social a:hover {
+    color: var(--text-link-hover);
+  }
+
+  /* ===== 主导航 ===== */
+  .navbar {
+    background: var(--bg-nav);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    gap: var(--space-lg);
+  }
+  .logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-soft-white);
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .logo span {
+    color: var(--text-on-dark-body);
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-left: 2px;
+  }
+
+  /* 汉堡按钮 */
+  .burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--color-soft-white);
+    border-radius: 2px;
+    transition: all var(--transition-fast);
+  }
+
+  /* 菜单 */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: var(--space-xs);
+    margin-left: auto;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-item {
+    color: var(--text-on-dark-body);
+    font-size: 0.875rem;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast);
+    font-weight: 500;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: inherit;
+  }
+  .nav-item:hover {
+    color: var(--text-link-hover);
+  }
+  .nav-cta {
+    font-size: var(--font-size-small);
+    padding: 8px 18px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ===== Mega Menu 下拉 ===== */
+  .nav-dropdown {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    max-width: 1100px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-base);
+    z-index: 200;
+    padding: var(--space-xl) 0;
+  }
+  .nav-dropdown:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  .mega-inner {
+    padding: 0 var(--space-md);
+  }
+  .mega-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+  }
+
+  /* Mega 卡片 */
+  .mega-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--text-heading);
+    transition: all var(--transition-base);
+    border: 1px solid transparent;
+  }
+  .mega-card:hover {
+    background: var(--bg-section-alt);
+    border-color: var(--border-light);
+    color: var(--text-heading);
+  }
+  .mega-img {
+    width: 100%;
+    height: 110px;
+    background: var(--bg-section-alt);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .mega-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-base);
+  }
+  .mega-card:hover .mega-img img {
+    transform: scale(1.05);
+  }
+  .mega-label {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text-heading);
+  }
+
+  /* ===== 页脚 ===== */
+  .footer {
+    background: var(--bg-footer);
+    padding-top: var(--space-3xl);
+    color: #809890;
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: var(--space-3xl);
+    padding-bottom: var(--space-2xl);
+  }
+  .footer-logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-soft-white);
+    text-decoration: none;
+  }
+  .footer-brand p {
+    margin-top: var(--space-sm);
+    color: #809890;
+    font-size: var(--font-size-small);
+  }
+  .footer-brand-desc {
+    font-size: 0.6875rem !important;
+    color: #5A7060 !important;
+    line-height: 1.5;
+    max-width: 220px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+  .footer-col h4 {
+    color: var(--text-on-dark-body);
+    font-size: var(--font-size-small);
+    margin-bottom: var(--space-md);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .footer-col a {
+    display: block;
+    color: #809890;
+    font-size: var(--font-size-small);
+    text-decoration: none;
+    padding: 3px 0;
+    transition: color var(--transition-fast);
+  }
+  .footer-col a:hover {
+    color: var(--color-soft-white);
+  }
+  .footer-bottom {
+    border-top: 1px solid #1E5540;
+    padding: var(--space-lg) 0;
+    text-align: center;
+    font-size: var(--font-size-small);
+  }
+
+  /* ===== 响应式 ===== */
+  @media (max-width: 1024px) {
+    .mega-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .topbar { display: none; }
+    .burger { display: flex; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: var(--bg-nav);
+      flex-direction: column;
+      padding: var(--space-md);
+      gap: 0;
+    }
+    .nav-open .nav-links { display: flex; }
+    .nav-dropdown { width: 100%; }
+    .mega-menu {
+      position: static;
+      transform: none;
+      width: 100%;
+      box-shadow: none;
+      border: none;
+      padding: var(--space-sm);
+      opacity: 1;
+      visibility: visible;
+      display: none;
+    }
+    .nav-dropdown:hover .mega-menu { display: block; }
+    .mega-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-inner { grid-template-columns: 1fr; }
+    .footer-links { grid-template-columns: 1fr; }
+  }
+</style>

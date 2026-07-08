@@ -1,0 +1,144 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Collect product images from the DSiamge directories
+const galleryImages = [
+  // Positioners
+  { src: '/images/products/wp.jpg', cat: 'Positioners', desc: 'Welding Positioner WP Series' },
+  { src: '/images/slide-1.jpg', cat: 'Positioners', desc: 'Heavy-Duty Positioner' },
+  { src: '/images/slide-2.jpg', cat: 'Positioners', desc: '3-Axis Welding Positioner' },
+  // Turning Rolls
+  { src: '/images/products/wr.jpg', cat: 'Turning Rolls', desc: 'Self-Aligning Turning Rolls WR Series' },
+  { src: '/images/slide-3.jpg', cat: 'Turning Rolls', desc: 'Pipe Rotator System' },
+  { src: '/images/menu/menu-wr.jpg', cat: 'Turning Rolls', desc: 'Welding Rotator' },
+  // Manipulators
+  { src: '/images/slide-4.jpg', cat: 'Manipulators', desc: 'Boom & Column Manipulator WM Series' },
+  { src: '/images/menu/menu-wm.jpg', cat: 'Manipulators', desc: 'Welding Manipulator' },
+  { src: '/images/products/wm.jpg', cat: 'Manipulators', desc: 'Heavy-Duty Manipulator' },
+  // H-Beam
+  { src: '/images/products/hbeam.jpg', cat: 'H-Beam Lines', desc: 'H-Beam Assembly Line' },
+  { src: '/images/menu/menu-hbeam.jpg', cat: 'H-Beam Lines', desc: 'H-Beam Welding Machine' },
+  // Robot
+  { src: '/images/products/robot.jpg', cat: 'Robot Welding', desc: 'Robot Welding Cell' },
+  { src: '/images/menu/menu-robot.jpg', cat: 'Robot Welding', desc: 'Gantry Robot System' },
+  // Automation
+  { src: '/images/menu/menu-auto.jpg', cat: 'Automation', desc: 'Automated Welding System' },
+  { src: '/images/products/automation.png', cat: 'Automation', desc: 'Hardfacing & Cladding' },
+  // Beveling
+  { src: '/images/products/beveling.jpg', cat: 'Beveling', desc: 'Plate Beveling Machine' },
+  // Hydraulic
+  { src: '/images/menu/menu-hyd.jpg', cat: 'Hydraulic', desc: 'Hydraulic Power Pack' },
+  { src: '/images/menu/menu-sta.jpg', cat: 'Hydraulic', desc: 'Hydraulic Starter' },
+];
+
+const categories = [...new Set(galleryImages.map(i => i.cat))];
+---
+
+<Layout title="Gallery">
+  <section class="section">
+    <div class="container">
+      <h1 class="page-title">Product Gallery</h1>
+      <p class="page-sub">Explore our welding equipment in action — from positioners to H-beam production lines.</p>
+
+      <!-- 分类筛选 -->
+      <div class="filter-bar">
+        <button class="tag tag-primary filter-btn active" data-cat="all">All</button>
+        {categories.map(cat => (
+          <button class="tag tag-subtle filter-btn" data-cat={cat}>{cat}</button>
+        ))}
+      </div>
+
+      <!-- 图集网格 -->
+      <div class="gallery-grid" id="galleryGrid">
+        {galleryImages.map((img, i) => (
+          <div class="gallery-item" data-cat={img.cat}>
+            <div class="gallery-img-wrap">
+              <img src={img.src} alt={img.desc} loading="lazy" />
+              <div class="gallery-overlay">
+                <span class="gallery-cat">{img.cat}</span>
+                <span class="gallery-desc">{img.desc}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const buttons = document.querySelectorAll('.filter-btn');
+  const items = document.querySelectorAll('.gallery-item');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => { b.classList.remove('active'); b.classList.add('tag-subtle'); });
+      btn.classList.add('active');
+      btn.classList.remove('tag-subtle');
+
+      const cat = btn.dataset.cat;
+      items.forEach(item => {
+        item.style.display = (cat === 'all' || item.dataset.cat === cat) ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+<style>
+  .page-title { text-align: center; font-size: 2.25rem; }
+  .page-sub { text-align: center; color: var(--text-secondary); margin-bottom: var(--space-xl); }
+
+  .filter-bar {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: center; margin-bottom: var(--space-2xl);
+  }
+  .filter-btn {
+    background: var(--bg-card); color: var(--text-body);
+    cursor: pointer; transition: all var(--transition-fast);
+    border: 1px solid var(--border-card);
+  }
+  .filter-btn:hover { background: var(--color-primary); color: var(--color-soft-white); }
+  .filter-btn.active {
+    background: var(--color-primary); color: var(--color-soft-white);
+    border-color: var(--color-primary);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-md);
+  }
+  .gallery-item {
+    animation: fadeIn 0.3s ease;
+  }
+  .gallery-img-wrap {
+    position: relative;
+    aspect-ratio: 4/3;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .gallery-img-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform var(--transition-base);
+  }
+  .gallery-img-wrap:hover img { transform: scale(1.06); }
+  .gallery-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,46,38,0.85) 0%, transparent 50%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: var(--space-lg);
+    opacity: 0; transition: opacity var(--transition-base);
+  }
+  .gallery-img-wrap:hover .gallery-overlay { opacity: 1; }
+  .gallery-cat {
+    font-size: var(--font-size-small); color: var(--text-on-dark-body);
+    font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .gallery-desc {
+    color: var(--color-soft-white); font-weight: 600;
+    font-size: 0.875rem; margin-top: 4px;
+  }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+</style>

@@ -1,0 +1,202 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us" description="Get in touch with ZAULUX for welding equipment quotes and technical inquiries.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Tell us your requirements — we'll match you with the right equipment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- 联系表单 -->
+        <div class="contact-form-wrap">
+          <h2>Send a Message</h2>
+          <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Your company name" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+86 138..." />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interest">Product Interest</label>
+              <select id="interest" name="interest">
+                <option value="">— Select —</option>
+                <option>Welding Positioners</option>
+                <option>Welding Turning Rolls</option>
+                <option>Boom & Column Manipulators</option>
+                <option>H-Beam Production Lines</option>
+                <option>Robot Welding Systems</option>
+                <option>Hardfacing / Cladding</option>
+                <option>Beveling Machines</option>
+                <option>Other / Custom</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required
+                placeholder="Tell us about your project — material, dimensions, capacity requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent btn-lg">Send Message</button>
+            <p class="form-note" id="formMsg"></p>
+          </form>
+        </div>
+
+        <!-- 联系信息 -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+
+          <div class="info-block">
+            <h3>📞 Phone</h3>
+            <a href="tel:+86-510-83251886">+86 510 8325 1886</a>
+          </div>
+          <div class="info-block">
+            <h3>📱 Mobile / WhatsApp</h3>
+            <a href="tel:+86-13814276518">+86 138 1427 6518</a>
+          </div>
+          <div class="info-block">
+            <h3>✉ Email</h3>
+            <a href="mailto:info@zaulux.com">info@zaulux.com</a>
+          </div>
+          <div class="info-block">
+            <h3>📍 Address</h3>
+            <p>Wuxi, Jiangsu Province<br />China 214000</p>
+          </div>
+
+          <div class="info-block hours">
+            <h3>🕐 Working Hours</h3>
+            <p>Monday – Friday: 8:00 AM – 5:30 PM (GMT+8)</p>
+            <p>Saturday: 8:00 AM – 12:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    const msg = document.getElementById('formMsg');
+    msg.textContent = '✓ Thank you! Your message has been sent. We will reply within 24 hours.';
+    msg.style.color = 'var(--color-success)';
+  }
+</script>
+
+<style>
+  .page-hero {
+    background: var(--bg-section-alt);
+    padding: var(--space-3xl) 0;
+    text-align: center;
+  }
+  .page-hero h1 { font-size: 2.25rem; }
+  .page-hero p { color: var(--text-secondary); margin-top: var(--space-sm); }
+
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--space-3xl);
+  }
+  .contact-form-wrap h2,
+  .contact-info h2 {
+    margin-bottom: var(--space-xl);
+  }
+
+  /* 表单 */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .form-group label {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    color: var(--text-heading);
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background: var(--bg-input);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    padding: 10px 14px;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-body);
+    color: var(--text-body);
+    transition: border-color var(--transition-fast);
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(17, 66, 50, 0.15);
+  }
+  .form-note {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    min-height: 20px;
+  }
+  .btn-lg { padding: 14px 36px; font-size: 1.0625rem; width: fit-content; }
+
+  /* 联系信息 */
+  .info-block {
+    margin-bottom: var(--space-lg);
+  }
+  .info-block h3 {
+    font-size: var(--font-size-body);
+    margin-bottom: 4px;
+  }
+  .info-block a {
+    color: var(--text-link);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .info-block a:hover { color: var(--text-link-hover); }
+  .info-block p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .hours {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .hours h3 { margin-bottom: var(--space-sm); }
+
+  @media (max-width: 768px) {
+    .contact-layout { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+</style>

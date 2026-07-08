@@ -1,0 +1,175 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { productData, type ProductData } from '../../data/products';
+
+export function getStaticPaths() {
+  return Object.keys(productData).map(slug => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const product = productData[slug as string] as ProductData | undefined;
+
+if (!product) {
+  return Astro.redirect('/products/');
+}
+---
+
+<Layout title={product.title} description={product.desc}>
+  <section class="section">
+    <div class="container">
+      <a href="/products/" class="back-link">← Back to Products</a>
+
+      <div class="product-layout">
+        <!-- 左侧图 -->
+        <div class="product-hero-img">
+          {product.category === 'positioner' ? '🔄' :
+           product.category === 'turning rolls' ? '⚙️' :
+           product.category === 'boom&column' ? '🏗️' :
+           product.category === 'h beam' ? '📐' :
+           product.category === 'robot' ? '🤖' :
+           product.category === 'beveling' ? '🔧' :
+           product.category === 'automation' ? '⚡' :
+           product.category === 'hydraulic' ? '💧' : '🔩'}
+        </div>
+
+        <!-- 右侧信息 -->
+        <div class="product-detail">
+          <span class="tag tag-primary">{product.category}</span>
+          <h1>{product.title}</h1>
+          <p class="lead">{product.desc}</p>
+
+          <a href="/contact/" class="btn btn-accent">Request Quote</a>
+        </div>
+      </div>
+
+      <!-- 规格表 -->
+      <div class="section-inner">
+        <h2>Technical Specifications</h2>
+        <table>
+          <thead>
+            <tr><th>Parameter</th><th>Value</th></tr>
+          </thead>
+          <tbody>
+            {Object.entries(product.specs).map(([key, val]) => (
+              <tr><td>{key}</td><td><strong>{val}</strong></td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 特性 -->
+      <div class="section-inner">
+        <h2>Key Features</h2>
+        <div class="features-list">
+          {product.features.map(f => (
+            <div class="feature-row">
+              <span class="feature-check">✓</span>
+              <span>{f}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-alt cta-bottom">
+    <div class="container cta-inner">
+      <h2>Interested in the {product.title}?</h2>
+      <p>Contact our engineering team for a customized quotation and delivery timeline.</p>
+      <a href="/contact/" class="btn btn-accent btn-lg">Get a Quote</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .back-link {
+    display: inline-block;
+    margin-bottom: var(--space-xl);
+    color: var(--text-secondary);
+    font-size: var(--font-size-small);
+    text-decoration: none;
+  }
+  .back-link:hover {
+    color: var(--text-link-hover);
+  }
+
+  .product-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    align-items: center;
+  }
+  .product-hero-img {
+    background: var(--bg-section-alt);
+    border-radius: var(--radius-lg);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+  }
+  .product-detail h1 {
+    font-size: 2rem;
+    margin: var(--space-md) 0;
+  }
+  .product-detail .tag {
+    margin-bottom: var(--space-sm);
+  }
+  .lead {
+    color: var(--text-secondary);
+    font-size: 1.0625rem;
+    margin: var(--space-md) 0 var(--space-xl);
+    line-height: 1.7;
+  }
+
+  .section-inner {
+    margin-top: var(--space-3xl);
+  }
+  .section-inner h2 {
+    margin-bottom: var(--space-lg);
+  }
+
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+  }
+  .feature-row {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    padding: var(--space-sm) 0;
+    font-size: var(--font-size-body);
+    color: var(--text-body);
+  }
+  .feature-check {
+    color: var(--color-success);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .cta-bottom {
+    text-align: center;
+  }
+  .cta-inner {
+    padding: var(--space-3xl) var(--space-lg);
+    border-radius: var(--radius-lg);
+  }
+
+  @media (max-width: 768px) {
+    .product-layout {
+      grid-template-columns: 1fr;
+    }
+    .features-list {
+      grid-template-columns: 1fr;
+    }
+    .product-hero-img {
+      min-height: 250px;
+      font-size: 5rem;
+    }
+  }
+</style>
