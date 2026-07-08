@@ -1,24 +1,24 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Read MDX files using Astro.glob (proper MDX support)
+// Read MDX files using Astro.glob
 const allProducts = await Astro.glob('../../content/products/*.mdx');
 
 export function getStaticPaths() {
   return allProducts.map(p => {
     const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
-    return { params: { slug }, props: { idx: allProducts.indexOf(p) } };
+    return { params: { slug } };
   });
 }
 
-const { idx } = Astro.props;
-const mdxModule = allProducts[idx];
-const { frontmatter } = mdxModule;
+const { slug } = Astro.params;
+const mdxModule = allProducts.find(p => (p.file || '').includes(slug || ''));
+const { frontmatter = {} } = mdxModule || {};
 const images: Array<{url: string; alt: string}> = frontmatter.images || [];
 const description: string = frontmatter.description || '';
 const category: string = frontmatter.category || 'Uncategorised';
-const title: string = frontmatter.title || Astro.params.slug?.replace(/-/g, ' ') || '';
-const Content = mdxModule.Content;
+const title: string = frontmatter.title || slug?.replace(/-/g, '') || '';
+const Content = mdxModule?.Content;
 ---
 
 <Layout title={title} description={description}>
@@ -46,11 +46,13 @@ const Content = mdxModule.Content;
       </div>
 
       <!-- MDX 正文内容 -->
-      <div class="section-inner">
-        <div class="mdx-content">
-          <Content />
+      {Content && (
+        <div class="section-inner">
+          <div class="mdx-content">
+            <Content />
+          </div>
         </div>
-      </div>
+      )}
 
       <!-- 图库 -->
       {images.length > 1 && (
