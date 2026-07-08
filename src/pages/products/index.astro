@@ -2,10 +2,10 @@
 import Layout from '../../layouts/Layout.astro';
 
 // Dynamic import — reads all MDX product files
-const allProducts = import.meta.glob('../../content/products/*.mdx', { eager: true });
+const allProducts = await Astro.glob('../../content/products/*.mdx');
 
-const products = Object.entries(allProducts).map(([path, mod]: [string, any]) => {
-  const slug = path.split('/').pop()?.replace('.mdx', '') || '';
+const products = allProducts.map(mod => {
+  const slug = (mod.file || '').split('/').pop()?.replace('.mdx', '') || '';
   const fm = mod.frontmatter || {};
   return {
     slug,

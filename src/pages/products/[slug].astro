@@ -1,30 +1,24 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Read all MDX product files
-const allProducts = import.meta.glob('../../content/products/*.mdx', { eager: true });
+// Read MDX files using Astro.glob (proper MDX support)
+const allProducts = await Astro.glob('../../content/products/*.mdx');
 
 export function getStaticPaths() {
-  return Object.keys(allProducts).map(path => {
-    const slug = path.split('/').pop()?.replace('.mdx', '') || '';
-    return { params: { slug } };
+  return allProducts.map(p => {
+    const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
+    return { params: { slug }, props: { idx: allProducts.indexOf(p) } };
   });
 }
 
-const { slug } = Astro.params;
-const filePath = `../../content/products/${slug}.mdx`;
-const mdxModule = allProducts[filePath] as any;
-
-if (!mdxModule) {
-  return Astro.redirect('/products/');
-}
-
+const { idx } = Astro.props;
+const mdxModule = allProducts[idx];
 const { frontmatter } = mdxModule;
 const images: Array<{url: string; alt: string}> = frontmatter.images || [];
 const description: string = frontmatter.description || '';
 const category: string = frontmatter.category || 'Uncategorised';
-const title: string = frontmatter.title || slug.replace(/-/g, ' ');
-const Content = mdxModule.default;
+const title: string = frontmatter.title || Astro.params.slug?.replace(/-/g, ' ') || '';
+const Content = mdxModule.Content;
 ---
 
 <Layout title={title} description={description}>
