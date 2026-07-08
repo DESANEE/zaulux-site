@@ -1,24 +1,30 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-// Read MDX files using Astro.glob
+// Read MDX files
 const allProducts = await Astro.glob('../../content/products/*.mdx');
 
+// Build lookup map
+const productMap = new Map();
+allProducts.forEach(p => {
+  const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
+  productMap.set(slug, { frontmatter: p.frontmatter || {}, Content: p.Content });
+});
+
 export function getStaticPaths() {
-  return allProducts.map(p => {
-    const slug = (p.file || '').split('/').pop()?.replace('.mdx', '') || '';
-    return { params: { slug } };
-  });
+  return Array.from(productMap.keys()).map(slug => ({
+    params: { slug },
+  }));
 }
 
 const { slug } = Astro.params;
-const mdxModule = allProducts.find(p => (p.file || '').includes(slug || ''));
-const { frontmatter = {} } = mdxModule || {};
+const data = productMap.get(slug || '');
+const frontmatter = data?.frontmatter || {};
 const images: Array<{url: string; alt: string}> = frontmatter.images || [];
 const description: string = frontmatter.description || '';
 const category: string = frontmatter.category || 'Uncategorised';
 const title: string = frontmatter.title || slug?.replace(/-/g, '') || '';
-const Content = mdxModule?.Content;
+const Content = data?.Content;
 ---
 
 <Layout title={title} description={description}>
