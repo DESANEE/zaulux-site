@@ -78,9 +78,10 @@ def extract_clean_body(html):
     for line in body.split('\n'):
         line = line.strip()
         if not line: continue
-        # Skip lines that are just tags/metadata
-        if re.match(r'^<(meta|link|div|span|nav|button|a|ul|ol|li|h1)\b', line): continue
-        # Extract text content
+        # Skip lines that are just structural/wrapper tags
+        if re.match(r'^<(meta|link|div|span|nav|button|a\b)[ >]', line): continue
+        if re.match(r'^</?(div|span|nav|a)\b', line): continue
+        # Extract text content — keep li, td, th, h2-h4, p, strong, em
         text = re.sub(r'<[^>]+>', ' ', line)
         text = re.sub(r'\s+', ' ', text).strip()
         if text and len(text) > 5:
@@ -88,7 +89,9 @@ def extract_clean_body(html):
     
     # Build clean body: text paragraphs + images
     result = ''
-    for p in paragraphs[:20]:  # Limit to 20 meaningful paragraphs
+    for p in paragraphs:
+        # Skip Hits/admin lines
+        if re.match(r'^(Hits:|admin\b|Published:)', p): continue
         if p not in result:
             result += f'<p>{p}</p>\n'
     
