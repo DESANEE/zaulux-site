@@ -18,8 +18,9 @@ def clean_body(html):
     # 1. Author name
     body = re.sub(r'<span[^>]*>\s*<span itemprop="name"[^>]*>\s*admin\s*</span>\s*</span>', '', body, flags=re.DOTALL)
     
-    # 2. Hits counter
-    body = re.sub(r'<span[^>]*>\s*Hits:\s*\d+\s*</span>', '', body)
+    # 2. Hits counter — broader match with schema.org wrapper
+    body = re.sub(r'<span[^>]*interactionStatistic[^>]*>.*?Hits:\s*\d+\s*</span>', '', body, flags=re.DOTALL)
+    body = re.sub(r'Hits:\s*\d+\s*</span>', '</span>', body)  # fallback for partially removed
     
     # 3. Ratings + social share
     body = re.sub(r'<div class="article-ratings-social-share[^"]*">.*?</div>\s*</div>\s*</div>', '</div>', body, flags=re.DOTALL)
