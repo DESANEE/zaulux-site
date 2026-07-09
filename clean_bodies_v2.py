@@ -56,6 +56,8 @@ def clean_body(html):
     body = re.sub(r'<h1[^>]*>.*?</h1>', '', body)
     
     body = body.strip()
+    # Fix DSiamge paths
+    body = body.replace('/DSiamge/', '/')
     return body
 
 # Build body map
