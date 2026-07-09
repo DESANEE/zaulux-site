@@ -33,17 +33,23 @@ def clean_body(html):
     body = re.sub(r'<span aria-hidden="true">\s*Prev\s*</span>', '', body)
     body = re.sub(r'<span aria-hidden="true">\s*Next\s*</span>', '', body)
     
-    # 5. Related articles
-    body = re.sub(r'<div class="related-article-list-container">.*?</div>\s*</div>\s*</div>', '', body, flags=re.DOTALL)
+    # 5. Related articles — broader match
+    body = re.sub(r'<div class="article-list related-article-list">.*?</div>\s*</div>\s*</div>', '', body, flags=re.DOTALL)
+    body = re.sub(r'<h3 class="related-article-title"[^>]*>.*?</h3>', '', body, flags=re.DOTALL)
     
-    # 6. Tag links
-    body = re.sub(r'<a\s[^>]*href="[^"]*option=com_tags[^"]*"[^>]*>[^<]*</a>', '', body, flags=re.DOTALL)
-    body = re.sub(r'<a\s[^>]*href="[^"]*component/tags/[^"]*"[^>]*>[^<]*</a>', '', body, flags=re.DOTALL)
+    # 6. Tag links — list-inline-item tag-*
+    body = re.sub(r'<li class="list-inline-item tag-\d+[^"]*"[^>]*>\s*<a[^>]*>.*?</a>\s*</li>', '', body, flags=re.DOTALL)
     
-    # 7. Category link (index.php)
-    body = re.sub(r'<a\s[^>]*href="[^"]*option=com_content[^"]*"[^>]*>\s*[^<]{1,20}\s*</a>', '', body, flags=re.DOTALL)
+    # 7. Category span ("positioner" link)
+    body = re.sub(r'<span class="category-name"[^>]*>.*?</span>', '', body, flags=re.DOTALL)
     
-    # 8. H1
+    # 8. Published date span
+    body = re.sub(r'<span class="published"[^>]*>.*?</span>', '', body, flags=re.DOTALL)
+    
+    # 9. Page navigation (<nav class="pagenavigation">)
+    body = re.sub(r'<nav class="pagenavigation"[^>]*>.*?</nav>', '', body, flags=re.DOTALL)
+    
+    # 10. H1
     body = re.sub(r'<h1[^>]*>.*?</h1>', '', body)
     
     # 9. Bootstrap carousel (images shown in Product Gallery)
