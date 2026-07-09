@@ -5,8 +5,16 @@ import '../styles/global.css';
 export interface Props {
   title: string;
   description?: string;
+  image?: string;
+  slug?: string;
 }
-const { title, description } = Astro.props;
+const { title, description, image, slug } = Astro.props;
+const pageUrl = slug ? `https://www.zaulux.com${slug}` : 'https://www.zaulux.com/';
+const ogImage = image || 'https://www.zaulux.com/images/menu-logo.png';
+const siteTitle = 'ZAULUX — Lighting the Way to Smart Welding';
+const fullTitle = `${title} | ${siteTitle}`;
+const desc = description || 'ZAULUX is a professional welding equipment manufacturer specializing in positioners, turning rolls, manipulators, H-beam lines, and robot welding systems for global industries.';
+const brandDesc = 'Professional welding equipment manufacturer — positioners, turning rolls, manipulators, H-beam lines, robot welding. 20+ years experience, 50+ countries, CE/ISO certified. A brand of DESAN ELECTRIC.';
 ---
 
 <!doctype html>
@@ -14,8 +22,54 @@ const { title, description } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} | ZAULUX — Lighting the Way to Smart Welding</title>
-    {description && <meta name="description" content={description} />}
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <meta name="keywords" content="welding positioner, turning rolls, welding manipulator, H-beam welding, robot welding, welding automation, welding equipment manufacturer, welding rotator, pipe welding, tank welding" />
+    <meta name="author" content="DESAN ELECTRIC LTD" />
+    <link rel="canonical" href={pageUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ZAULUX" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:site" content="@DESANELEC" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      'name': 'ZAULUX',
+      'alternateName': 'DESAN ELECTRIC LTD',
+      'url': 'https://www.zaulux.com/',
+      'logo': 'https://www.zaulux.com/images/menu-logo.png',
+      'description': brandDesc,
+      'foundingDate': '2003',
+      'address': {
+        '@type': 'PostalAddress',
+        'addressCountry': 'CN'
+      },
+      'contactPoint': {
+        '@type': 'ContactPoint',
+        'telephone': '+86-133-9515-2320',
+        'email': 'estra@desanee.cn',
+        'contactType': 'sales'
+      },
+      'sameAs': [
+        'https://www.facebook.com/wxsubo/',
+        'https://x.com/DESANELEC',
+        'https://www.youtube.com/wxsubo'
+      ]
+    })} />
   </head>
   <body>
     <!-- ===== 顶栏：联系方式 + 翻译 ===== -->
