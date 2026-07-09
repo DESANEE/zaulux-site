@@ -91,7 +91,7 @@ for line in lines:
         indent = m.group(1)
         new_body = body_map[current_slug]
         bs = chr(92)
-        escaped = new_body.replace(bs, bs + bs).replace('"', bs + '"').replace('\n', bs + 'n')
+        escaped = new_body.replace('"', '\\"').replace('\n', '\\n')
         line = indent + '"' + escaped + '",\n'
     new_lines.append(line)
 
