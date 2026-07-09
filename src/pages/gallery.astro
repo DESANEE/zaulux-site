@@ -28,12 +28,14 @@ import Layout from '../layouts/Layout.astro';
       function render(filterIdx) {
         let html = '';
         if (filterIdx === 'all') {
-          // Show all images in a continuous grid, 4 per row
-          html += '<div class="gallery-row">';
-          data.all.forEach((img, i) => {
-            html += '<div class="gallery-item"><img src="' + img + '" alt="" loading="lazy" /></div>';
-          });
-          html += '</div>';
+          // Split into rows of 4
+          for (let i = 0; i < data.all.length; i += 4) {
+            html += '<div class="gallery-row">';
+            for (let j = i; j < i + 4 && j < data.all.length; j++) {
+              html += '<div class="gallery-item"><img src="' + data.all[j] + '" alt="" loading="lazy" /></div>';
+            }
+            html += '</div>';
+          }
         } else {
           const cat = data.categories[filterIdx];
           html += '<h2 class="cat-title">' + cat.category + ' <span class="cat-count">' + (cat.rows.reduce((s,r) => s + r.length, 0)) + ' photos</span></h2>';
@@ -74,8 +76,8 @@ import Layout from '../layouts/Layout.astro';
   .cat-count { font-size: var(--font-size-small); color: var(--text-secondary); font-weight: 400; margin-left: 8px; }
 
   .gallery-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 12px; }
-  .gallery-item { border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); padding: 12px; }
-  .gallery-item img { width: 100%; height: 200px; object-fit: contain; background: var(--bg-page); display: block; transition: transform var(--transition-base); }
+  .gallery-item { border-radius: var(--radius-md); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-light); padding: 12px; min-height: 200px; display: flex; align-items: center; justify-content: center; }
+  .gallery-item img { max-width: 100%; max-height: 220px; object-fit: contain; background: var(--bg-page); display: block; transition: transform var(--transition-base); }
   .gallery-item:hover img { transform: scale(1.03); }
 
   @media (max-width: 768px) { .gallery-row { grid-template-columns: repeat(2, 1fr); } }
