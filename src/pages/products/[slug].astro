@@ -8,9 +8,22 @@ export function getStaticPaths() {
 
 const product = Astro.props;
 const { title, category, description, images } = product;
+
+// Build SEO title with category keywords
+const catKeywords = {
+  'positioner': 'Welding Positioner, Pipe Tank Positioner',
+  'turning roll': 'Welding Rotator, Turning Rolls',
+  'boom&column': 'Welding Manipulator, Boom Column',
+  'hbeam': 'H Beam Welding Line',
+  'robot': 'Robot Welding, Cobot Positioner',
+  'automation': 'Welding Automation, Seam Tracking',
+  'beveling': 'Beveling Machine, Plate Edge Milling',
+  'combo': 'Omni Welding Manipulator',
+};
+const seoTitle = `${title} — ${catKeywords[category] || 'Welding Equipment'} - ZAULUX`;
 ---
 
-<Layout title={title} description={description}>
+<Layout title={seoTitle} description={description}>
   <section class="section">
     <div class="container">
       <a href="/products/" class="back-link">← Back to Products</a>

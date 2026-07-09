@@ -11,8 +11,6 @@ export interface Props {
 const { title, description, image, slug } = Astro.props;
 const pageUrl = slug ? `https://www.zaulux.com${slug}` : 'https://www.zaulux.com/';
 const ogImage = image || 'https://www.zaulux.com/images/menu-logo.png';
-const siteTitle = 'ZAULUX — Lighting the Way to Smart Welding';
-const fullTitle = `${title} | ${siteTitle}`;
 const desc = description || 'ZAULUX is a professional welding equipment manufacturer specializing in positioners, turning rolls, manipulators, H-beam lines, and robot welding systems for global industries.';
 const brandDesc = 'Professional welding equipment manufacturer — positioners, turning rolls, manipulators, H-beam lines, robot welding. 20+ years experience, 50+ countries, CE/ISO certified. A brand of DESAN ELECTRIC.';
 ---
@@ -22,14 +20,14 @@ const brandDesc = 'Professional welding equipment manufacturer — positioners, 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{fullTitle}</title>
+    <title>{title}</title>
     <meta name="description" content={desc} />
-    <meta name="keywords" content="welding positioner, turning rolls, welding manipulator, H-beam welding, robot welding, welding automation, welding equipment manufacturer, welding rotator, pipe welding, tank welding" />
+    <meta name="keywords" content="welding positioner, turning rolls, welding manipulator, H-beam welding, robot welding, welding automation, welding equipment manufacturer, welding rotator, pipe welding, tank welding, AI welding, embodied intelligence welding" />
     <meta name="author" content="DESAN ELECTRIC LTD" />
     <link rel="canonical" href={pageUrl} />
 
     <!-- Open Graph -->
-    <meta property="og:title" content={fullTitle} />
+    <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:url" content={pageUrl} />
