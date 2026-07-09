@@ -9,13 +9,11 @@ import Layout from '../layouts/Layout.astro';
       <span class="tag tag-primary hero-brand-tag">Brand Story</span>
       <h1>About ZAULUX</h1>
       <p class="hero-slogan">Lighting the Way to Smart Welding</p>
+      <div class="about-logo">
+        <img src="/images/menu-logo.png" alt="ZAULUX" />
+      </div>
     </div>
   </section>
-
-  <!-- Logo -->
-  <div class="about-logo">
-    <img src="/images/menu-logo.png" alt="ZAULUX" />
-  </div>
 
   <!-- ===== 一、品牌起源 ===== -->
   <section class="section">
@@ -203,7 +201,7 @@ import Layout from '../layouts/Layout.astro';
 
   .about-logo {
     text-align: center;
-    padding: var(--space-xl) 0 var(--space-lg);
+    margin-top: var(--space-lg);
   }
   .about-logo img {
     height: 80px;
