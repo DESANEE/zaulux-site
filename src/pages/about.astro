@@ -6,11 +6,8 @@ import Layout from '../layouts/Layout.astro';
   <!-- Hero -->
   <section class="page-hero">
     <div class="container">
-      <div class="hero-top">
-        <span class="tag tag-primary hero-brand-tag">Brand Story</span>
-        <div class="about-logo">
-          <img src="/images/menu-logo.png" alt="ZAULUX" />
-        </div>
+      <div class="about-logo">
+        <img src="/images/menu-logo.png" alt="ZAULUX" />
       </div>
       <h1>About ZAULUX</h1>
       <p class="hero-slogan">Lighting the Way to Smart Welding</p>
@@ -202,19 +199,11 @@ import Layout from '../layouts/Layout.astro';
   .hero-brand-tag { margin-bottom: var(--space-md); }
 
   .about-logo {
-    display: inline-block;
-    vertical-align: middle;
+    margin-bottom: var(--space-md);
   }
   .about-logo img {
-    height: 50px;
+    height: 90px;
     width: auto;
-  }
-  .hero-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-lg);
-    margin-bottom: var(--space-md);
   }
   .hero-slogan {
     font-size: 1.25rem !important;
