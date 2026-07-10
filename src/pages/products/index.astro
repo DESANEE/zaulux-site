@@ -41,6 +41,7 @@ const categories = [...new Set(products.map(p => p.category))].sort();
 </Layout>
 
 <script>
+  // Category filter
   const buttons = document.querySelectorAll('.filter-btn');
   const items = document.querySelectorAll('.product-card');
   buttons.forEach(btn => {
@@ -54,6 +55,52 @@ const categories = [...new Set(products.map(p => p.category))].sort();
       });
     });
   });
+
+  // URL search parameter — filter products by query
+  const params = new URLSearchParams(window.location.search);
+  const searchQ = params.get('search');
+  if (searchQ) {
+    const q = searchQ.toLowerCase().trim();
+    // Show the search indicator
+    const filterBar = document.querySelector('.filter-bar');
+    let searchNote = document.getElementById('search-note');
+    if (!searchNote) {
+      searchNote = document.createElement('p');
+      searchNote.id = 'search-note';
+      searchNote.style.cssText = 'text-align:center;margin-bottom:var(--space-lg);font-size:var(--font-size-small);color:var(--text-secondary);';
+      filterBar.parentNode.insertBefore(searchNote, filterBar.nextSibling);
+    }
+    searchNote.textContent = `Search results for "${searchQ}" — ${items.length} product(s)`;
+
+    // Deactivate all filter buttons
+    buttons.forEach(b => { b.classList.remove('active'); b.classList.add('tag-subtle'); });
+    const allBtn = document.querySelector('[data-cat="all"]');
+    if (allBtn) { allBtn.classList.add('active'); allBtn.classList.remove('tag-subtle'); }
+
+    // Fetch search data and highlight
+    fetch('/products/search-data.json').then(r => r.json()).then(data => {
+      const matchedSlugs = new Set(
+        data.filter(p =>
+          p.title.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)
+        ).map(p => p.slug)
+      );
+      items.forEach(item => {
+        const slug = item.getAttribute('href').replace(/\/$/, '').split('/').pop();
+        item.style.display = matchedSlugs.has(slug) ? '' : 'none';
+      });
+      const shown = [...items].filter(i => i.style.display !== 'none').length;
+      searchNote.textContent = `Search results for "${searchQ}" — ${shown} product(s)`;
+    }).catch(() => {
+      // Fallback: simple title-based filter
+      items.forEach(item => {
+        const title = item.querySelector('h3')?.textContent?.toLowerCase() || '';
+        const cat = item.querySelector('.tag-subtle')?.textContent?.toLowerCase() || '';
+        item.style.display = (title.includes(q) || cat.includes(q)) ? '' : 'none';
+      });
+      const shown = [...items].filter(i => i.style.display !== 'none').length;
+      searchNote.textContent = `Search results for "${searchQ}" — ${shown} product(s)`;
+    });
+  }
 </script>
 
 <style>
